@@ -1,0 +1,406 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:35:14] 
+[17:35:14] Server Plugins
+[17:35:14] --------------
+[17:35:14]  Loaded 0 plugins.
+
+[17:35:14] I couldn't load any gamemode scripts. Please verify your server.cfg
+[17:35:14] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:35:37] 
+[17:35:37] Server Plugins
+[17:35:37] --------------
+[17:35:37]  Loaded 0 plugins.
+
+[17:35:37] I couldn't load any gamemode scripts. Please verify your server.cfg
+[17:35:37] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:36:49] 
+[17:36:49] Server Plugins
+[17:36:49] --------------
+[17:36:49]  Loaded 0 plugins.
+
+[17:36:49] I couldn't load any gamemode scripts. Please verify your server.cfg
+[17:36:49] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:37:41] 
+[17:37:41] Server Plugins
+[17:37:41] --------------
+[17:37:41]  Loaded 0 plugins.
+
+[17:37:41] 
+[17:37:41] Filterscripts
+[17:37:41] ---------------
+[17:37:41]   Loaded 0 filterscripts.
+
+[17:37:41] 
+----------------------------------
+[17:37:41]  Blank Gamemode by your name here
+[17:37:41] ----------------------------------
+
+[17:37:41] Number of vehicle models: 0
+[17:38:45] [connection] incoming connection: 127.0.0.1:62557 id: 0
+[17:38:45] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:40:21] [part] Sergey_Maingard has left the server (0:1)
+[17:57:42] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:58:19] 
+[17:58:19] Server Plugins
+[17:58:19] --------------
+[17:58:19]  Loaded 0 plugins.
+
+[17:58:19] 
+[17:58:19] Filterscripts
+[17:58:19] ---------------
+[17:58:19]   Loaded 0 filterscripts.
+
+[17:58:19] 
+----------------------------------
+[17:58:19]  Blank Gamemode by your name here
+[17:58:19] ----------------------------------
+
+[17:58:19] Number of vehicle models: 0
+[17:58:38] [connection] incoming connection: 127.0.0.1:63452 id: 0
+[17:58:39] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:58:47] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:59:25] 
+[17:59:25] Server Plugins
+[17:59:25] --------------
+[17:59:25]  Loaded 0 plugins.
+
+[17:59:25] 
+[17:59:25] Filterscripts
+[17:59:25] ---------------
+[17:59:25]   Loaded 0 filterscripts.
+
+[17:59:25] 
+----------------------------------
+[17:59:25]  Blank Gamemode by your name here
+[17:59:25] ----------------------------------
+
+[17:59:25] Number of vehicle models: 0
+[17:59:43] [connection] incoming connection: 127.0.0.1:52347 id: 0
+[17:59:43] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[18:00:36] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:09:59] 
+[18:09:59] Server Plugins
+[18:09:59] --------------
+[18:09:59]  Loaded 0 plugins.
+
+[18:09:59] 
+[18:09:59] Filterscripts
+[18:09:59] ---------------
+[18:09:59]   Loaded 0 filterscripts.
+
+[18:09:59] 
+----------------------------------
+[18:09:59]  Blank Gamemode by your name here
+[18:09:59] ----------------------------------
+
+[18:09:59] Number of vehicle models: 0
+[18:10:18] [connection] incoming connection: 127.0.0.1:64825 id: 0
+[18:10:19] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[18:10:40] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:11:25] 
+[18:11:25] Server Plugins
+[18:11:25] --------------
+[18:11:25]  Loaded 0 plugins.
+
+[18:11:25] 
+[18:11:25] Filterscripts
+[18:11:25] ---------------
+[18:11:25]   Loaded 0 filterscripts.
+
+[18:11:25] 
+----------------------------------
+[18:11:25]  Blank Gamemode by your name here
+[18:11:25] ----------------------------------
+
+[18:11:25] Number of vehicle models: 0
+[18:11:42] [connection] incoming connection: 127.0.0.1:60323 id: 0
+[18:11:43] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[18:11:53] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:14:30] 
+[18:14:30] Server Plugins
+[18:14:30] --------------
+[18:14:30]  Loaded 0 plugins.
+
+[18:14:30] 
+[18:14:30] Filterscripts
+[18:14:30] ---------------
+[18:14:30]   Loaded 0 filterscripts.
+
+[18:14:30] 
+----------------------------------
+[18:14:30]  Blank Gamemode by your name here
+[18:14:30] ----------------------------------
+
+[18:14:30] Number of vehicle models: 0
+[18:14:48] [connection] incoming connection: 127.0.0.1:50538 id: 0
+[18:14:48] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[18:15:21] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:21:52] 
+[18:21:52] Server Plugins
+[18:21:52] --------------
+[18:21:52]  Loaded 0 plugins.
+
+[18:21:52] 
+[18:21:52] Filterscripts
+[18:21:52] ---------------
+[18:21:52]   Loaded 0 filterscripts.
+
+[18:21:52] Script[gamemodes/rp.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[18:21:52] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:22:26] 
+[18:22:26] Server Plugins
+[18:22:26] --------------
+[18:22:26]  Loaded 0 plugins.
+
+[18:22:26] 
+[18:22:26] Filterscripts
+[18:22:26] ---------------
+[18:22:26]   Loaded 0 filterscripts.
+
+[18:22:26] Script[gamemodes/rp.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[18:22:26] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:23:40] 
+[18:23:40] Server Plugins
+[18:23:40] --------------
+[18:23:40]  Loaded 0 plugins.
+
+[18:23:40] 
+[18:23:40] Filterscripts
+[18:23:40] ---------------
+[18:23:40]   Loaded 0 filterscripts.
+
+[18:23:40] Hello, world!
+[18:23:40] Number of vehicle models: 0
+[18:24:01] [connection] incoming connection: 127.0.0.1:61659 id: 0
+[18:24:01] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[18:24:50] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:25:31] 
+[18:25:31] Server Plugins
+[18:25:31] --------------
+[18:25:31]  Loaded 0 plugins.
+
+[18:25:31] 
+[18:25:31] Filterscripts
+[18:25:31] ---------------
+[18:25:31]   Loaded 0 filterscripts.
+
+[18:25:31] Hello, world!
+[18:25:31] Number of vehicle models: 0
+[18:25:48] [connection] incoming connection: 127.0.0.1:59022 id: 0
+[18:25:48] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[18:26:03] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:27:17] 
+[18:27:17] Server Plugins
+[18:27:17] --------------
+[18:27:17]  Loaded 0 plugins.
+
+[18:27:17] 
+[18:27:17] Filterscripts
+[18:27:17] ---------------
+[18:27:17]   Loaded 0 filterscripts.
+
+[18:27:17] Hello, world!
+[18:27:17] Number of vehicle models: 0
+[18:27:31] [connection] incoming connection: 127.0.0.1:57189 id: 0
+[18:27:31] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[18:27:50] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:43:42] 
+[18:43:42] Server Plugins
+[18:43:42] --------------
+[18:43:42]  Loaded 0 plugins.
+
+[18:43:42] 
+[18:43:42] Filterscripts
+[18:43:42] ---------------
+[18:43:42]   Loaded 0 filterscripts.
+
+[18:43:42] Script[gamemodes/rp.amx]: Run time error 19: "File or function is not found"
+[18:43:42] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:45:39] 
+[18:45:39] Server Plugins
+[18:45:39] --------------
+[18:45:39]  Loading plugin: mysql
+[18:45:39]  >> plugin.mysql: R41-3 successfully loaded.
+[18:45:39]   Loaded.
+[18:45:39]  Loaded 1 plugins.
+
+[18:45:39] 
+[18:45:39] Filterscripts
+[18:45:39] ---------------
+[18:45:39]   Loaded 0 filterscripts.
+
+[18:45:39] Hello, world!
+[18:45:39] Number of vehicle models: 0
+[18:46:04] [connection] incoming connection: 127.0.0.1:54513 id: 0
+[18:46:05] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[18:46:17] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:50:16] 
+[18:50:16] Server Plugins
+[18:50:16] --------------
+[18:50:16]  Loading plugin: mysql
+[18:50:16]  >> plugin.mysql: R41-3 successfully loaded.
+[18:50:16]   Loaded.
+[18:50:16]  Loaded 1 plugins.
+
+[18:50:16] 
+[18:50:16] Filterscripts
+[18:50:16] ---------------
+[18:50:16]   Loaded 0 filterscripts.
+
+[18:50:16] Hello, world!
+[18:50:16] Number of vehicle models: 0
+[18:50:33] [connection] incoming connection: 127.0.0.1:64588 id: 0
+[18:50:33] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[18:51:02] [part] Sergey_Maingard has left the server (0:1)
