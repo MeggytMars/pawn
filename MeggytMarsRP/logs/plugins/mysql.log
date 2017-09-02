@@ -10,3 +10,196 @@
 [21:03:23] [WARNING] mysql_connect: no password specified
 [21:04:20] [WARNING] mysql_connect: no password specified
 [21:04:20] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'players'
+[22:05:04] [WARNING] mysql_connect: no password specified
+[22:05:04] [ERROR] error #1064 while executing query "SELECT username FROM players LIKE ": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE ' at line 1
+[23:29:40] [WARNING] mysql_connect: no password specified
+[23:36:23] [WARNING] mysql_connect: no password specified
+[23:38:13] [WARNING] mysql_connect: no password specified
+[23:39:44] [WARNING] mysql_connect: no password specified
+[23:40:17] [WARNING] mysql_connect: no password specified
+[00:34:37] [WARNING] mysql_connect: no password specified
+[00:34:39] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:34:42] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:34:44] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:34:46] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:36:48] [WARNING] mysql_connect: no password specified
+[00:36:50] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:36:52] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:36:55] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:36:57] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:41:26] [WARNING] mysql_connect: no password specified
+[00:41:29] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:41:31] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:41:33] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:41:35] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:46:17] [WARNING] mysql_connect: no password specified
+[00:46:20] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:46:22] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:46:24] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:46:26] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:50:49] [WARNING] mysql_connect: no password specified
+[00:50:51] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:50:53] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:50:55] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:50:58] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:52:01] [WARNING] mysql_connect: no password specified
+[00:52:03] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:52:05] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:52:07] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:52:10] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:53:37] [WARNING] mysql_connect: no password specified
+[00:53:39] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:53:41] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:53:44] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:53:46] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:56:53] [WARNING] mysql_connect: no password specified
+[00:56:55] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:56:58] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:57:00] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[00:57:02] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:00:43] [WARNING] mysql_connect: no password specified
+[01:00:46] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:00:48] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:00:50] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:00:52] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:05:34] [WARNING] mysql_connect: no password specified
+[01:05:36] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:05:39] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:05:41] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:05:43] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:07:09] [WARNING] mysql_connect: no password specified
+[01:07:11] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:08:17] [WARNING] mysql_connect: no password specified
+[01:08:20] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:08:22] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:08:24] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:08:26] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:08:26] [WARNING] mysql_connect: no password specified
+[01:08:26] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'locahost', username = 'root' and database = 'players'
+[01:08:26] [WARNING] mysql_connect: no password specified
+[01:08:26] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'locahost', username = 'root' and database = 'players'
+[01:10:03] [WARNING] mysql_connect: no password specified
+[01:10:05] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:10:07] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:10:10] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:10:12] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:10:12] [WARNING] mysql_connect: no password specified
+[01:10:12] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'locahost', username = 'root' and database = 'players'
+[01:10:12] [WARNING] mysql_connect: no password specified
+[01:10:12] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'locahost', username = 'root' and database = 'players'
+[01:11:16] [WARNING] mysql_connect: no password specified
+[01:11:19] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:11:21] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:11:23] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:11:25] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:18:41] [WARNING] mysql_connect: no password specified
+[01:18:44] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:18:46] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:18:48] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:18:50] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:21:18] [WARNING] mysql_connect: no password specified
+[01:21:20] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:21:22] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:21:24] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:21:27] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:22:39] [WARNING] mysql_connect: no password specified
+[01:22:41] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:22:43] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:22:46] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:22:48] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:22:58] [ERROR] mysql_tquery: callback error: parameter count does not match format specifier length
+[01:24:53] [WARNING] mysql_connect: no password specified
+[01:24:55] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:24:57] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:25:00] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:25:02] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:25:11] [ERROR] mysql_tquery: callback error: parameter count does not match format specifier length
+[01:26:22] [WARNING] mysql_connect: no password specified
+[01:26:24] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:26:26] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:26:28] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:26:31] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:26:34] [ERROR] mysql_tquery: callback error: parameter count does not match format specifier length
+[01:27:37] [WARNING] mysql_connect: no password specified
+[01:27:39] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:27:41] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:27:43] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:27:46] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:27:55] [ERROR] mysql_tquery: callback error: parameter count does not match format specifier length
+[01:28:43] [WARNING] mysql_connect: no password specified
+[01:28:45] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:28:48] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:28:50] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:28:52] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:29:28] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[01:29:28] [DEBUG] mysql_connect("locahost", "root", "*****", "players", 0)
+[01:29:28] [DEBUG] CHandleManager::Create(this=0x700008, host='locahost', user='root', pass='****', db='players', options=0x6fd378)
+[01:29:28] [INFO] Creating new connection handle...
+[01:29:28] [WARNING] mysql_connect: no password specified
+[01:29:28] [DEBUG] CConnection::CConnection(this=0x705bd0, host='locahost', user='root', passw='****', db='players', options=0x6fd378)
+[01:29:30] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:29:30] [DEBUG] CConnection::CConnection(this=0x3ef0020, host='locahost', user='root', passw='****', db='players', options=0x6fd378)
+[01:29:32] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:29:32] [DEBUG] CThreadedConnection::WorkerFunc(this=0x3ef0020, connection=0x3ef0020)
+[01:29:32] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x3ef0020, connection=0x3ef0020)
+[01:29:32] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x706250)
+[01:29:32] [DEBUG] CConnection::CConnection(this=0x40c9020, host='locahost', user='root', passw='****', db='players', options=0x6fd378)
+[01:29:34] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:29:34] [DEBUG] CThreadedConnection::WorkerFunc(this=0x40c9020, connection=0x40c9020)
+[01:29:34] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x40c9020, connection=0x40c9020)
+[01:29:34] [DEBUG] CConnection::CConnection(this=0x429c020, host='locahost', user='root', passw='****', db='players', options=0x6fd378)
+[01:29:37] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL Server Host 'locahost' (11001)'
+[01:29:37] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x429c020, connection=0x429c020)
+[01:29:37] [INFO] Connection handle with id '1' successfully created.
+[01:29:37] [DEBUG] CHandleManager::Create - new handle = 0x6d1170
+[01:29:37] [DEBUG] mysql_connect: return value: '1'
+[01:29:37] [DEBUG] CThreadedConnection::WorkerFunc(this=0x429c020, connection=0x429c020)
+[01:29:57] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[01:29:57] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[01:29:57] [DEBUG] CHandleManager::Create(this=0x662bf0, host='localhost', user='root', pass='****', db='players', options=0x65fe60)
+[01:29:57] [INFO] Creating new connection handle...
+[01:29:57] [WARNING] mysql_connect: no password specified
+[01:29:57] [DEBUG] CConnection::CConnection(this=0x669f58, host='localhost', user='root', passw='****', db='players', options=0x65fe60)
+[01:29:57] [DEBUG] CConnection::CConnection - new connection = 0x679f50
+[01:29:57] [DEBUG] CConnection::CConnection(this=0x4041020, host='localhost', user='root', passw='****', db='players', options=0x65fe60)
+[01:29:57] [DEBUG] CConnection::CConnection - new connection = 0x685880
+[01:29:57] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4041020, connection=0x4041020)
+[01:29:57] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x669f98)
+[01:29:57] [DEBUG] CConnection::CConnection(this=0x4211020, host='localhost', user='root', passw='****', db='players', options=0x65fe60)
+[01:29:57] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4041020, connection=0x4041020)
+[01:29:57] [DEBUG] CConnection::CConnection - new connection = 0x6901a8
+[01:29:57] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4211020, connection=0x4211020)
+[01:29:57] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4211020, connection=0x4211020)
+[01:29:57] [DEBUG] CConnection::CConnection(this=0x43e8020, host='localhost', user='root', passw='****', db='players', options=0x65fe60)
+[01:29:57] [DEBUG] CConnection::CConnection - new connection = 0x69a038
+[01:29:57] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43e8020, connection=0x43e8020)
+[01:29:57] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43e8020, connection=0x43e8020)
+[01:29:57] [INFO] Connection handle with id '1' successfully created.
+[01:29:57] [DEBUG] CHandleManager::Create - new handle = 0x6784e8
+[01:29:57] [DEBUG] mysql_connect: return value: '1'
+[01:30:20] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[01:30:20] [DEBUG] CCallback::Create(amx=0x2a0ab90, name='FindPlayerInTable', format='i', params=0x2c2c580, param_offset=5)
+[01:30:20] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[01:30:20] [DEBUG] processing specifier 'i' with parameter index 0
+[01:30:20] [DEBUG] retrieved and pushed value '0'
+[01:30:20] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[01:30:20] [DEBUG] created delayed callback with 1 parameter
+[01:30:20] [DEBUG] CHandle::Execute(this=0x6784e8, type=1, query=0x6596e8)
+[01:30:20] [DEBUG] CConnection::Execute(query=0x6596e8, this=0x4041020, connection=0x685880)
+[01:30:20] [DEBUG] CQuery::Execute(this=0x6596e8, connection=0x685880)
+[01:30:20] [DEBUG] CHandle::Execute - return value: true
+[01:30:20] [DEBUG] mysql_tquery: return value: '1'
+[01:30:20] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.797 milliseconds
+[01:30:20] [DEBUG] CResultSet::Create(connection=0x685880, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[01:30:20] [DEBUG] created new resultset '0x678c78'
+[01:30:20] [DEBUG] fetched MySQL result '0x66eb80'
+[01:30:20] [DEBUG] allocated 0 bytes for PAWN result
+[01:30:20] [DEBUG] CCallback::Execute(amx=0x2a0ab90, index=0, num_params=1)
+[01:30:20] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[01:30:20] [DEBUG] processing internal specifier 'c'
+[01:30:20] [DEBUG] pushed value '0' onto AMX stack
+[01:30:20] [DEBUG] executing AMX callback with index '0'
+[01:30:20] [DEBUG] cache_get_row_count(0x02C2C72C)
+[01:30:20] [DEBUG] cache_get_row_count: return value: '1'
+[01:30:20] [DEBUG] AMX callback executed with error '0'
+[01:30:20] [INFO] Callback successfully executed.
