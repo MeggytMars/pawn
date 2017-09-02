@@ -404,3 +404,284 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [18:50:33] [connection] incoming connection: 127.0.0.1:64588 id: 0
 [18:50:33] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
 [18:51:02] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:06:13] 
+[19:06:13] Server Plugins
+[19:06:13] --------------
+[19:06:13]  Loading plugin: mysql
+[19:06:13]  >> plugin.mysql: R41-3 successfully loaded.
+[19:06:13]   Loaded.
+[19:06:13]  Loaded 1 plugins.
+
+[19:06:13] 
+[19:06:13] Filterscripts
+[19:06:13] ---------------
+[19:06:13]   Loaded 0 filterscripts.
+
+[19:06:13] Hello, world!
+[19:06:13] Number of vehicle models: 0
+[19:06:32] [connection] incoming connection: 127.0.0.1:57108 id: 0
+[19:06:32] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[19:07:00] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:14:43] 
+[19:14:43] Server Plugins
+[19:14:43] --------------
+[19:14:43]  Loading plugin: mysql
+[19:14:43]  >> plugin.mysql: R41-3 successfully loaded.
+[19:14:43]   Loaded.
+[19:14:43]  Loaded 1 plugins.
+
+[19:14:43] 
+[19:14:43] Filterscripts
+[19:14:43] ---------------
+[19:14:43]   Loaded 0 filterscripts.
+
+[19:14:43] Hello, world!
+[19:14:43] Number of vehicle models: 0
+[19:15:02] [connection] incoming connection: 127.0.0.1:60108 id: 0
+[19:15:02] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[19:15:28] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:33:11] 
+[19:33:11] Server Plugins
+[19:33:11] --------------
+[19:33:11]  Loading plugin: mysql
+[19:33:11]  >> plugin.mysql: R41-3 successfully loaded.
+[19:33:11]   Loaded.
+[19:33:11]  Loaded 1 plugins.
+
+[19:33:11] 
+[19:33:11] Filterscripts
+[19:33:11] ---------------
+[19:33:11]   Loaded 0 filterscripts.
+
+[19:33:11] Hello, world!
+[19:33:11] Number of vehicle models: 0
+[19:33:30] [connection] incoming connection: 127.0.0.1:50372 id: 0
+[19:33:30] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[19:33:41] [part] Sergey_Maingard has left the server (0:1)
+[19:33:58] [connection] incoming connection: 127.0.0.1:57480 id: 0
+[19:33:58] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[19:34:15] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:35:49] 
+[19:35:49] Server Plugins
+[19:35:49] --------------
+[19:35:49]  Loading plugin: mysql
+[19:35:49]  >> plugin.mysql: R41-3 successfully loaded.
+[19:35:49]   Loaded.
+[19:35:49]  Loaded 1 plugins.
+
+[19:35:49] 
+[19:35:49] Filterscripts
+[19:35:49] ---------------
+[19:35:49]   Loaded 0 filterscripts.
+
+[19:35:49] Hello, world!
+[19:35:49] Number of vehicle models: 0
+[19:36:08] [connection] incoming connection: 127.0.0.1:61397 id: 0
+[19:36:08] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[19:36:27] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:37:45] 
+[19:37:45] Server Plugins
+[19:37:45] --------------
+[19:37:45]  Loading plugin: mysql
+[19:37:45]  >> plugin.mysql: R41-3 successfully loaded.
+[19:37:45]   Loaded.
+[19:37:45]  Loaded 1 plugins.
+
+[19:37:45] 
+[19:37:45] Filterscripts
+[19:37:45] ---------------
+[19:37:45]   Loaded 0 filterscripts.
+
+[19:37:45] Hello, world!
+[19:37:45] Number of vehicle models: 0
+[19:38:02] [connection] incoming connection: 127.0.0.1:56835 id: 0
+[19:38:03] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[19:38:15] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:10:15] 
+[20:10:15] Server Plugins
+[20:10:15] --------------
+[20:10:15]  Loading plugin: mysql,
+[20:10:15]   Failed.
+[20:10:15]  Loading plugin: regex
+[20:10:16] 
+
+[20:10:16] ______________________________________
+
+[20:10:16]  Regular Expression Plugin v0.2.0 loaded
+[20:10:16] ______________________________________
+
+[20:10:16]  By: Fro (c) Copyright <TBG> 2009-2011
+[20:10:16] ______________________________________
+
+[20:10:16]   Loaded.
+[20:10:16]  Loaded 1 plugins.
+
+[20:10:16] 
+[20:10:16] Filterscripts
+[20:10:16] ---------------
+[20:10:16]   Loaded 0 filterscripts.
+
+[20:10:16] Script[gamemodes/rp.amx]: Run time error 17: "Invalid/unsupported P-code file format"
+[20:10:16] Failed to load 'gamemodes/rp.amx' script.
+[20:10:16] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:12:11] 
+[20:12:11] Server Plugins
+[20:12:11] --------------
+[20:12:11]  Loading plugin: mysql
+[20:12:11]  >> plugin.mysql: R41-3 successfully loaded.
+[20:12:11]   Loaded.
+[20:12:11]  Loading plugin: regex
+[20:12:11] 
+
+[20:12:11] ______________________________________
+
+[20:12:11]  Regular Expression Plugin v0.2.0 loaded
+[20:12:11] ______________________________________
+
+[20:12:11]  By: Fro (c) Copyright <TBG> 2009-2011
+[20:12:11] ______________________________________
+
+[20:12:11]   Loaded.
+[20:12:11]  Loaded 2 plugins.
+
+[20:12:11] 
+[20:12:11] Filterscripts
+[20:12:11] ---------------
+[20:12:11]   Loaded 0 filterscripts.
+
+[20:12:11] Script[gamemodes/rp.amx]: Run time error 17: "Invalid/unsupported P-code file format"
+[20:12:11] Failed to load 'gamemodes/rp.amx' script.
+[20:12:11] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:30:01] 
+[20:30:01] Server Plugins
+[20:30:01] --------------
+[20:30:01]  Loading plugin: mysql
+[20:30:01]  >> plugin.mysql: R41-3 successfully loaded.
+[20:30:01]   Loaded.
+[20:30:01]  Loading plugin: regex
+[20:30:01] 
+
+[20:30:01] ______________________________________
+
+[20:30:01]  Regular Expression Plugin v0.2.0 loaded
+[20:30:01] ______________________________________
+
+[20:30:01]  By: Fro (c) Copyright <TBG> 2009-2011
+[20:30:01] ______________________________________
+
+[20:30:01]   Loaded.
+[20:30:01]  Loaded 2 plugins.
+
+[20:30:01] 
+[20:30:01] Filterscripts
+[20:30:01] ---------------
+[20:30:01]   Loaded 0 filterscripts.
+
+[20:30:01] Script[gamemodes/rp.amx]: Run time error 17: "Invalid/unsupported P-code file format"
+[20:30:01] Failed to load 'gamemodes/rp.amx' script.
+[20:30:01] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:01:43] 
+[21:01:43] Server Plugins
+[21:01:43] --------------
+[21:01:43]  Loading plugin: mysql
+[21:01:43]  >> plugin.mysql: R41-3 successfully loaded.
+[21:01:43]   Loaded.
+[21:01:43]  Loading plugin: pawnregex
+[21:01:43] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[21:01:43]   Loaded.
+[21:01:43]  Loaded 2 plugins.
+
+[21:01:44] 
+[21:01:44] Filterscripts
+[21:01:44] ---------------
+[21:01:44]   Loaded 0 filterscripts.
+
+[21:01:46] Hello, world!
+[21:01:46] Number of vehicle models: 0
+[21:03:22] [connection] incoming connection: 127.0.0.1:63207 id: 0
+[21:03:23] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[21:03:57] [part] Sergey_Maingard has left the server (0:1)
+[21:04:20] [connection] incoming connection: 127.0.0.1:59419 id: 0
+[21:04:20] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[21:04:43] [part] Sergey_Maingard has left the server (0:1)
