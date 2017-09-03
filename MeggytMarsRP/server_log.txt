@@ -4546,3 +4546,3993 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [11:47:28] [connection] incoming connection: 127.0.0.1:61008 id: 0
 [11:47:29] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
 [11:47:33] [part] Sergey_Maingard has left the server (0:1)
+[11:50:50] [connection] incoming connection: 127.0.0.1:50294 id: 0
+[11:50:51] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[11:51:14] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:57:06] 
+[11:57:06] Server Plugins
+[11:57:06] --------------
+[11:57:06]  Loading plugin: crashdetect
+[11:57:06]   CrashDetect v4.17 is OK.
+[11:57:06]   Loaded.
+[11:57:06]  Loading plugin: dc_cmd
+[11:57:06]   Daniel's CMD plugin v2.8
+[11:57:06]     (c) 2014 Daniel_Cortez
+[11:57:06] 	www.pro-pawn.ru
+[11:57:06]   Loaded.
+[11:57:06]  Loading plugin: sscanf
+[11:57:06] 
+
+[11:57:06]  ===============================
+
+[11:57:06]       sscanf plugin loaded.     
+
+[11:57:06]          Version:  2.8.1        
+
+[11:57:06]    (c) 2012 Alex "Y_Less" Cole  
+
+[11:57:06]  ===============================
+
+[11:57:06]   Loaded.
+[11:57:06]  Loading plugin: streamer
+[11:57:06] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[11:57:06]   Loaded.
+[11:57:06]  Loading plugin: mysql
+[11:57:06]  >> plugin.mysql: R41-3 successfully loaded.
+[11:57:06]   Loaded.
+[11:57:06]  Loading plugin: pawnregex
+[11:57:06] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[11:57:06]   Loaded.
+[11:57:06]  Loaded 6 plugins.
+
+[11:57:06] 
+[11:57:06] Filterscripts
+[11:57:06] ---------------
+[11:57:06]   Loaded 0 filterscripts.
+
+[11:57:06] Hello, world!
+[11:57:06] Number of vehicle models: 0
+[11:57:24] [connection] incoming connection: 127.0.0.1:50926 id: 0
+[11:57:24] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[11:57:36] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:11:01] 
+[13:11:01] Server Plugins
+[13:11:01] --------------
+[13:11:01]  Loading plugin: crashdetect
+[13:11:03]   CrashDetect v4.17 is OK.
+[13:11:03]   Loaded.
+[13:11:03]  Loading plugin: dc_cmd
+[13:11:03]   Daniel's CMD plugin v2.8
+[13:11:03]     (c) 2014 Daniel_Cortez
+[13:11:03] 	www.pro-pawn.ru
+[13:11:03]   Loaded.
+[13:11:03]  Loading plugin: sscanf
+[13:11:03] 
+
+[13:11:03]  ===============================
+
+[13:11:03]       sscanf plugin loaded.     
+
+[13:11:03]          Version:  2.8.1        
+
+[13:11:03]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:11:03]  ===============================
+
+[13:11:03]   Loaded.
+[13:11:03]  Loading plugin: streamer
+[13:11:04] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[13:11:04]   Loaded.
+[13:11:04]  Loading plugin: mysql
+[13:11:05]  >> plugin.mysql: R41-3 successfully loaded.
+[13:11:05]   Loaded.
+[13:11:05]  Loading plugin: pawnregex
+[13:11:05] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[13:11:05]   Loaded.
+[13:11:05]  Loaded 6 plugins.
+
+[13:11:05] 
+[13:11:05] Filterscripts
+[13:11:05] ---------------
+[13:11:05]   Loaded 0 filterscripts.
+
+[13:11:07] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[13:11:07] Script[gamemodes/cameditor.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[13:11:07] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:12:28] 
+[13:12:28] Server Plugins
+[13:12:28] --------------
+[13:12:28]  Loading plugin: crashdetect
+[13:12:28]   CrashDetect v4.17 is OK.
+[13:12:28]   Loaded.
+[13:12:28]  Loading plugin: dc_cmd
+[13:12:28]   Daniel's CMD plugin v2.8
+[13:12:28]     (c) 2014 Daniel_Cortez
+[13:12:28] 	www.pro-pawn.ru
+[13:12:28]   Loaded.
+[13:12:28]  Loading plugin: sscanf
+[13:12:28] 
+
+[13:12:28]  ===============================
+
+[13:12:28]       sscanf plugin loaded.     
+
+[13:12:28]          Version:  2.8.1        
+
+[13:12:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:12:28]  ===============================
+
+[13:12:28]   Loaded.
+[13:12:28]  Loading plugin: streamer
+[13:12:28] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[13:12:28]   Loaded.
+[13:12:28]  Loading plugin: mysql
+[13:12:28]  >> plugin.mysql: R41-3 successfully loaded.
+[13:12:28]   Loaded.
+[13:12:28]  Loading plugin: pawnregex
+[13:12:28] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[13:12:28]   Loaded.
+[13:12:28]  Loaded 6 plugins.
+
+[13:12:28] 
+[13:12:28] Filterscripts
+[13:12:28] ---------------
+[13:12:28]   Loaded 0 filterscripts.
+
+[13:12:29] Hello, world!
+[13:12:29] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:14:14] 
+[13:14:14] Server Plugins
+[13:14:14] --------------
+[13:14:14]  Loading plugin: crashdetect
+[13:14:14]   CrashDetect v4.17 is OK.
+[13:14:14]   Loaded.
+[13:14:14]  Loading plugin: dc_cmd
+[13:14:14]   Daniel's CMD plugin v2.8
+[13:14:14]     (c) 2014 Daniel_Cortez
+[13:14:14] 	www.pro-pawn.ru
+[13:14:14]   Loaded.
+[13:14:14]  Loading plugin: sscanf
+[13:14:14] 
+
+[13:14:14]  ===============================
+
+[13:14:14]       sscanf plugin loaded.     
+
+[13:14:14]          Version:  2.8.1        
+
+[13:14:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:14:14]  ===============================
+
+[13:14:14]   Loaded.
+[13:14:14]  Loading plugin: streamer
+[13:14:14] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[13:14:14]   Loaded.
+[13:14:14]  Loading plugin: mysql
+[13:14:14]  >> plugin.mysql: R41-3 successfully loaded.
+[13:14:14]   Loaded.
+[13:14:14]  Loading plugin: pawnregex
+[13:14:14] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[13:14:14]   Loaded.
+[13:14:14]  Loaded 6 plugins.
+
+[13:14:14] 
+[13:14:14] Filterscripts
+[13:14:14] ---------------
+[13:14:14]   Loading filterscript 'cameditor.amx'...
+[13:14:14] 
+--------------------------------------
+[13:14:14]  CamEditor by Drebin
+[13:14:14] --------------------------------------
+
+[13:14:14]   Loaded 1 filterscripts.
+
+[13:14:15] Hello, world!
+[13:14:15] Number of vehicle models: 0
+[13:15:00] [connection] incoming connection: 127.0.0.1:64147 id: 0
+[13:15:02] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[13:24:15] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:27:10] 
+[13:27:10] Server Plugins
+[13:27:10] --------------
+[13:27:10]  Loading plugin: crashdetect
+[13:27:10]   CrashDetect v4.17 is OK.
+[13:27:10]   Loaded.
+[13:27:10]  Loading plugin: dc_cmd
+[13:27:10]   Daniel's CMD plugin v2.8
+[13:27:10]     (c) 2014 Daniel_Cortez
+[13:27:10] 	www.pro-pawn.ru
+[13:27:10]   Loaded.
+[13:27:10]  Loading plugin: sscanf
+[13:27:10] 
+
+[13:27:10]  ===============================
+
+[13:27:10]       sscanf plugin loaded.     
+
+[13:27:10]          Version:  2.8.1        
+
+[13:27:10]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:27:10]  ===============================
+
+[13:27:10]   Loaded.
+[13:27:10]  Loading plugin: streamer
+[13:27:10] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[13:27:10]   Loaded.
+[13:27:10]  Loading plugin: mysql
+[13:27:10]  >> plugin.mysql: R41-3 successfully loaded.
+[13:27:10]   Loaded.
+[13:27:10]  Loading plugin: pawnregex
+[13:27:10] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[13:27:10]   Loaded.
+[13:27:10]  Loaded 6 plugins.
+
+[13:27:10] 
+[13:27:10] Filterscripts
+[13:27:10] ---------------
+[13:27:10]   Loading filterscript 'cameditor.amx'...
+[13:27:10] 
+--------------------------------------
+[13:27:10]  CamEditor by Drebin
+[13:27:10] --------------------------------------
+
+[13:27:10]   Loaded 1 filterscripts.
+
+[13:27:11] Hello, world!
+[13:27:11] Number of vehicle models: 0
+[13:27:34] [connection] incoming connection: 127.0.0.1:62481 id: 0
+[13:27:34] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[13:28:20] [part] Sergey_Maingard has left the server (0:1)
+[13:28:36] [connection] incoming connection: 127.0.0.1:58856 id: 0
+[13:28:36] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[13:28:39] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:29:05] 
+[13:29:05] Server Plugins
+[13:29:05] --------------
+[13:29:05]  Loading plugin: crashdetect
+[13:29:05]   CrashDetect v4.17 is OK.
+[13:29:05]   Loaded.
+[13:29:05]  Loading plugin: dc_cmd
+[13:29:05]   Daniel's CMD plugin v2.8
+[13:29:05]     (c) 2014 Daniel_Cortez
+[13:29:05] 	www.pro-pawn.ru
+[13:29:05]   Loaded.
+[13:29:05]  Loading plugin: sscanf
+[13:29:05] 
+
+[13:29:05]  ===============================
+
+[13:29:05]       sscanf plugin loaded.     
+
+[13:29:05]          Version:  2.8.1        
+
+[13:29:05]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:29:05]  ===============================
+
+[13:29:05]   Loaded.
+[13:29:05]  Loading plugin: streamer
+[13:29:05] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[13:29:05]   Loaded.
+[13:29:05]  Loading plugin: mysql
+[13:29:05]  >> plugin.mysql: R41-3 successfully loaded.
+[13:29:05]   Loaded.
+[13:29:05]  Loading plugin: pawnregex
+[13:29:05] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[13:29:05]   Loaded.
+[13:29:05]  Loaded 6 plugins.
+
+[13:29:05] 
+[13:29:05] Filterscripts
+[13:29:05] ---------------
+[13:29:05]   Loading filterscript 'cameditor.amx'...
+[13:29:05] 
+--------------------------------------
+[13:29:05]  CamEditor by Drebin
+[13:29:05] --------------------------------------
+
+[13:29:05]   Loaded 1 filterscripts.
+
+[13:29:06] Hello, world!
+[13:29:06] Number of vehicle models: 0
+[13:29:22] [connection] incoming connection: 127.0.0.1:62650 id: 0
+[13:29:23] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[13:29:40] [part] Sergey_Maingard has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:31:20] 
+[13:31:20] Server Plugins
+[13:31:20] --------------
+[13:31:20]  Loading plugin: crashdetect
+[13:31:20]   CrashDetect v4.17 is OK.
+[13:31:20]   Loaded.
+[13:31:20]  Loading plugin: dc_cmd
+[13:31:20]   Daniel's CMD plugin v2.8
+[13:31:20]     (c) 2014 Daniel_Cortez
+[13:31:20] 	www.pro-pawn.ru
+[13:31:20]   Loaded.
+[13:31:20]  Loading plugin: sscanf
+[13:31:20] 
+
+[13:31:20]  ===============================
+
+[13:31:20]       sscanf plugin loaded.     
+
+[13:31:20]          Version:  2.8.1        
+
+[13:31:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:31:20]  ===============================
+
+[13:31:20]   Loaded.
+[13:31:20]  Loading plugin: streamer
+[13:31:20] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[13:31:20]   Loaded.
+[13:31:20]  Loading plugin: mysql
+[13:31:20]  >> plugin.mysql: R41-3 successfully loaded.
+[13:31:20]   Loaded.
+[13:31:20]  Loading plugin: pawnregex
+[13:31:20] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[13:31:20]   Loaded.
+[13:31:20]  Loaded 6 plugins.
+
+[13:31:20] 
+[13:31:20] Filterscripts
+[13:31:20] ---------------
+[13:31:20]   Loading filterscript 'cameditor.amx'...
+[13:31:20] 
+--------------------------------------
+[13:31:20]  CamEditor by Drebin
+[13:31:20] --------------------------------------
+
+[13:31:20]   Loaded 1 filterscripts.
+
+[13:31:20] Hello, world!
+[13:31:20] Number of vehicle models: 0
+[13:31:41] [connection] incoming connection: 127.0.0.1:51419 id: 0
+[13:31:41] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[13:31:44] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:58:23] 
+[13:58:23] Server Plugins
+[13:58:23] --------------
+[13:58:23]  Loading plugin: crashdetect
+[13:58:23]   CrashDetect v4.17 is OK.
+[13:58:23]   Loaded.
+[13:58:23]  Loading plugin: pawncmd
+[13:58:23] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[13:58:23]   Loaded.
+[13:58:23]  Loading plugin: sscanf
+[13:58:23] 
+
+[13:58:23]  ===============================
+
+[13:58:23]       sscanf plugin loaded.     
+
+[13:58:23]          Version:  2.8.1        
+
+[13:58:23]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:58:23]  ===============================
+
+[13:58:23]   Loaded.
+[13:58:23]  Loading plugin: streamer
+[13:58:23] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[13:58:23]   Loaded.
+[13:58:23]  Loading plugin: mysql
+[13:58:23]  >> plugin.mysql: R41-3 successfully loaded.
+[13:58:23]   Loaded.
+[13:58:23]  Loading plugin: pawnregex
+[13:58:23] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[13:58:23]   Loaded.
+[13:58:23]  Loaded 6 plugins.
+
+[13:58:23] 
+[13:58:23] Filterscripts
+[13:58:23] ---------------
+[13:58:23]   Loading filterscript 'cameditor.amx'...
+[13:58:23] 
+--------------------------------------
+[13:58:23]  CamEditor by Drebin
+[13:58:23] --------------------------------------
+
+[13:58:23]   Loaded 1 filterscripts.
+
+[13:58:24] Hello, world!
+[13:58:24] Number of vehicle models: 0
+[13:58:47] [connection] incoming connection: 127.0.0.1:60548 id: 0
+[13:58:47] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[13:59:17] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:13:17] 
+[14:13:17] Server Plugins
+[14:13:17] --------------
+[14:13:17]  Loading plugin: crashdetect
+[14:13:17]   CrashDetect v4.17 is OK.
+[14:13:17]   Loaded.
+[14:13:17]  Loading plugin: pawncmd
+[14:13:17] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:13:17]   Loaded.
+[14:13:17]  Loading plugin: sscanf
+[14:13:17] 
+
+[14:13:17]  ===============================
+
+[14:13:17]       sscanf plugin loaded.     
+
+[14:13:17]          Version:  2.8.1        
+
+[14:13:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:13:17]  ===============================
+
+[14:13:17]   Loaded.
+[14:13:17]  Loading plugin: streamer
+[14:13:17] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:13:17]   Loaded.
+[14:13:17]  Loading plugin: mysql
+[14:13:17]  >> plugin.mysql: R41-3 successfully loaded.
+[14:13:17]   Loaded.
+[14:13:17]  Loading plugin: pawnregex
+[14:13:17] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:13:17]   Loaded.
+[14:13:17]  Loaded 6 plugins.
+
+[14:13:17] 
+[14:13:17] Filterscripts
+[14:13:17] ---------------
+[14:13:17]   Loading filterscript 'cameditor.amx'...
+[14:13:17] 
+--------------------------------------
+[14:13:17]  CamEditor by Drebin
+[14:13:17] --------------------------------------
+
+[14:13:17]   Loaded 1 filterscripts.
+
+[14:13:18] Hello, world!
+[14:13:18] Number of vehicle models: 0
+[14:13:37] [connection] incoming connection: 127.0.0.1:62562 id: 0
+[14:13:37] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:13:47] 
+[14:14:03] Hello
+[14:14:10] Hello wdaawd
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:19:57] 
+[14:19:57] Server Plugins
+[14:19:57] --------------
+[14:19:57]  Loading plugin: crashdetect
+[14:19:57]   CrashDetect v4.17 is OK.
+[14:19:57]   Loaded.
+[14:19:57]  Loading plugin: pawncmd
+[14:19:57] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:19:57]   Loaded.
+[14:19:57]  Loading plugin: sscanf
+[14:19:57] 
+
+[14:19:57]  ===============================
+
+[14:19:57]       sscanf plugin loaded.     
+
+[14:19:57]          Version:  2.8.1        
+
+[14:19:57]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:19:57]  ===============================
+
+[14:19:57]   Loaded.
+[14:19:57]  Loading plugin: streamer
+[14:19:57] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:19:57]   Loaded.
+[14:19:57]  Loading plugin: mysql
+[14:19:57]  >> plugin.mysql: R41-3 successfully loaded.
+[14:19:57]   Loaded.
+[14:19:57]  Loading plugin: pawnregex
+[14:19:57] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:19:57]   Loaded.
+[14:19:57]  Loaded 6 plugins.
+
+[14:19:57] 
+[14:19:57] Filterscripts
+[14:19:57] ---------------
+[14:19:57]   Loading filterscript 'cameditor.amx'...
+[14:19:57] 
+--------------------------------------
+[14:19:57]  CamEditor by Drebin
+[14:19:57] --------------------------------------
+
+[14:19:57]   Loaded 1 filterscripts.
+
+[14:19:57] Hello, world!
+[14:19:57] Number of vehicle models: 0
+[14:20:00] [connection] incoming connection: 127.0.0.1:52156 id: 0
+[14:20:01] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:20:08] Params:
+[14:20:08] CMD:info
+[14:20:08] flags:0
+[14:20:18] Params:i
+[14:20:18] CMD:info
+[14:20:18] flags:0
+[14:20:31] Params:i a
+[14:20:31] CMD:info
+[14:20:31] flags:0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:22:15] 
+[14:22:15] Server Plugins
+[14:22:15] --------------
+[14:22:15]  Loading plugin: crashdetect
+[14:22:15]   CrashDetect v4.17 is OK.
+[14:22:15]   Loaded.
+[14:22:15]  Loading plugin: pawncmd
+[14:22:15] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:22:15]   Loaded.
+[14:22:15]  Loading plugin: sscanf
+[14:22:15] 
+
+[14:22:15]  ===============================
+
+[14:22:15]       sscanf plugin loaded.     
+
+[14:22:15]          Version:  2.8.1        
+
+[14:22:15]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:22:15]  ===============================
+
+[14:22:15]   Loaded.
+[14:22:15]  Loading plugin: streamer
+[14:22:15] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:22:15]   Loaded.
+[14:22:15]  Loading plugin: mysql
+[14:22:15]  >> plugin.mysql: R41-3 successfully loaded.
+[14:22:15]   Loaded.
+[14:22:15]  Loading plugin: pawnregex
+[14:22:15] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:22:15]   Loaded.
+[14:22:15]  Loaded 6 plugins.
+
+[14:22:15] 
+[14:22:15] Filterscripts
+[14:22:15] ---------------
+[14:22:15]   Loading filterscript 'cameditor.amx'...
+[14:22:15] 
+--------------------------------------
+[14:22:15]  CamEditor by Drebin
+[14:22:15] --------------------------------------
+
+[14:22:15]   Loaded 1 filterscripts.
+
+[14:22:15] Hello, world!
+[14:22:15] Number of vehicle models: 0
+[14:22:18] [connection] incoming connection: 127.0.0.1:65239 id: 0
+[14:22:18] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:22:28] OnPlayerCommandReceived
+[14:22:28] Params:
+[14:22:28] CMD:info
+[14:22:28] flags:0
+[14:22:48] OnPlayerCommandReceived
+[14:22:48] Params:dawadw
+[14:22:48] CMD:info
+[14:22:48] flags:0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:23:20] 
+[14:23:20] Server Plugins
+[14:23:20] --------------
+[14:23:20]  Loading plugin: crashdetect
+[14:23:20]   CrashDetect v4.17 is OK.
+[14:23:20]   Loaded.
+[14:23:20]  Loading plugin: pawncmd
+[14:23:20] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:23:20]   Loaded.
+[14:23:20]  Loading plugin: sscanf
+[14:23:20] 
+
+[14:23:20]  ===============================
+
+[14:23:20]       sscanf plugin loaded.     
+
+[14:23:20]          Version:  2.8.1        
+
+[14:23:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:23:20]  ===============================
+
+[14:23:20]   Loaded.
+[14:23:20]  Loading plugin: streamer
+[14:23:20] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:23:20]   Loaded.
+[14:23:20]  Loading plugin: mysql
+[14:23:20]  >> plugin.mysql: R41-3 successfully loaded.
+[14:23:20]   Loaded.
+[14:23:20]  Loading plugin: pawnregex
+[14:23:20] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:23:20]   Loaded.
+[14:23:20]  Loaded 6 plugins.
+
+[14:23:20] 
+[14:23:20] Filterscripts
+[14:23:20] ---------------
+[14:23:20]   Loading filterscript 'cameditor.amx'...
+[14:23:20] 
+--------------------------------------
+[14:23:20]  CamEditor by Drebin
+[14:23:20] --------------------------------------
+
+[14:23:20]   Loaded 1 filterscripts.
+
+[14:23:21] Hello, world!
+[14:23:21] Number of vehicle models: 0
+[14:23:34] [connection] incoming connection: 127.0.0.1:57181 id: 0
+[14:23:34] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:23:40] OnPlayerCommandReceived
+[14:23:40] Params:
+[14:23:40] CMD:info
+[14:23:40] flags:0
+[14:23:40] 
+[14:23:40] OnPlayerCommandPerfomed
+[14:23:40] Params:
+[14:23:40] CMD:info
+[14:23:40] Result: 
+[14:23:47] OnPlayerCommandReceived
+[14:23:47] Params:dawadw
+[14:23:47] CMD:info
+[14:23:47] flags:0
+[14:23:47] dawadw
+[14:23:47] OnPlayerCommandPerfomed
+[14:23:47] Params:dawadw
+[14:23:47] CMD:info
+[14:23:47] Result: 
+[14:25:26] OnPlayerCommandReceived
+[14:25:26] Params:ещё разо
+[14:25:26] CMD:info
+[14:25:26] flags:0
+[14:25:26] ещё разо
+[14:25:26] OnPlayerCommandPerfomed
+[14:25:26] Params:ещё разо
+[14:25:26] CMD:info
+[14:25:26] Result: 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:26:55] 
+[14:26:55] Server Plugins
+[14:26:55] --------------
+[14:26:55]  Loading plugin: crashdetect
+[14:26:55]   CrashDetect v4.17 is OK.
+[14:26:55]   Loaded.
+[14:26:55]  Loading plugin: pawncmd
+[14:26:55] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:26:55]   Loaded.
+[14:26:55]  Loading plugin: sscanf
+[14:26:55] 
+
+[14:26:55]  ===============================
+
+[14:26:55]       sscanf plugin loaded.     
+
+[14:26:55]          Version:  2.8.1        
+
+[14:26:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:26:55]  ===============================
+
+[14:26:55]   Loaded.
+[14:26:55]  Loading plugin: streamer
+[14:26:55] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:26:55]   Loaded.
+[14:26:55]  Loading plugin: mysql
+[14:26:55]  >> plugin.mysql: R41-3 successfully loaded.
+[14:26:55]   Loaded.
+[14:26:55]  Loading plugin: pawnregex
+[14:26:55] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:26:55]   Loaded.
+[14:26:55]  Loaded 6 plugins.
+
+[14:26:55] 
+[14:26:55] Filterscripts
+[14:26:55] ---------------
+[14:26:55]   Loading filterscript 'cameditor.amx'...
+[14:26:55] 
+--------------------------------------
+[14:26:55]  CamEditor by Drebin
+[14:26:55] --------------------------------------
+
+[14:26:55]   Loaded 1 filterscripts.
+
+[14:26:56] Hello, world!
+[14:26:56] Number of vehicle models: 0
+[14:27:06] [connection] incoming connection: 127.0.0.1:57982 id: 0
+[14:27:06] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:27:11] OnPlayerCommandReceived
+[14:27:11] Params:
+[14:27:11] CMD:info
+[14:27:11] flags:0
+[14:27:11] 
+[14:27:11] OnPlayerCommandPerfomed
+[14:27:11] Params:
+[14:27:11] CMD:info
+[14:27:11] Result: 
+[14:27:27] OnPlayerCommandReceived
+[14:27:27] Params:
+[14:27:27] CMD:daw
+[14:27:27] flags:0
+[14:27:27] OnPlayerCommandPerfomed
+[14:27:27] Params:
+[14:27:27] CMD:daw
+[14:27:27] Result: я
+[14:27:53] OnPlayerCommandReceived
+[14:27:53] Params:
+[14:27:53] CMD:info
+[14:27:53] flags:0
+[14:27:53] 
+[14:27:53] OnPlayerCommandPerfomed
+[14:27:53] Params:
+[14:27:53] CMD:info
+[14:27:53] Result: 
+[14:28:39] OnPlayerCommandReceived
+[14:28:39] Params:
+[14:28:39] CMD:awddaw
+[14:28:39] flags:0
+[14:28:39] OnPlayerCommandPerfomed
+[14:28:39] Params:
+[14:28:39] CMD:awddaw
+[14:28:39] Result: я
+[14:30:14] OnPlayerCommandReceived
+[14:30:14] Params:Hello, world!
+[14:30:14] CMD:info
+[14:30:14] flags:0
+[14:30:14] Hello, world!
+[14:30:14] OnPlayerCommandPerfomed
+[14:30:14] Params:Hello, world!
+[14:30:14] CMD:info
+[14:30:14] Result: 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:32:10] 
+[14:32:10] Server Plugins
+[14:32:10] --------------
+[14:32:10]  Loading plugin: crashdetect
+[14:32:10]   CrashDetect v4.17 is OK.
+[14:32:10]   Loaded.
+[14:32:10]  Loading plugin: pawncmd
+[14:32:10] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:32:10]   Loaded.
+[14:32:10]  Loading plugin: sscanf
+[14:32:10] 
+
+[14:32:10]  ===============================
+
+[14:32:10]       sscanf plugin loaded.     
+
+[14:32:10]          Version:  2.8.1        
+
+[14:32:10]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:32:10]  ===============================
+
+[14:32:10]   Loaded.
+[14:32:10]  Loading plugin: streamer
+[14:32:10] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:32:10]   Loaded.
+[14:32:10]  Loading plugin: mysql
+[14:32:10]  >> plugin.mysql: R41-3 successfully loaded.
+[14:32:10]   Loaded.
+[14:32:10]  Loading plugin: pawnregex
+[14:32:10] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:32:10]   Loaded.
+[14:32:10]  Loaded 6 plugins.
+
+[14:32:10] 
+[14:32:10] Filterscripts
+[14:32:10] ---------------
+[14:32:10]   Loading filterscript 'cameditor.amx'...
+[14:32:10] 
+--------------------------------------
+[14:32:10]  CamEditor by Drebin
+[14:32:10] --------------------------------------
+
+[14:32:10]   Loaded 1 filterscripts.
+
+[14:32:11] Hello, world!
+[14:32:11] Number of vehicle models: 0
+[14:32:15] [connection] incoming connection: 127.0.0.1:61533 id: 0
+[14:32:16] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:32:21] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:32:43] 
+[14:32:43] Server Plugins
+[14:32:43] --------------
+[14:32:43]  Loading plugin: crashdetect
+[14:32:43]   CrashDetect v4.17 is OK.
+[14:32:43]   Loaded.
+[14:32:43]  Loading plugin: pawncmd
+[14:32:43] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:32:43]   Loaded.
+[14:32:43]  Loading plugin: sscanf
+[14:32:43] 
+
+[14:32:43]  ===============================
+
+[14:32:43]       sscanf plugin loaded.     
+
+[14:32:43]          Version:  2.8.1        
+
+[14:32:43]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:32:43]  ===============================
+
+[14:32:43]   Loaded.
+[14:32:43]  Loading plugin: streamer
+[14:32:43] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:32:43]   Loaded.
+[14:32:43]  Loading plugin: mysql
+[14:32:43]  >> plugin.mysql: R41-3 successfully loaded.
+[14:32:43]   Loaded.
+[14:32:43]  Loading plugin: pawnregex
+[14:32:43] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:32:43]   Loaded.
+[14:32:43]  Loaded 6 plugins.
+
+[14:32:43] 
+[14:32:43] Filterscripts
+[14:32:43] ---------------
+[14:32:43]   Loading filterscript 'cameditor.amx'...
+[14:32:43] 
+--------------------------------------
+[14:32:43]  CamEditor by Drebin
+[14:32:43] --------------------------------------
+
+[14:32:43]   Loaded 1 filterscripts.
+
+[14:32:44] Hello, world!
+[14:32:44] Number of vehicle models: 0
+[14:32:52] [connection] incoming connection: 127.0.0.1:51096 id: 0
+[14:32:52] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:32:57] 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:51:19] 
+[14:51:19] Server Plugins
+[14:51:19] --------------
+[14:51:19]  Loading plugin: crashdetect
+[14:51:19]   CrashDetect v4.17 is OK.
+[14:51:19]   Loaded.
+[14:51:19]  Loading plugin: pawncmd
+[14:51:19] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:51:19]   Loaded.
+[14:51:19]  Loading plugin: sscanf
+[14:51:19] 
+
+[14:51:19]  ===============================
+
+[14:51:19]       sscanf plugin loaded.     
+
+[14:51:19]          Version:  2.8.1        
+
+[14:51:19]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:51:19]  ===============================
+
+[14:51:19]   Loaded.
+[14:51:19]  Loading plugin: streamer
+[14:51:19] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:51:19]   Loaded.
+[14:51:19]  Loading plugin: mysql
+[14:51:20]  >> plugin.mysql: R41-3 successfully loaded.
+[14:51:20]   Loaded.
+[14:51:20]  Loading plugin: pawnregex
+[14:51:20] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:51:20]   Loaded.
+[14:51:20]  Loaded 6 plugins.
+
+[14:51:20] 
+[14:51:20] Filterscripts
+[14:51:20] ---------------
+[14:51:20]   Loading filterscript 'cameditor.amx'...
+[14:51:20] 
+--------------------------------------
+[14:51:20]  CamEditor by Drebin
+[14:51:20] --------------------------------------
+
+[14:51:20]   Loaded 1 filterscripts.
+
+[14:51:21] Hello, world!
+[14:51:21] Number of vehicle models: 0
+[14:51:43] [connection] incoming connection: 127.0.0.1:58509 id: 0
+[14:51:43] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:51:48] 
+[14:51:48] !
+[14:51:48] OnPlayerCommandPerfomed
+[14:51:48] Params:
+[14:51:48] CMD:info
+[14:51:48] Result: 
+[14:52:50] 
+[14:52:50] !
+[14:52:50] OnPlayerCommandPerfomed
+[14:52:50] Params:daedaw
+[14:52:50] CMD:info
+[14:52:50] Result: 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:53:15] 
+[14:53:15] Server Plugins
+[14:53:15] --------------
+[14:53:15]  Loading plugin: crashdetect
+[14:53:15]   CrashDetect v4.17 is OK.
+[14:53:15]   Loaded.
+[14:53:15]  Loading plugin: pawncmd
+[14:53:15] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:53:15]   Loaded.
+[14:53:15]  Loading plugin: sscanf
+[14:53:15] 
+
+[14:53:15]  ===============================
+
+[14:53:15]       sscanf plugin loaded.     
+
+[14:53:15]          Version:  2.8.1        
+
+[14:53:15]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:53:15]  ===============================
+
+[14:53:15]   Loaded.
+[14:53:15]  Loading plugin: streamer
+[14:53:15] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:53:15]   Loaded.
+[14:53:15]  Loading plugin: mysql
+[14:53:15]  >> plugin.mysql: R41-3 successfully loaded.
+[14:53:15]   Loaded.
+[14:53:15]  Loading plugin: pawnregex
+[14:53:15] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:53:15]   Loaded.
+[14:53:15]  Loaded 6 plugins.
+
+[14:53:15] 
+[14:53:15] Filterscripts
+[14:53:15] ---------------
+[14:53:15]   Loading filterscript 'cameditor.amx'...
+[14:53:15] 
+--------------------------------------
+[14:53:15]  CamEditor by Drebin
+[14:53:15] --------------------------------------
+
+[14:53:15]   Loaded 1 filterscripts.
+
+[14:53:16] Hello, world!
+[14:53:16] Number of vehicle models: 0
+[14:53:29] [connection] incoming connection: 127.0.0.1:53054 id: 0
+[14:53:29] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:56:01] 
+[14:56:01] Server Plugins
+[14:56:01] --------------
+[14:56:01]  Loading plugin: crashdetect
+[14:56:01]   CrashDetect v4.17 is OK.
+[14:56:01]   Loaded.
+[14:56:01]  Loading plugin: pawncmd
+[14:56:01] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:56:01]   Loaded.
+[14:56:01]  Loading plugin: sscanf
+[14:56:01] 
+
+[14:56:01]  ===============================
+
+[14:56:01]       sscanf plugin loaded.     
+
+[14:56:01]          Version:  2.8.1        
+
+[14:56:01]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:56:01]  ===============================
+
+[14:56:01]   Loaded.
+[14:56:01]  Loading plugin: streamer
+[14:56:01] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:56:01]   Loaded.
+[14:56:01]  Loading plugin: mysql
+[14:56:01]  >> plugin.mysql: R41-3 successfully loaded.
+[14:56:01]   Loaded.
+[14:56:01]  Loading plugin: pawnregex
+[14:56:01] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:56:01]   Loaded.
+[14:56:01]  Loaded 6 plugins.
+
+[14:56:01] 
+[14:56:01] Filterscripts
+[14:56:01] ---------------
+[14:56:01]   Loading filterscript 'cameditor.amx'...
+[14:56:01] 
+--------------------------------------
+[14:56:01]  CamEditor by Drebin
+[14:56:01] --------------------------------------
+
+[14:56:01]   Loaded 1 filterscripts.
+
+[14:56:02] Hello, world!
+[14:56:02] Number of vehicle models: 0
+[14:56:19] [connection] incoming connection: 127.0.0.1:64559 id: 0
+[14:56:19] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:56:23] 
+[14:56:23] !
+[14:56:23] OnPlayerCommandPerfomed
+[14:56:23] Params:112
+[14:56:23] CMD:info
+[14:56:23] Result: 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:57:04] 
+[14:57:04] Server Plugins
+[14:57:04] --------------
+[14:57:04]  Loading plugin: crashdetect
+[14:57:04]   CrashDetect v4.17 is OK.
+[14:57:04]   Loaded.
+[14:57:04]  Loading plugin: pawncmd
+[14:57:04] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:57:04]   Loaded.
+[14:57:04]  Loading plugin: sscanf
+[14:57:04] 
+
+[14:57:04]  ===============================
+
+[14:57:04]       sscanf plugin loaded.     
+
+[14:57:04]          Version:  2.8.1        
+
+[14:57:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:57:04]  ===============================
+
+[14:57:04]   Loaded.
+[14:57:04]  Loading plugin: streamer
+[14:57:04] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:57:04]   Loaded.
+[14:57:04]  Loading plugin: mysql
+[14:57:04]  >> plugin.mysql: R41-3 successfully loaded.
+[14:57:04]   Loaded.
+[14:57:04]  Loading plugin: pawnregex
+[14:57:04] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:57:04]   Loaded.
+[14:57:04]  Loaded 6 plugins.
+
+[14:57:04] 
+[14:57:04] Filterscripts
+[14:57:04] ---------------
+[14:57:04]   Loading filterscript 'cameditor.amx'...
+[14:57:04] 
+--------------------------------------
+[14:57:04]  CamEditor by Drebin
+[14:57:04] --------------------------------------
+
+[14:57:04]   Loaded 1 filterscripts.
+
+[14:57:05] Hello, world!
+[14:57:05] Number of vehicle models: 0
+[14:57:09] [connection] incoming connection: 127.0.0.1:65036 id: 0
+[14:57:12] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:57:17] 0
+[14:57:17] !
+[14:57:17] OnPlayerCommandPerfomed
+[14:57:17] Params:1212
+[14:57:17] CMD:info
+[14:57:17] Result: 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:57:42] 
+[14:57:42] Server Plugins
+[14:57:42] --------------
+[14:57:42]  Loading plugin: crashdetect
+[14:57:42]   CrashDetect v4.17 is OK.
+[14:57:42]   Loaded.
+[14:57:42]  Loading plugin: pawncmd
+[14:57:42] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:57:42]   Loaded.
+[14:57:42]  Loading plugin: sscanf
+[14:57:42] 
+
+[14:57:42]  ===============================
+
+[14:57:42]       sscanf plugin loaded.     
+
+[14:57:42]          Version:  2.8.1        
+
+[14:57:42]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:57:42]  ===============================
+
+[14:57:42]   Loaded.
+[14:57:42]  Loading plugin: streamer
+[14:57:42] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:57:42]   Loaded.
+[14:57:42]  Loading plugin: mysql
+[14:57:42]  >> plugin.mysql: R41-3 successfully loaded.
+[14:57:42]   Loaded.
+[14:57:42]  Loading plugin: pawnregex
+[14:57:42] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:57:42]   Loaded.
+[14:57:42]  Loaded 6 plugins.
+
+[14:57:42] 
+[14:57:42] Filterscripts
+[14:57:42] ---------------
+[14:57:42]   Loading filterscript 'cameditor.amx'...
+[14:57:42] 
+--------------------------------------
+[14:57:42]  CamEditor by Drebin
+[14:57:42] --------------------------------------
+
+[14:57:42]   Loaded 1 filterscripts.
+
+[14:57:42] Hello, world!
+[14:57:42] Number of vehicle models: 0
+[14:58:03] [connection] incoming connection: 127.0.0.1:55863 id: 0
+[14:58:04] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[14:58:08] 0
+[14:58:08] !/
+[14:58:08] OnPlayerCommandPerfomed
+[14:58:08] Params:daawd
+[14:58:08] CMD:info
+[14:58:08] Result: 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:59:45] 
+[14:59:45] Server Plugins
+[14:59:45] --------------
+[14:59:45]  Loading plugin: crashdetect
+[14:59:45]   CrashDetect v4.17 is OK.
+[14:59:45]   Loaded.
+[14:59:45]  Loading plugin: pawncmd
+[14:59:45] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[14:59:45]   Loaded.
+[14:59:45]  Loading plugin: sscanf
+[14:59:45] 
+
+[14:59:45]  ===============================
+
+[14:59:45]       sscanf plugin loaded.     
+
+[14:59:45]          Version:  2.8.1        
+
+[14:59:45]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:59:45]  ===============================
+
+[14:59:45]   Loaded.
+[14:59:45]  Loading plugin: streamer
+[14:59:45] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[14:59:45]   Loaded.
+[14:59:45]  Loading plugin: mysql
+[14:59:45]  >> plugin.mysql: R41-3 successfully loaded.
+[14:59:45]   Loaded.
+[14:59:45]  Loading plugin: pawnregex
+[14:59:45] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[14:59:45]   Loaded.
+[14:59:45]  Loaded 6 plugins.
+
+[14:59:45] 
+[14:59:45] Filterscripts
+[14:59:45] ---------------
+[14:59:45]   Loading filterscript 'cameditor.amx'...
+[14:59:45] 
+--------------------------------------
+[14:59:45]  CamEditor by Drebin
+[14:59:45] --------------------------------------
+
+[14:59:45]   Loaded 1 filterscripts.
+
+[14:59:46] Hello, world!
+[14:59:46] Number of vehicle models: 0
+[14:59:49] [connection] incoming connection: 127.0.0.1:53200 id: 0
+[14:59:49] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:13:11] 
+[15:13:11] Server Plugins
+[15:13:11] --------------
+[15:13:11]  Loading plugin: crashdetect
+[15:13:11]   CrashDetect v4.17 is OK.
+[15:13:11]   Loaded.
+[15:13:11]  Loading plugin: pawncmd
+[15:13:11] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:13:11]   Loaded.
+[15:13:11]  Loading plugin: sscanf
+[15:13:11] 
+
+[15:13:11]  ===============================
+
+[15:13:11]       sscanf plugin loaded.     
+
+[15:13:11]          Version:  2.8.1        
+
+[15:13:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:13:11]  ===============================
+
+[15:13:11]   Loaded.
+[15:13:11]  Loading plugin: streamer
+[15:13:11] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:13:11]   Loaded.
+[15:13:11]  Loading plugin: mysql
+[15:13:11]  >> plugin.mysql: R41-3 successfully loaded.
+[15:13:11]   Loaded.
+[15:13:11]  Loading plugin: pawnregex
+[15:13:11] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:13:11]   Loaded.
+[15:13:11]  Loaded 6 plugins.
+
+[15:13:11] 
+[15:13:11] Filterscripts
+[15:13:11] ---------------
+[15:13:11]   Loading filterscript 'cameditor.amx'...
+[15:13:11] 
+--------------------------------------
+[15:13:11]  CamEditor by Drebin
+[15:13:11] --------------------------------------
+
+[15:13:11]   Loaded 1 filterscripts.
+
+[15:13:11] Hello, world!
+[15:13:11] Number of vehicle models: 0
+[15:13:17] [connection] incoming connection: 127.0.0.1:65484 id: 0
+[15:13:17] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[15:13:18] [part] Sergey_Maingard has left the server (0:2)
+[15:13:48] [connection] incoming connection: 127.0.0.1:56475 id: 0
+[15:13:48] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[15:14:26] [part] Sergey_Maingard has left the server (0:1)
+[15:14:43] [connection] incoming connection: 127.0.0.1:61611 id: 0
+[15:14:43] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[15:14:48] Admin
+[15:14:48] 6
+[15:14:48] !
+[15:14:48] OnPlayerCommandPerfomed
+[15:14:48] Params:1212
+[15:14:48] CMD:info
+[15:14:48] Result: 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:17:38] 
+[15:17:38] Server Plugins
+[15:17:38] --------------
+[15:17:38]  Loading plugin: crashdetect
+[15:17:38]   CrashDetect v4.17 is OK.
+[15:17:38]   Loaded.
+[15:17:38]  Loading plugin: pawncmd
+[15:17:38] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:17:38]   Loaded.
+[15:17:38]  Loading plugin: sscanf
+[15:17:38] 
+
+[15:17:38]  ===============================
+
+[15:17:38]       sscanf plugin loaded.     
+
+[15:17:38]          Version:  2.8.1        
+
+[15:17:38]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:17:38]  ===============================
+
+[15:17:38]   Loaded.
+[15:17:38]  Loading plugin: streamer
+[15:17:38] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:17:38]   Loaded.
+[15:17:38]  Loading plugin: mysql
+[15:17:38]  >> plugin.mysql: R41-3 successfully loaded.
+[15:17:38]   Loaded.
+[15:17:38]  Loading plugin: pawnregex
+[15:17:38] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:17:38]   Loaded.
+[15:17:38]  Loaded 6 plugins.
+
+[15:17:38] 
+[15:17:38] Filterscripts
+[15:17:38] ---------------
+[15:17:38]   Loading filterscript 'cameditor.amx'...
+[15:17:38] 
+--------------------------------------
+[15:17:38]  CamEditor by Drebin
+[15:17:38] --------------------------------------
+
+[15:17:38]   Loaded 1 filterscripts.
+
+[15:17:39] Hello, world!
+[15:17:39] Number of vehicle models: 0
+[15:17:57] [connection] incoming connection: 127.0.0.1:51234 id: 0
+[15:17:57] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[15:18:00] Commin User
+[15:18:00] OnPlayerCommandPerfomed
+[15:18:00] Params:
+[15:18:00] CMD:info
+[15:18:00] Result: 
+[15:18:03] Admin
+[15:18:03] OnPlayerCommandPerfomed
+[15:18:03] Params:
+[15:18:03] CMD:ban
+[15:18:03] Result: 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:19:46] 
+[15:19:46] Server Plugins
+[15:19:46] --------------
+[15:19:46]  Loading plugin: crashdetect
+[15:19:46]   CrashDetect v4.17 is OK.
+[15:19:46]   Loaded.
+[15:19:46]  Loading plugin: pawncmd
+[15:19:46] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:19:46]   Loaded.
+[15:19:46]  Loading plugin: sscanf
+[15:19:46] 
+
+[15:19:46]  ===============================
+
+[15:19:46]       sscanf plugin loaded.     
+
+[15:19:46]          Version:  2.8.1        
+
+[15:19:46]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:19:46]  ===============================
+
+[15:19:46]   Loaded.
+[15:19:46]  Loading plugin: streamer
+[15:19:46] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:19:46]   Loaded.
+[15:19:46]  Loading plugin: mysql
+[15:19:46]  >> plugin.mysql: R41-3 successfully loaded.
+[15:19:46]   Loaded.
+[15:19:46]  Loading plugin: pawnregex
+[15:19:46] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:19:46]   Loaded.
+[15:19:46]  Loaded 6 plugins.
+
+[15:19:46] 
+[15:19:46] Filterscripts
+[15:19:46] ---------------
+[15:19:46]   Loading filterscript 'cameditor.amx'...
+[15:19:46] 
+--------------------------------------
+[15:19:46]  CamEditor by Drebin
+[15:19:46] --------------------------------------
+
+[15:19:46]   Loaded 1 filterscripts.
+
+[15:19:47] Hello, world!
+[15:19:47] Number of vehicle models: 0
+[15:20:09] [connection] incoming connection: 127.0.0.1:64149 id: 0
+[15:20:09] [join] Sergey_Maingard1 has joined the server (0:127.0.0.1)
+[15:20:24] Commin User
+[15:20:24] OnPlayerCommandPerfomed
+[15:20:24] Params:
+[15:20:24] CMD:info
+[15:20:24] Result: 
+[15:20:36] [part] Sergey_Maingard1 has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:21:58] 
+[15:21:58] Server Plugins
+[15:21:58] --------------
+[15:21:58]  Loading plugin: crashdetect
+[15:21:58]   CrashDetect v4.17 is OK.
+[15:21:58]   Loaded.
+[15:21:58]  Loading plugin: pawncmd
+[15:21:58] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:21:58]   Loaded.
+[15:21:58]  Loading plugin: sscanf
+[15:21:58] 
+
+[15:21:58]  ===============================
+
+[15:21:58]       sscanf plugin loaded.     
+
+[15:21:58]          Version:  2.8.1        
+
+[15:21:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:21:58]  ===============================
+
+[15:21:58]   Loaded.
+[15:21:58]  Loading plugin: streamer
+[15:21:58] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:21:58]   Loaded.
+[15:21:58]  Loading plugin: mysql
+[15:21:58]  >> plugin.mysql: R41-3 successfully loaded.
+[15:21:58]   Loaded.
+[15:21:58]  Loading plugin: pawnregex
+[15:21:58] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:21:58]   Loaded.
+[15:21:58]  Loaded 6 plugins.
+
+[15:21:58] 
+[15:21:58] Filterscripts
+[15:21:58] ---------------
+[15:21:58]   Loading filterscript 'cameditor.amx'...
+[15:21:58] 
+--------------------------------------
+[15:21:58]  CamEditor by Drebin
+[15:21:58] --------------------------------------
+
+[15:21:58]   Loaded 1 filterscripts.
+
+[15:21:58] Hello, world!
+[15:21:58] Number of vehicle models: 0
+[15:22:39] [connection] incoming connection: 127.0.0.1:61674 id: 0
+[15:22:39] [join] Sergey_Maingard1 has joined the server (0:127.0.0.1)
+[15:22:47] Commin User
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:39:51] 
+[15:39:51] Server Plugins
+[15:39:51] --------------
+[15:39:51]  Loading plugin: crashdetect
+[15:39:51]   CrashDetect v4.17 is OK.
+[15:39:51]   Loaded.
+[15:39:51]  Loading plugin: pawncmd
+[15:39:51] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:39:51]   Loaded.
+[15:39:51]  Loading plugin: sscanf
+[15:39:51] 
+
+[15:39:51]  ===============================
+
+[15:39:51]       sscanf plugin loaded.     
+
+[15:39:51]          Version:  2.8.1        
+
+[15:39:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:39:51]  ===============================
+
+[15:39:51]   Loaded.
+[15:39:51]  Loading plugin: streamer
+[15:39:51] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:39:51]   Loaded.
+[15:39:51]  Loading plugin: mysql
+[15:39:51]  >> plugin.mysql: R41-3 successfully loaded.
+[15:39:51]   Loaded.
+[15:39:51]  Loading plugin: pawnregex
+[15:39:51] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:39:51]   Loaded.
+[15:39:51]  Loaded 6 plugins.
+
+[15:39:51] 
+[15:39:51] Filterscripts
+[15:39:51] ---------------
+[15:39:51]   Loading filterscript 'cameditor.amx'...
+[15:39:51] 
+--------------------------------------
+[15:39:51]  CamEditor by Drebin
+[15:39:51] --------------------------------------
+
+[15:39:51]   Loaded 1 filterscripts.
+
+[15:39:52] Hello, world!
+[15:39:52] Number of vehicle models: 0
+[15:40:04] [connection] incoming connection: 127.0.0.1:55862 id: 0
+[15:40:04] [join] Sergey_Maingard1 has joined the server (0:127.0.0.1)
+[15:41:52] [part] Sergey_Maingard1 has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:42:13] 
+[15:42:13] Server Plugins
+[15:42:13] --------------
+[15:42:13]  Loading plugin: crashdetect
+[15:42:13]   CrashDetect v4.17 is OK.
+[15:42:13]   Loaded.
+[15:42:13]  Loading plugin: pawncmd
+[15:42:13] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:42:13]   Loaded.
+[15:42:13]  Loading plugin: sscanf
+[15:42:13] 
+
+[15:42:13]  ===============================
+
+[15:42:13]       sscanf plugin loaded.     
+
+[15:42:13]          Version:  2.8.1        
+
+[15:42:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:42:13]  ===============================
+
+[15:42:13]   Loaded.
+[15:42:13]  Loading plugin: streamer
+[15:42:13] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:42:13]   Loaded.
+[15:42:13]  Loading plugin: mysql
+[15:42:13]  >> plugin.mysql: R41-3 successfully loaded.
+[15:42:13]   Loaded.
+[15:42:13]  Loading plugin: pawnregex
+[15:42:13] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:42:13]   Loaded.
+[15:42:13]  Loaded 6 plugins.
+
+[15:42:13] 
+[15:42:13] Filterscripts
+[15:42:13] ---------------
+[15:42:13]   Loading filterscript 'cameditor.amx'...
+[15:42:13] 
+--------------------------------------
+[15:42:13]  CamEditor by Drebin
+[15:42:13] --------------------------------------
+
+[15:42:13]   Loaded 1 filterscripts.
+
+[15:42:13] Hello, world!
+[15:42:13] Number of vehicle models: 0
+[15:42:32] [connection] incoming connection: 127.0.0.1:56254 id: 0
+[15:42:32] [join] Sergey_Maingard1 has joined the server (0:127.0.0.1)
+[15:42:56] [part] Sergey_Maingard1 has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:43:39] 
+[15:43:39] Server Plugins
+[15:43:39] --------------
+[15:43:39]  Loading plugin: crashdetect
+[15:43:39]   CrashDetect v4.17 is OK.
+[15:43:39]   Loaded.
+[15:43:39]  Loading plugin: pawncmd
+[15:43:39] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:43:39]   Loaded.
+[15:43:39]  Loading plugin: sscanf
+[15:43:39] 
+
+[15:43:39]  ===============================
+
+[15:43:39]       sscanf plugin loaded.     
+
+[15:43:39]          Version:  2.8.1        
+
+[15:43:39]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:43:39]  ===============================
+
+[15:43:39]   Loaded.
+[15:43:39]  Loading plugin: streamer
+[15:43:39] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:43:39]   Loaded.
+[15:43:39]  Loading plugin: mysql
+[15:43:39]  >> plugin.mysql: R41-3 successfully loaded.
+[15:43:39]   Loaded.
+[15:43:39]  Loading plugin: pawnregex
+[15:43:39] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:43:39]   Loaded.
+[15:43:39]  Loaded 6 plugins.
+
+[15:43:39] 
+[15:43:39] Filterscripts
+[15:43:39] ---------------
+[15:43:39]   Loading filterscript 'cameditor.amx'...
+[15:43:39] 
+--------------------------------------
+[15:43:39]  CamEditor by Drebin
+[15:43:39] --------------------------------------
+
+[15:43:39]   Loaded 1 filterscripts.
+
+[15:43:39] Hello, world!
+[15:43:39] Number of vehicle models: 0
+[15:43:55] [connection] incoming connection: 127.0.0.1:64405 id: 0
+[15:43:56] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:47:13] 
+[15:47:13] Server Plugins
+[15:47:13] --------------
+[15:47:13]  Loading plugin: crashdetect
+[15:47:13]   CrashDetect v4.17 is OK.
+[15:47:13]   Loaded.
+[15:47:13]  Loading plugin: pawncmd
+[15:47:13] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:47:13]   Loaded.
+[15:47:13]  Loading plugin: sscanf
+[15:47:13] 
+
+[15:47:13]  ===============================
+
+[15:47:13]       sscanf plugin loaded.     
+
+[15:47:13]          Version:  2.8.1        
+
+[15:47:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:47:13]  ===============================
+
+[15:47:13]   Loaded.
+[15:47:13]  Loading plugin: streamer
+[15:47:13] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:47:13]   Loaded.
+[15:47:13]  Loading plugin: mysql
+[15:47:13]  >> plugin.mysql: R41-3 successfully loaded.
+[15:47:13]   Loaded.
+[15:47:13]  Loading plugin: pawnregex
+[15:47:13] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:47:13]   Loaded.
+[15:47:13]  Loaded 6 plugins.
+
+[15:47:13] 
+[15:47:13] Filterscripts
+[15:47:13] ---------------
+[15:47:13]   Loading filterscript 'cameditor.amx'...
+[15:47:13] 
+--------------------------------------
+[15:47:13]  CamEditor by Drebin
+[15:47:13] --------------------------------------
+
+[15:47:13]   Loaded 1 filterscripts.
+
+[15:47:14] Number of vehicle models: 0
+[15:47:33] [connection] incoming connection: 127.0.0.1:60810 id: 0
+[15:47:33] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[15:47:48] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:50:08] 
+[15:50:08] Server Plugins
+[15:50:08] --------------
+[15:50:08]  Loading plugin: crashdetect
+[15:50:08]   CrashDetect v4.17 is OK.
+[15:50:08]   Loaded.
+[15:50:08]  Loading plugin: pawncmd
+[15:50:08] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:50:08]   Loaded.
+[15:50:08]  Loading plugin: sscanf
+[15:50:08] 
+
+[15:50:08]  ===============================
+
+[15:50:08]       sscanf plugin loaded.     
+
+[15:50:08]          Version:  2.8.1        
+
+[15:50:08]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:50:08]  ===============================
+
+[15:50:08]   Loaded.
+[15:50:08]  Loading plugin: streamer
+[15:50:08] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:50:08]   Loaded.
+[15:50:08]  Loading plugin: mysql
+[15:50:08]  >> plugin.mysql: R41-3 successfully loaded.
+[15:50:08]   Loaded.
+[15:50:08]  Loading plugin: pawnregex
+[15:50:08] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:50:08]   Loaded.
+[15:50:08]  Loaded 6 plugins.
+
+[15:50:08] 
+[15:50:08] Filterscripts
+[15:50:08] ---------------
+[15:50:08]   Loading filterscript 'cameditor.amx'...
+[15:50:08] 
+--------------------------------------
+[15:50:08]  CamEditor by Drebin
+[15:50:08] --------------------------------------
+
+[15:50:08]   Loaded 1 filterscripts.
+
+[15:50:09] Number of vehicle models: 0
+[15:50:22] [connection] incoming connection: 127.0.0.1:57220 id: 0
+[15:50:22] [join] just_user has joined the server (0:127.0.0.1)
+[15:50:48] [part] just_user has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:51:05] 
+[15:51:05] Server Plugins
+[15:51:05] --------------
+[15:51:05]  Loading plugin: crashdetect
+[15:51:05]   CrashDetect v4.17 is OK.
+[15:51:05]   Loaded.
+[15:51:05]  Loading plugin: pawncmd
+[15:51:05] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:51:05]   Loaded.
+[15:51:05]  Loading plugin: sscanf
+[15:51:05] 
+
+[15:51:05]  ===============================
+
+[15:51:05]       sscanf plugin loaded.     
+
+[15:51:05]          Version:  2.8.1        
+
+[15:51:05]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:51:05]  ===============================
+
+[15:51:05]   Loaded.
+[15:51:05]  Loading plugin: streamer
+[15:51:05] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:51:05]   Loaded.
+[15:51:05]  Loading plugin: mysql
+[15:51:05]  >> plugin.mysql: R41-3 successfully loaded.
+[15:51:05]   Loaded.
+[15:51:05]  Loading plugin: pawnregex
+[15:51:05] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:51:05]   Loaded.
+[15:51:05]  Loaded 6 plugins.
+
+[15:51:05] 
+[15:51:05] Filterscripts
+[15:51:05] ---------------
+[15:51:05]   Loading filterscript 'cameditor.amx'...
+[15:51:05] 
+--------------------------------------
+[15:51:05]  CamEditor by Drebin
+[15:51:05] --------------------------------------
+
+[15:51:05]   Loaded 1 filterscripts.
+
+[15:51:06] Number of vehicle models: 0
+[15:51:22] [connection] incoming connection: 127.0.0.1:56487 id: 0
+[15:51:22] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:52:20] 
+[15:52:20] Server Plugins
+[15:52:20] --------------
+[15:52:20]  Loading plugin: crashdetect
+[15:52:20]   CrashDetect v4.17 is OK.
+[15:52:20]   Loaded.
+[15:52:20]  Loading plugin: pawncmd
+[15:52:20] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:52:20]   Loaded.
+[15:52:20]  Loading plugin: sscanf
+[15:52:20] 
+
+[15:52:20]  ===============================
+
+[15:52:20]       sscanf plugin loaded.     
+
+[15:52:20]          Version:  2.8.1        
+
+[15:52:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:52:20]  ===============================
+
+[15:52:20]   Loaded.
+[15:52:20]  Loading plugin: streamer
+[15:52:20] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[15:52:20]   Loaded.
+[15:52:20]  Loading plugin: mysql
+[15:52:20]  >> plugin.mysql: R41-3 successfully loaded.
+[15:52:20]   Loaded.
+[15:52:20]  Loading plugin: pawnregex
+[15:52:20] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[15:52:20]   Loaded.
+[15:52:20]  Loaded 6 plugins.
+
+[15:52:20] 
+[15:52:20] Filterscripts
+[15:52:20] ---------------
+[15:52:20]   Loading filterscript 'cameditor.amx'...
+[15:52:20] 
+--------------------------------------
+[15:52:20]  CamEditor by Drebin
+[15:52:20] --------------------------------------
+
+[15:52:20]   Loaded 1 filterscripts.
+
+[15:52:21] Number of vehicle models: 0
+[15:52:34] [connection] incoming connection: 127.0.0.1:55179 id: 0
+[15:52:34] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[15:52:56] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:14:19] 
+[16:14:19] Server Plugins
+[16:14:19] --------------
+[16:14:19]  Loading plugin: crashdetect
+[16:14:19]   CrashDetect v4.17 is OK.
+[16:14:19]   Loaded.
+[16:14:19]  Loading plugin: pawncmd
+[16:14:19] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:14:19]   Loaded.
+[16:14:19]  Loading plugin: sscanf
+[16:14:19] 
+
+[16:14:19]  ===============================
+
+[16:14:19]       sscanf plugin loaded.     
+
+[16:14:19]          Version:  2.8.1        
+
+[16:14:19]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:14:19]  ===============================
+
+[16:14:19]   Loaded.
+[16:14:19]  Loading plugin: streamer
+[16:14:19] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:14:19]   Loaded.
+[16:14:19]  Loading plugin: mysql
+[16:14:19]  >> plugin.mysql: R41-3 successfully loaded.
+[16:14:19]   Loaded.
+[16:14:19]  Loading plugin: pawnregex
+[16:14:19] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:14:19]   Loaded.
+[16:14:19]  Loaded 6 plugins.
+
+[16:14:19] 
+[16:14:19] Filterscripts
+[16:14:19] ---------------
+[16:14:19]   Loading filterscript 'cameditor.amx'...
+[16:14:19] 
+--------------------------------------
+[16:14:19]  CamEditor by Drebin
+[16:14:19] --------------------------------------
+
+[16:14:19]   Loaded 1 filterscripts.
+
+[16:14:20] Number of vehicle models: 0
+[16:14:37] [connection] incoming connection: 127.0.0.1:49368 id: 0
+[16:14:37] [join] Sergey_Maingard21 has joined the server (0:127.0.0.1)
+[16:14:50] [part] Sergey_Maingard21 has left the server (0:1)
+[16:15:48] [connection] incoming connection: 127.0.0.1:52526 id: 0
+[16:15:48] [join] Sergey_Maingard21 has joined the server (0:127.0.0.1)
+[16:15:59] [part] Sergey_Maingard21 has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:17:30] 
+[16:17:30] Server Plugins
+[16:17:30] --------------
+[16:17:30]  Loading plugin: crashdetect
+[16:17:30]   CrashDetect v4.17 is OK.
+[16:17:30]   Loaded.
+[16:17:30]  Loading plugin: pawncmd
+[16:17:30] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:17:30]   Loaded.
+[16:17:30]  Loading plugin: sscanf
+[16:17:30] 
+
+[16:17:30]  ===============================
+
+[16:17:30]       sscanf plugin loaded.     
+
+[16:17:30]          Version:  2.8.1        
+
+[16:17:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:17:30]  ===============================
+
+[16:17:30]   Loaded.
+[16:17:30]  Loading plugin: streamer
+[16:17:30] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:17:30]   Loaded.
+[16:17:30]  Loading plugin: mysql
+[16:17:30]  >> plugin.mysql: R41-3 successfully loaded.
+[16:17:30]   Loaded.
+[16:17:30]  Loading plugin: pawnregex
+[16:17:30] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:17:30]   Loaded.
+[16:17:30]  Loaded 6 plugins.
+
+[16:17:30] 
+[16:17:30] Filterscripts
+[16:17:30] ---------------
+[16:17:30]   Loading filterscript 'cameditor.amx'...
+[16:17:30] 
+--------------------------------------
+[16:17:30]  CamEditor by Drebin
+[16:17:30] --------------------------------------
+
+[16:17:30]   Loaded 1 filterscripts.
+
+[16:17:30] Number of vehicle models: 0
+[16:17:48] [connection] incoming connection: 127.0.0.1:55474 id: 0
+[16:17:48] [join] Sergey_Maingard21 has joined the server (0:127.0.0.1)
+[16:17:57] [part] Sergey_Maingard21 has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:22:39] 
+[16:22:39] Server Plugins
+[16:22:39] --------------
+[16:22:39]  Loading plugin: crashdetect
+[16:22:39]   CrashDetect v4.17 is OK.
+[16:22:39]   Loaded.
+[16:22:39]  Loading plugin: pawncmd
+[16:22:39] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:22:39]   Loaded.
+[16:22:39]  Loading plugin: sscanf
+[16:22:39] 
+
+[16:22:39]  ===============================
+
+[16:22:39]       sscanf plugin loaded.     
+
+[16:22:39]          Version:  2.8.1        
+
+[16:22:39]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:22:39]  ===============================
+
+[16:22:39]   Loaded.
+[16:22:39]  Loading plugin: streamer
+[16:22:39] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:22:39]   Loaded.
+[16:22:39]  Loading plugin: mysql
+[16:22:39]  >> plugin.mysql: R41-3 successfully loaded.
+[16:22:39]   Loaded.
+[16:22:39]  Loading plugin: pawnregex
+[16:22:39] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:22:39]   Loaded.
+[16:22:39]  Loaded 6 plugins.
+
+[16:22:39] 
+[16:22:39] Filterscripts
+[16:22:39] ---------------
+[16:22:39]   Loading filterscript 'cameditor.amx'...
+[16:22:39] 
+--------------------------------------
+[16:22:39]  CamEditor by Drebin
+[16:22:39] --------------------------------------
+
+[16:22:39]   Loaded 1 filterscripts.
+
+[16:22:39] Number of vehicle models: 0
+[16:22:55] [connection] incoming connection: 127.0.0.1:58014 id: 0
+[16:22:56] [join] Sergey_Maingard21 has joined the server (0:127.0.0.1)
+[16:23:05] [part] Sergey_Maingard21 has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:24:33] 
+[16:24:33] Server Plugins
+[16:24:33] --------------
+[16:24:33]  Loading plugin: crashdetect
+[16:24:33]   CrashDetect v4.17 is OK.
+[16:24:33]   Loaded.
+[16:24:33]  Loading plugin: pawncmd
+[16:24:33] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:24:33]   Loaded.
+[16:24:33]  Loading plugin: sscanf
+[16:24:33] 
+
+[16:24:33]  ===============================
+
+[16:24:33]       sscanf plugin loaded.     
+
+[16:24:33]          Version:  2.8.1        
+
+[16:24:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:24:33]  ===============================
+
+[16:24:33]   Loaded.
+[16:24:33]  Loading plugin: streamer
+[16:24:33] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:24:33]   Loaded.
+[16:24:33]  Loading plugin: mysql
+[16:24:33]  >> plugin.mysql: R41-3 successfully loaded.
+[16:24:33]   Loaded.
+[16:24:33]  Loading plugin: pawnregex
+[16:24:33] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:24:33]   Loaded.
+[16:24:33]  Loaded 6 plugins.
+
+[16:24:33] 
+[16:24:33] Filterscripts
+[16:24:33] ---------------
+[16:24:33]   Loading filterscript 'cameditor.amx'...
+[16:24:33] 
+--------------------------------------
+[16:24:33]  CamEditor by Drebin
+[16:24:33] --------------------------------------
+
+[16:24:33]   Loaded 1 filterscripts.
+
+[16:24:34] Number of vehicle models: 0
+[16:24:50] [connection] incoming connection: 127.0.0.1:53899 id: 0
+[16:24:50] [join] Sergey_Maingard21 has joined the server (0:127.0.0.1)
+[16:25:00] [part] Sergey_Maingard21 has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:26:21] 
+[16:26:21] Server Plugins
+[16:26:21] --------------
+[16:26:21]  Loading plugin: crashdetect
+[16:26:21]   CrashDetect v4.17 is OK.
+[16:26:21]   Loaded.
+[16:26:21]  Loading plugin: pawncmd
+[16:26:21] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:26:21]   Loaded.
+[16:26:21]  Loading plugin: sscanf
+[16:26:21] 
+
+[16:26:21]  ===============================
+
+[16:26:21]       sscanf plugin loaded.     
+
+[16:26:21]          Version:  2.8.1        
+
+[16:26:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:26:21]  ===============================
+
+[16:26:21]   Loaded.
+[16:26:21]  Loading plugin: streamer
+[16:26:21] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:26:21]   Loaded.
+[16:26:21]  Loading plugin: mysql
+[16:26:21]  >> plugin.mysql: R41-3 successfully loaded.
+[16:26:21]   Loaded.
+[16:26:21]  Loading plugin: pawnregex
+[16:26:21] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:26:21]   Loaded.
+[16:26:21]  Loaded 6 plugins.
+
+[16:26:21] 
+[16:26:21] Filterscripts
+[16:26:21] ---------------
+[16:26:21]   Loading filterscript 'cameditor.amx'...
+[16:26:21] 
+--------------------------------------
+[16:26:21]  CamEditor by Drebin
+[16:26:21] --------------------------------------
+
+[16:26:21]   Loaded 1 filterscripts.
+
+[16:26:22] Number of vehicle models: 0
+[16:26:39] [connection] incoming connection: 127.0.0.1:49630 id: 0
+[16:26:40] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:27:00] [part] Sergey_Maingard has left the server (0:1)
+[16:27:16] [connection] incoming connection: 127.0.0.1:64432 id: 0
+[16:27:17] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:27:29] [part] Sergey_Maingard has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:28:44] 
+[16:28:44] Server Plugins
+[16:28:44] --------------
+[16:28:44]  Loading plugin: crashdetect
+[16:28:44]   CrashDetect v4.17 is OK.
+[16:28:44]   Loaded.
+[16:28:44]  Loading plugin: pawncmd
+[16:28:44] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:28:44]   Loaded.
+[16:28:44]  Loading plugin: sscanf
+[16:28:44] 
+
+[16:28:44]  ===============================
+
+[16:28:44]       sscanf plugin loaded.     
+
+[16:28:44]          Version:  2.8.1        
+
+[16:28:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:28:44]  ===============================
+
+[16:28:44]   Loaded.
+[16:28:44]  Loading plugin: streamer
+[16:28:44] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:28:44]   Loaded.
+[16:28:44]  Loading plugin: mysql
+[16:28:44]  >> plugin.mysql: R41-3 successfully loaded.
+[16:28:44]   Loaded.
+[16:28:44]  Loading plugin: pawnregex
+[16:28:44] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:28:44]   Loaded.
+[16:28:44]  Loaded 6 plugins.
+
+[16:28:44] 
+[16:28:44] Filterscripts
+[16:28:44] ---------------
+[16:28:44]   Loading filterscript 'cameditor.amx'...
+[16:28:44] 
+--------------------------------------
+[16:28:44]  CamEditor by Drebin
+[16:28:44] --------------------------------------
+
+[16:28:44]   Loaded 1 filterscripts.
+
+[16:28:45] Number of vehicle models: 0
+[16:29:01] [connection] incoming connection: 127.0.0.1:57938 id: 0
+[16:29:01] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:29:17] [part] Sergey_Maingard has left the server (0:1)
+[16:29:34] [connection] incoming connection: 127.0.0.1:63366 id: 0
+[16:29:34] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:30:56] 
+[16:30:56] Server Plugins
+[16:30:56] --------------
+[16:30:56]  Loading plugin: crashdetect
+[16:30:56]   CrashDetect v4.17 is OK.
+[16:30:56]   Loaded.
+[16:30:56]  Loading plugin: pawncmd
+[16:30:56] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:30:56]   Loaded.
+[16:30:56]  Loading plugin: sscanf
+[16:30:56] 
+
+[16:30:56]  ===============================
+
+[16:30:56]       sscanf plugin loaded.     
+
+[16:30:56]          Version:  2.8.1        
+
+[16:30:56]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:30:56]  ===============================
+
+[16:30:56]   Loaded.
+[16:30:56]  Loading plugin: streamer
+[16:30:56] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:30:56]   Loaded.
+[16:30:56]  Loading plugin: mysql
+[16:30:56]  >> plugin.mysql: R41-3 successfully loaded.
+[16:30:56]   Loaded.
+[16:30:56]  Loading plugin: pawnregex
+[16:30:56] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:30:56]   Loaded.
+[16:30:56]  Loaded 6 plugins.
+
+[16:30:56] 
+[16:30:56] Filterscripts
+[16:30:56] ---------------
+[16:30:56]   Loading filterscript 'cameditor.amx'...
+[16:30:56] 
+--------------------------------------
+[16:30:56]  CamEditor by Drebin
+[16:30:56] --------------------------------------
+
+[16:30:56]   Loaded 1 filterscripts.
+
+[16:30:56] Number of vehicle models: 0
+[16:31:02] [connection] incoming connection: 127.0.0.1:62087 id: 0
+[16:31:03] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:31:05] 123
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:32:03] 
+[16:32:03] Server Plugins
+[16:32:03] --------------
+[16:32:03]  Loading plugin: crashdetect
+[16:32:03]   CrashDetect v4.17 is OK.
+[16:32:03]   Loaded.
+[16:32:03]  Loading plugin: pawncmd
+[16:32:03] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:32:03]   Loaded.
+[16:32:03]  Loading plugin: sscanf
+[16:32:03] 
+
+[16:32:03]  ===============================
+
+[16:32:03]       sscanf plugin loaded.     
+
+[16:32:03]          Version:  2.8.1        
+
+[16:32:03]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:32:03]  ===============================
+
+[16:32:03]   Loaded.
+[16:32:03]  Loading plugin: streamer
+[16:32:03] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:32:03]   Loaded.
+[16:32:03]  Loading plugin: mysql
+[16:32:03]  >> plugin.mysql: R41-3 successfully loaded.
+[16:32:03]   Loaded.
+[16:32:03]  Loading plugin: pawnregex
+[16:32:03] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:32:03]   Loaded.
+[16:32:03]  Loaded 6 plugins.
+
+[16:32:03] 
+[16:32:03] Filterscripts
+[16:32:03] ---------------
+[16:32:03]   Loading filterscript 'cameditor.amx'...
+[16:32:03] 
+--------------------------------------
+[16:32:03]  CamEditor by Drebin
+[16:32:03] --------------------------------------
+
+[16:32:03]   Loaded 1 filterscripts.
+
+[16:32:03] Number of vehicle models: 0
+[16:32:17] [connection] incoming connection: 127.0.0.1:57410 id: 0
+[16:32:17] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:32:26] 60AEAF938FB933F0DDF65B150A95985F896F1E88BD37CED268A4339D4B2EA06D
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:33:40] 
+[16:33:40] Server Plugins
+[16:33:40] --------------
+[16:33:40]  Loading plugin: crashdetect
+[16:33:40]   CrashDetect v4.17 is OK.
+[16:33:40]   Loaded.
+[16:33:40]  Loading plugin: pawncmd
+[16:33:40] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:33:40]   Loaded.
+[16:33:40]  Loading plugin: sscanf
+[16:33:40] 
+
+[16:33:40]  ===============================
+
+[16:33:40]       sscanf plugin loaded.     
+
+[16:33:40]          Version:  2.8.1        
+
+[16:33:40]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:33:40]  ===============================
+
+[16:33:40]   Loaded.
+[16:33:40]  Loading plugin: streamer
+[16:33:40] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:33:40]   Loaded.
+[16:33:40]  Loading plugin: mysql
+[16:33:40]  >> plugin.mysql: R41-3 successfully loaded.
+[16:33:40]   Loaded.
+[16:33:40]  Loading plugin: pawnregex
+[16:33:40] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:33:40]   Loaded.
+[16:33:40]  Loaded 6 plugins.
+
+[16:33:40] 
+[16:33:40] Filterscripts
+[16:33:40] ---------------
+[16:33:40]   Loading filterscript 'cameditor.amx'...
+[16:33:40] 
+--------------------------------------
+[16:33:40]  CamEditor by Drebin
+[16:33:40] --------------------------------------
+
+[16:33:40]   Loaded 1 filterscripts.
+
+[16:33:41] Number of vehicle models: 0
+[16:33:54] [connection] incoming connection: 127.0.0.1:51136 id: 0
+[16:33:54] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:33:57] 60AEAF938FB933F0DDF65B150A95985F896F1E88BD37CED268A4339D4B2EA06D
+[16:34:06] E87EC79AA3004DEE08BFAD92E09A96552E3E145768656F9D16118758778E63D2
+[16:34:42] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:40:07] 
+[16:40:07] Server Plugins
+[16:40:07] --------------
+[16:40:07]  Loading plugin: crashdetect
+[16:40:07]   CrashDetect v4.17 is OK.
+[16:40:07]   Loaded.
+[16:40:07]  Loading plugin: pawncmd
+[16:40:07] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:40:07]   Loaded.
+[16:40:07]  Loading plugin: sscanf
+[16:40:07] 
+
+[16:40:07]  ===============================
+
+[16:40:07]       sscanf plugin loaded.     
+
+[16:40:07]          Version:  2.8.1        
+
+[16:40:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:40:07]  ===============================
+
+[16:40:07]   Loaded.
+[16:40:07]  Loading plugin: streamer
+[16:40:07] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:40:07]   Loaded.
+[16:40:07]  Loading plugin: mysql
+[16:40:07]  >> plugin.mysql: R41-3 successfully loaded.
+[16:40:07]   Loaded.
+[16:40:07]  Loading plugin: pawnregex
+[16:40:07] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:40:07]   Loaded.
+[16:40:07]  Loaded 6 plugins.
+
+[16:40:07] 
+[16:40:07] Filterscripts
+[16:40:07] ---------------
+[16:40:07]   Loading filterscript 'cameditor.amx'...
+[16:40:07] 
+--------------------------------------
+[16:40:07]  CamEditor by Drebin
+[16:40:07] --------------------------------------
+
+[16:40:07]   Loaded 1 filterscripts.
+
+[16:40:08] Number of vehicle models: 0
+[16:40:31] [connection] incoming connection: 127.0.0.1:52554 id: 0
+[16:40:31] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:40:55] [part] Sergey_Maingard has left the server (0:1)
+[16:41:13] [connection] incoming connection: 127.0.0.1:55904 id: 0
+[16:41:13] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:41:15] 266DD6E366C3A69702EFB69116477612AC6692EAA5758BCA132A1B89B9992C61
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:43:25] 
+[16:43:25] Server Plugins
+[16:43:25] --------------
+[16:43:25]  Loading plugin: crashdetect
+[16:43:25]   CrashDetect v4.17 is OK.
+[16:43:25]   Loaded.
+[16:43:25]  Loading plugin: pawncmd
+[16:43:25] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:43:25]   Loaded.
+[16:43:25]  Loading plugin: sscanf
+[16:43:25] 
+
+[16:43:25]  ===============================
+
+[16:43:25]       sscanf plugin loaded.     
+
+[16:43:25]          Version:  2.8.1        
+
+[16:43:25]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:43:25]  ===============================
+
+[16:43:25]   Loaded.
+[16:43:25]  Loading plugin: streamer
+[16:43:25] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:43:25]   Loaded.
+[16:43:25]  Loading plugin: mysql
+[16:43:25]  >> plugin.mysql: R41-3 successfully loaded.
+[16:43:25]   Loaded.
+[16:43:25]  Loading plugin: pawnregex
+[16:43:25] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:43:25]   Loaded.
+[16:43:25]  Loaded 6 plugins.
+
+[16:43:25] 
+[16:43:25] Filterscripts
+[16:43:25] ---------------
+[16:43:25]   Loading filterscript 'cameditor.amx'...
+[16:43:25] 
+--------------------------------------
+[16:43:25]  CamEditor by Drebin
+[16:43:25] --------------------------------------
+
+[16:43:25]   Loaded 1 filterscripts.
+
+[16:43:26] Number of vehicle models: 0
+[16:43:28] [connection] incoming connection: 127.0.0.1:53311 id: 0
+[16:43:28] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:44:26] [part] Sergey_Maingard has left the server (0:1)
+[16:45:16] [connection] incoming connection: 127.0.0.1:58321 id: 0
+[16:45:16] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:45:18] 42988A2BA4C647E1F3599F4085CA6EB604CAE1B8F12142DA1F104373078A0A97
+[16:45:24] A83DD0CCBFFE39D071CC317DDF6E97F5C6B1C87AF91919271F9FA140B0508C6C
+[16:45:25] A83DD0CCBFFE39D071CC317DDF6E97F5C6B1C87AF91919271F9FA140B0508C6C
+[16:45:28] 42988A2BA4C647E1F3599F4085CA6EB604CAE1B8F12142DA1F104373078A0A97
+[16:45:30] FD026A0B6FA603F972382C2BE641171FC010A3E5A791FDC44511D1B2430BB1B3
+[16:45:32] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:48:26] 
+[16:48:26] Server Plugins
+[16:48:26] --------------
+[16:48:26]  Loading plugin: crashdetect
+[16:48:26]   CrashDetect v4.17 is OK.
+[16:48:26]   Loaded.
+[16:48:26]  Loading plugin: pawncmd
+[16:48:26] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:48:26]   Loaded.
+[16:48:26]  Loading plugin: sscanf
+[16:48:26] 
+
+[16:48:26]  ===============================
+
+[16:48:26]       sscanf plugin loaded.     
+
+[16:48:26]          Version:  2.8.1        
+
+[16:48:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:48:26]  ===============================
+
+[16:48:26]   Loaded.
+[16:48:26]  Loading plugin: streamer
+[16:48:26] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:48:26]   Loaded.
+[16:48:26]  Loading plugin: mysql
+[16:48:26]  >> plugin.mysql: R41-3 successfully loaded.
+[16:48:26]   Loaded.
+[16:48:26]  Loading plugin: pawnregex
+[16:48:26] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:48:26]   Loaded.
+[16:48:26]  Loaded 6 plugins.
+
+[16:48:27] 
+[16:48:27] Filterscripts
+[16:48:27] ---------------
+[16:48:27]   Loading filterscript 'cameditor.amx'...
+[16:48:27] 
+--------------------------------------
+[16:48:27]  CamEditor by Drebin
+[16:48:27] --------------------------------------
+
+[16:48:27]   Loaded 1 filterscripts.
+
+[16:48:27] Number of vehicle models: 0
+[16:48:44] [connection] incoming connection: 127.0.0.1:59088 id: 0
+[16:48:44] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:48:47] 
+[16:48:56] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:49:37] 
+[16:49:37] Server Plugins
+[16:49:37] --------------
+[16:49:37]  Loading plugin: crashdetect
+[16:49:37]   CrashDetect v4.17 is OK.
+[16:49:37]   Loaded.
+[16:49:37]  Loading plugin: pawncmd
+[16:49:37] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:49:37]   Loaded.
+[16:49:37]  Loading plugin: sscanf
+[16:49:37] 
+
+[16:49:37]  ===============================
+
+[16:49:37]       sscanf plugin loaded.     
+
+[16:49:37]          Version:  2.8.1        
+
+[16:49:37]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:49:37]  ===============================
+
+[16:49:37]   Loaded.
+[16:49:37]  Loading plugin: streamer
+[16:49:37] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:49:37]   Loaded.
+[16:49:37]  Loading plugin: mysql
+[16:49:37]  >> plugin.mysql: R41-3 successfully loaded.
+[16:49:37]   Loaded.
+[16:49:37]  Loading plugin: pawnregex
+[16:49:37] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:49:37]   Loaded.
+[16:49:37]  Loaded 6 plugins.
+
+[16:49:37] 
+[16:49:37] Filterscripts
+[16:49:37] ---------------
+[16:49:37]   Loading filterscript 'cameditor.amx'...
+[16:49:37] 
+--------------------------------------
+[16:49:37]  CamEditor by Drebin
+[16:49:37] --------------------------------------
+
+[16:49:37]   Loaded 1 filterscripts.
+
+[16:49:38] Number of vehicle models: 0
+[16:49:57] [connection] incoming connection: 127.0.0.1:65468 id: 0
+[16:49:57] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:50:00] 
+[16:51:20] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:51:35] 
+[16:51:35] Server Plugins
+[16:51:35] --------------
+[16:51:35]  Loading plugin: crashdetect
+[16:51:35]   CrashDetect v4.17 is OK.
+[16:51:35]   Loaded.
+[16:51:35]  Loading plugin: pawncmd
+[16:51:35] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:51:35]   Loaded.
+[16:51:35]  Loading plugin: sscanf
+[16:51:35] 
+
+[16:51:35]  ===============================
+
+[16:51:35]       sscanf plugin loaded.     
+
+[16:51:35]          Version:  2.8.1        
+
+[16:51:35]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:51:35]  ===============================
+
+[16:51:35]   Loaded.
+[16:51:35]  Loading plugin: streamer
+[16:51:35] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:51:35]   Loaded.
+[16:51:35]  Loading plugin: mysql
+[16:51:35]  >> plugin.mysql: R41-3 successfully loaded.
+[16:51:35]   Loaded.
+[16:51:35]  Loading plugin: pawnregex
+[16:51:35] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:51:35]   Loaded.
+[16:51:35]  Loaded 6 plugins.
+
+[16:51:35] 
+[16:51:35] Filterscripts
+[16:51:35] ---------------
+[16:51:35]   Loading filterscript 'cameditor.amx'...
+[16:51:35] 
+--------------------------------------
+[16:51:35]  CamEditor by Drebin
+[16:51:35] --------------------------------------
+
+[16:51:35]   Loaded 1 filterscripts.
+
+[16:51:35] Number of vehicle models: 0
+[16:51:51] [connection] incoming connection: 127.0.0.1:57204 id: 0
+[16:51:51] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:52:02] [part] Sergey_Maingard has left the server (0:1)
+[16:52:20] [connection] incoming connection: 127.0.0.1:52166 id: 0
+[16:52:20] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:52:23] 
+[16:55:48] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:57:58] 
+[16:57:58] Server Plugins
+[16:57:58] --------------
+[16:57:58]  Loading plugin: crashdetect
+[16:57:58]   CrashDetect v4.17 is OK.
+[16:57:58]   Loaded.
+[16:57:58]  Loading plugin: pawncmd
+[16:57:58] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:57:58]   Loaded.
+[16:57:58]  Loading plugin: sscanf
+[16:57:58] 
+
+[16:57:58]  ===============================
+
+[16:57:58]       sscanf plugin loaded.     
+
+[16:57:58]          Version:  2.8.1        
+
+[16:57:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:57:58]  ===============================
+
+[16:57:58]   Loaded.
+[16:57:58]  Loading plugin: streamer
+[16:57:58] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:57:58]   Loaded.
+[16:57:58]  Loading plugin: mysql
+[16:57:58]  >> plugin.mysql: R41-3 successfully loaded.
+[16:57:58]   Loaded.
+[16:57:58]  Loading plugin: pawnregex
+[16:57:58] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:57:58]   Loaded.
+[16:57:58]  Loaded 6 plugins.
+
+[16:57:58] 
+[16:57:58] Filterscripts
+[16:57:58] ---------------
+[16:57:58]   Loading filterscript 'cameditor.amx'...
+[16:57:58] 
+--------------------------------------
+[16:57:58]  CamEditor by Drebin
+[16:57:58] --------------------------------------
+
+[16:57:58]   Loaded 1 filterscripts.
+
+[16:57:58] Number of vehicle models: 0
+[16:58:00] [connection] incoming connection: 127.0.0.1:59052 id: 0
+[16:58:01] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:58:18] [part] Sergey_Maingard has left the server (0:1)
+[16:58:34] [connection] incoming connection: 127.0.0.1:54931 id: 0
+[16:58:35] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:58:37] serij3003
+[16:58:37] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:59:29] 
+[16:59:29] Server Plugins
+[16:59:29] --------------
+[16:59:29]  Loading plugin: crashdetect
+[16:59:29]   CrashDetect v4.17 is OK.
+[16:59:29]   Loaded.
+[16:59:29]  Loading plugin: pawncmd
+[16:59:29] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[16:59:29]   Loaded.
+[16:59:29]  Loading plugin: sscanf
+[16:59:29] 
+
+[16:59:29]  ===============================
+
+[16:59:29]       sscanf plugin loaded.     
+
+[16:59:29]          Version:  2.8.1        
+
+[16:59:29]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:59:29]  ===============================
+
+[16:59:29]   Loaded.
+[16:59:30]  Loading plugin: streamer
+[16:59:30] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[16:59:30]   Loaded.
+[16:59:30]  Loading plugin: mysql
+[16:59:30]  >> plugin.mysql: R41-3 successfully loaded.
+[16:59:30]   Loaded.
+[16:59:30]  Loading plugin: pawnregex
+[16:59:30] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[16:59:30]   Loaded.
+[16:59:30]  Loaded 6 plugins.
+
+[16:59:30] 
+[16:59:30] Filterscripts
+[16:59:30] ---------------
+[16:59:30]   Loading filterscript 'cameditor.amx'...
+[16:59:30] 
+--------------------------------------
+[16:59:30]  CamEditor by Drebin
+[16:59:30] --------------------------------------
+
+[16:59:30]   Loaded 1 filterscripts.
+
+[16:59:30] Number of vehicle models: 0
+[16:59:38] [connection] incoming connection: 127.0.0.1:65487 id: 0
+[16:59:38] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[16:59:41] serij3003
+[16:59:41] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:00:09] 
+[17:00:09] Server Plugins
+[17:00:09] --------------
+[17:00:09]  Loading plugin: crashdetect
+[17:00:09]   CrashDetect v4.17 is OK.
+[17:00:09]   Loaded.
+[17:00:09]  Loading plugin: pawncmd
+[17:00:09] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:00:09]   Loaded.
+[17:00:09]  Loading plugin: sscanf
+[17:00:09] 
+
+[17:00:09]  ===============================
+
+[17:00:09]       sscanf plugin loaded.     
+
+[17:00:09]          Version:  2.8.1        
+
+[17:00:09]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:00:09]  ===============================
+
+[17:00:09]   Loaded.
+[17:00:09]  Loading plugin: streamer
+[17:00:09] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:00:09]   Loaded.
+[17:00:09]  Loading plugin: mysql
+[17:00:09]  >> plugin.mysql: R41-3 successfully loaded.
+[17:00:09]   Loaded.
+[17:00:09]  Loading plugin: pawnregex
+[17:00:09] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:00:09]   Loaded.
+[17:00:09]  Loaded 6 plugins.
+
+[17:00:09] 
+[17:00:09] Filterscripts
+[17:00:09] ---------------
+[17:00:09]   Loading filterscript 'cameditor.amx'...
+[17:00:09] 
+--------------------------------------
+[17:00:09]  CamEditor by Drebin
+[17:00:09] --------------------------------------
+
+[17:00:09]   Loaded 1 filterscripts.
+
+[17:00:10] Number of vehicle models: 0
+[17:00:12] [connection] incoming connection: 127.0.0.1:60416 id: 0
+[17:00:12] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:00:14] serij3003
+[17:00:14] 376A11E020F672750FA5D56602A39638BD4468AAB2A27C34F623E8BD66A14F0D
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:01:44] 
+[17:01:44] Server Plugins
+[17:01:44] --------------
+[17:01:44]  Loading plugin: crashdetect
+[17:01:44]   CrashDetect v4.17 is OK.
+[17:01:44]   Loaded.
+[17:01:44]  Loading plugin: pawncmd
+[17:01:44] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:01:44]   Loaded.
+[17:01:44]  Loading plugin: sscanf
+[17:01:44] 
+
+[17:01:44]  ===============================
+
+[17:01:44]       sscanf plugin loaded.     
+
+[17:01:44]          Version:  2.8.1        
+
+[17:01:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:01:44]  ===============================
+
+[17:01:44]   Loaded.
+[17:01:44]  Loading plugin: streamer
+[17:01:44] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:01:44]   Loaded.
+[17:01:44]  Loading plugin: mysql
+[17:01:44]  >> plugin.mysql: R41-3 successfully loaded.
+[17:01:44]   Loaded.
+[17:01:44]  Loading plugin: pawnregex
+[17:01:44] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:01:44]   Loaded.
+[17:01:44]  Loaded 6 plugins.
+
+[17:01:44] 
+[17:01:44] Filterscripts
+[17:01:44] ---------------
+[17:01:44]   Loading filterscript 'cameditor.amx'...
+[17:01:44] 
+--------------------------------------
+[17:01:44]  CamEditor by Drebin
+[17:01:44] --------------------------------------
+
+[17:01:44]   Loaded 1 filterscripts.
+
+[17:01:45] Number of vehicle models: 0
+[17:02:04] [connection] incoming connection: 127.0.0.1:60189 id: 0
+[17:02:05] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:02:07] serij3003
+[17:02:07] 33DC07C77B1DCB6B8828D9DB57012B7D4528EAE56E1FC4F204D640D3859CD5CE
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:06:10] 
+[17:06:10] Server Plugins
+[17:06:10] --------------
+[17:06:10]  Loading plugin: crashdetect
+[17:06:10]   CrashDetect v4.17 is OK.
+[17:06:10]   Loaded.
+[17:06:10]  Loading plugin: pawncmd
+[17:06:10] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:06:10]   Loaded.
+[17:06:10]  Loading plugin: sscanf
+[17:06:10] 
+
+[17:06:10]  ===============================
+
+[17:06:10]       sscanf plugin loaded.     
+
+[17:06:10]          Version:  2.8.1        
+
+[17:06:10]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:06:10]  ===============================
+
+[17:06:10]   Loaded.
+[17:06:10]  Loading plugin: streamer
+[17:06:10] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:06:10]   Loaded.
+[17:06:10]  Loading plugin: mysql
+[17:06:10]  >> plugin.mysql: R41-3 successfully loaded.
+[17:06:10]   Loaded.
+[17:06:10]  Loading plugin: pawnregex
+[17:06:10] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:06:10]   Loaded.
+[17:06:10]  Loaded 6 plugins.
+
+[17:06:10] 
+[17:06:10] Filterscripts
+[17:06:10] ---------------
+[17:06:10]   Loading filterscript 'cameditor.amx'...
+[17:06:10] 
+--------------------------------------
+[17:06:10]  CamEditor by Drebin
+[17:06:10] --------------------------------------
+
+[17:06:10]   Loaded 1 filterscripts.
+
+[17:06:10] Number of vehicle models: 0
+[17:06:13] [connection] incoming connection: 127.0.0.1:64005 id: 0
+[17:06:13] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:06:15] serij3003
+[17:06:15] 33DC07C77B1DCB6B8828D9DB57012B7D4528EAE56E1FC4F204D640D3859CD5CE
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:06:38] 
+[17:06:38] Server Plugins
+[17:06:38] --------------
+[17:06:38]  Loading plugin: crashdetect
+[17:06:38]   CrashDetect v4.17 is OK.
+[17:06:38]   Loaded.
+[17:06:38]  Loading plugin: pawncmd
+[17:06:38] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:06:38]   Loaded.
+[17:06:38]  Loading plugin: sscanf
+[17:06:38] 
+
+[17:06:38]  ===============================
+
+[17:06:38]       sscanf plugin loaded.     
+
+[17:06:38]          Version:  2.8.1        
+
+[17:06:38]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:06:38]  ===============================
+
+[17:06:38]   Loaded.
+[17:06:38]  Loading plugin: streamer
+[17:06:38] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:06:38]   Loaded.
+[17:06:38]  Loading plugin: mysql
+[17:06:38]  >> plugin.mysql: R41-3 successfully loaded.
+[17:06:38]   Loaded.
+[17:06:38]  Loading plugin: pawnregex
+[17:06:38] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:06:38]   Loaded.
+[17:06:38]  Loaded 6 plugins.
+
+[17:06:38] 
+[17:06:38] Filterscripts
+[17:06:38] ---------------
+[17:06:38]   Loading filterscript 'cameditor.amx'...
+[17:06:38] 
+--------------------------------------
+[17:06:38]  CamEditor by Drebin
+[17:06:38] --------------------------------------
+
+[17:06:38]   Loaded 1 filterscripts.
+
+[17:06:39] Number of vehicle models: 0
+[17:06:46] [connection] incoming connection: 127.0.0.1:51467 id: 0
+[17:06:46] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:06:48] serij3003
+[17:06:48] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:16:11] 
+[17:16:11] Server Plugins
+[17:16:11] --------------
+[17:16:11]  Loading plugin: crashdetect
+[17:16:11]   CrashDetect v4.17 is OK.
+[17:16:11]   Loaded.
+[17:16:11]  Loading plugin: pawncmd
+[17:16:11] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:16:11]   Loaded.
+[17:16:11]  Loading plugin: sscanf
+[17:16:11] 
+
+[17:16:11]  ===============================
+
+[17:16:11]       sscanf plugin loaded.     
+
+[17:16:11]          Version:  2.8.1        
+
+[17:16:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:16:11]  ===============================
+
+[17:16:11]   Loaded.
+[17:16:12]  Loading plugin: streamer
+[17:16:12] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:16:12]   Loaded.
+[17:16:12]  Loading plugin: mysql
+[17:16:12]  >> plugin.mysql: R41-3 successfully loaded.
+[17:16:12]   Loaded.
+[17:16:12]  Loading plugin: pawnregex
+[17:16:12] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:16:12]   Loaded.
+[17:16:12]  Loaded 6 plugins.
+
+[17:16:12] 
+[17:16:12] Filterscripts
+[17:16:12] ---------------
+[17:16:12]   Loading filterscript 'cameditor.amx'...
+[17:16:12] 
+--------------------------------------
+[17:16:12]  CamEditor by Drebin
+[17:16:12] --------------------------------------
+
+[17:16:12]   Loaded 1 filterscripts.
+
+[17:16:13] Number of vehicle models: 0
+[17:16:15] [connection] incoming connection: 127.0.0.1:64067 id: 0
+[17:16:15] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:17:39] 
+[17:17:39] Server Plugins
+[17:17:39] --------------
+[17:17:39]  Loading plugin: crashdetect
+[17:17:39]   CrashDetect v4.17 is OK.
+[17:17:39]   Loaded.
+[17:17:39]  Loading plugin: pawncmd
+[17:17:39] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:17:39]   Loaded.
+[17:17:39]  Loading plugin: sscanf
+[17:17:39] 
+
+[17:17:39]  ===============================
+
+[17:17:39]       sscanf plugin loaded.     
+
+[17:17:39]          Version:  2.8.1        
+
+[17:17:39]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:17:39]  ===============================
+
+[17:17:39]   Loaded.
+[17:17:39]  Loading plugin: streamer
+[17:17:39] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:17:39]   Loaded.
+[17:17:39]  Loading plugin: mysql
+[17:17:39]  >> plugin.mysql: R41-3 successfully loaded.
+[17:17:39]   Loaded.
+[17:17:39]  Loading plugin: pawnregex
+[17:17:39] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:17:39]   Loaded.
+[17:17:39]  Loaded 6 plugins.
+
+[17:17:39] 
+[17:17:39] Filterscripts
+[17:17:39] ---------------
+[17:17:39]   Loading filterscript 'cameditor.amx'...
+[17:17:39] 
+--------------------------------------
+[17:17:39]  CamEditor by Drebin
+[17:17:39] --------------------------------------
+
+[17:17:39]   Loaded 1 filterscripts.
+
+[17:17:40] Number of vehicle models: 0
+[17:17:42] [connection] incoming connection: 127.0.0.1:53331 id: 0
+[17:17:42] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:19:34] 
+[17:19:34] Server Plugins
+[17:19:34] --------------
+[17:19:34]  Loading plugin: crashdetect
+[17:19:34]   CrashDetect v4.17 is OK.
+[17:19:34]   Loaded.
+[17:19:34]  Loading plugin: pawncmd
+[17:19:34] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:19:34]   Loaded.
+[17:19:34]  Loading plugin: sscanf
+[17:19:34] 
+
+[17:19:34]  ===============================
+
+[17:19:34]       sscanf plugin loaded.     
+
+[17:19:34]          Version:  2.8.1        
+
+[17:19:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:19:34]  ===============================
+
+[17:19:34]   Loaded.
+[17:19:34]  Loading plugin: streamer
+[17:19:34] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:19:34]   Loaded.
+[17:19:34]  Loading plugin: mysql
+[17:19:34]  >> plugin.mysql: R41-3 successfully loaded.
+[17:19:34]   Loaded.
+[17:19:34]  Loading plugin: pawnregex
+[17:19:34] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:19:34]   Loaded.
+[17:19:34]  Loaded 6 plugins.
+
+[17:19:34] 
+[17:19:34] Filterscripts
+[17:19:34] ---------------
+[17:19:34]   Loading filterscript 'cameditor.amx'...
+[17:19:35] 
+--------------------------------------
+[17:19:35]  CamEditor by Drebin
+[17:19:35] --------------------------------------
+
+[17:19:35]   Loaded 1 filterscripts.
+
+[17:19:35] Number of vehicle models: 0
+[17:19:37] [connection] incoming connection: 127.0.0.1:56307 id: 0
+[17:19:37] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:19:51] [part] Sergey_Maingard has left the server (0:1)
+[17:20:10] [connection] incoming connection: 127.0.0.1:58642 id: 0
+[17:20:10] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:20:13] serij3003
+[17:20:13] 
+[17:20:15] serij3003
+[17:20:15] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:21:14] 
+[17:21:14] Server Plugins
+[17:21:14] --------------
+[17:21:14]  Loading plugin: crashdetect
+[17:21:14]   CrashDetect v4.17 is OK.
+[17:21:14]   Loaded.
+[17:21:14]  Loading plugin: pawncmd
+[17:21:14] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:21:14]   Loaded.
+[17:21:14]  Loading plugin: sscanf
+[17:21:14] 
+
+[17:21:14]  ===============================
+
+[17:21:14]       sscanf plugin loaded.     
+
+[17:21:14]          Version:  2.8.1        
+
+[17:21:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:21:14]  ===============================
+
+[17:21:14]   Loaded.
+[17:21:14]  Loading plugin: streamer
+[17:21:14] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:21:14]   Loaded.
+[17:21:14]  Loading plugin: mysql
+[17:21:14]  >> plugin.mysql: R41-3 successfully loaded.
+[17:21:14]   Loaded.
+[17:21:14]  Loading plugin: pawnregex
+[17:21:14] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:21:14]   Loaded.
+[17:21:14]  Loaded 6 plugins.
+
+[17:21:14] 
+[17:21:14] Filterscripts
+[17:21:14] ---------------
+[17:21:14]   Loading filterscript 'cameditor.amx'...
+[17:21:14] 
+--------------------------------------
+[17:21:14]  CamEditor by Drebin
+[17:21:14] --------------------------------------
+
+[17:21:14]   Loaded 1 filterscripts.
+
+[17:21:15] Number of vehicle models: 0
+[17:21:31] [connection] incoming connection: 127.0.0.1:58366 id: 0
+[17:21:31] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:21:33] serij3003
+[17:21:33] 
+[17:21:42] serij3003
+[17:21:42] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:25:50] 
+[17:25:50] Server Plugins
+[17:25:50] --------------
+[17:25:50]  Loading plugin: crashdetect
+[17:25:50]   CrashDetect v4.17 is OK.
+[17:25:50]   Loaded.
+[17:25:50]  Loading plugin: pawncmd
+[17:25:50] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:25:50]   Loaded.
+[17:25:50]  Loading plugin: sscanf
+[17:25:50] 
+
+[17:25:50]  ===============================
+
+[17:25:50]       sscanf plugin loaded.     
+
+[17:25:50]          Version:  2.8.1        
+
+[17:25:50]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:25:50]  ===============================
+
+[17:25:50]   Loaded.
+[17:25:50]  Loading plugin: streamer
+[17:25:50] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:25:50]   Loaded.
+[17:25:50]  Loading plugin: mysql
+[17:25:50]  >> plugin.mysql: R41-3 successfully loaded.
+[17:25:50]   Loaded.
+[17:25:50]  Loading plugin: pawnregex
+[17:25:50] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:25:50]   Loaded.
+[17:25:50]  Loaded 6 plugins.
+
+[17:25:50] 
+[17:25:50] Filterscripts
+[17:25:50] ---------------
+[17:25:50]   Loading filterscript 'cameditor.amx'...
+[17:25:50] 
+--------------------------------------
+[17:25:50]  CamEditor by Drebin
+[17:25:50] --------------------------------------
+
+[17:25:50]   Loaded 1 filterscripts.
+
+[17:25:51] Number of vehicle models: 0
+[17:26:05] [connection] incoming connection: 127.0.0.1:56805 id: 0
+[17:26:06] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:26:08] serij3003
+[17:26:08] 
+[17:26:11] ыукшо3003
+[17:26:11] 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:35:18] 
+[17:35:18] Server Plugins
+[17:35:18] --------------
+[17:35:18]  Loading plugin: crashdetect
+[17:35:18]   CrashDetect v4.17 is OK.
+[17:35:18]   Loaded.
+[17:35:18]  Loading plugin: pawncmd
+[17:35:18] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:35:18]   Loaded.
+[17:35:18]  Loading plugin: sscanf
+[17:35:18] 
+
+[17:35:18]  ===============================
+
+[17:35:18]       sscanf plugin loaded.     
+
+[17:35:18]          Version:  2.8.1        
+
+[17:35:18]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:35:18]  ===============================
+
+[17:35:18]   Loaded.
+[17:35:18]  Loading plugin: streamer
+[17:35:18] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:35:18]   Loaded.
+[17:35:18]  Loading plugin: mysql
+[17:35:18]  >> plugin.mysql: R41-3 successfully loaded.
+[17:35:18]   Loaded.
+[17:35:18]  Loading plugin: pawnregex
+[17:35:18] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:35:18]   Loaded.
+[17:35:18]  Loaded 6 plugins.
+
+[17:35:18] 
+[17:35:18] Filterscripts
+[17:35:18] ---------------
+[17:35:18]   Loading filterscript 'cameditor.amx'...
+[17:35:18] 
+--------------------------------------
+[17:35:18]  CamEditor by Drebin
+[17:35:18] --------------------------------------
+
+[17:35:18]   Loaded 1 filterscripts.
+
+[17:35:18] Number of vehicle models: 0
+[17:35:21] [connection] incoming connection: 127.0.0.1:53307 id: 0
+[17:35:21] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:35:23] serij3003
+[17:35:23] serij3003
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:37:22] 
+[17:37:22] Server Plugins
+[17:37:22] --------------
+[17:37:22]  Loading plugin: crashdetect
+[17:37:22]   CrashDetect v4.17 is OK.
+[17:37:22]   Loaded.
+[17:37:22]  Loading plugin: pawncmd
+[17:37:22] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:37:22]   Loaded.
+[17:37:22]  Loading plugin: sscanf
+[17:37:22] 
+
+[17:37:22]  ===============================
+
+[17:37:22]       sscanf plugin loaded.     
+
+[17:37:22]          Version:  2.8.1        
+
+[17:37:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:37:22]  ===============================
+
+[17:37:22]   Loaded.
+[17:37:22]  Loading plugin: streamer
+[17:37:22] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:37:22]   Loaded.
+[17:37:22]  Loading plugin: mysql
+[17:37:22]  >> plugin.mysql: R41-3 successfully loaded.
+[17:37:22]   Loaded.
+[17:37:22]  Loading plugin: pawnregex
+[17:37:22] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:37:22]   Loaded.
+[17:37:22]  Loaded 6 plugins.
+
+[17:37:22] 
+[17:37:22] Filterscripts
+[17:37:22] ---------------
+[17:37:22]   Loading filterscript 'cameditor.amx'...
+[17:37:22] 
+--------------------------------------
+[17:37:22]  CamEditor by Drebin
+[17:37:22] --------------------------------------
+
+[17:37:22]   Loaded 1 filterscripts.
+
+[17:37:22] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:37:44] 
+[17:37:44] Server Plugins
+[17:37:44] --------------
+[17:37:44]  Loading plugin: crashdetect
+[17:37:44]   CrashDetect v4.17 is OK.
+[17:37:44]   Loaded.
+[17:37:44]  Loading plugin: pawncmd
+[17:37:44] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:37:44]   Loaded.
+[17:37:44]  Loading plugin: sscanf
+[17:37:44] 
+
+[17:37:44]  ===============================
+
+[17:37:44]       sscanf plugin loaded.     
+
+[17:37:44]          Version:  2.8.1        
+
+[17:37:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:37:44]  ===============================
+
+[17:37:44]   Loaded.
+[17:37:44]  Loading plugin: streamer
+[17:37:44] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:37:44]   Loaded.
+[17:37:44]  Loading plugin: mysql
+[17:37:44]  >> plugin.mysql: R41-3 successfully loaded.
+[17:37:44]   Loaded.
+[17:37:44]  Loading plugin: pawnregex
+[17:37:44] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:37:44]   Loaded.
+[17:37:44]  Loaded 6 plugins.
+
+[17:37:44] 
+[17:37:44] Filterscripts
+[17:37:44] ---------------
+[17:37:44]   Loading filterscript 'cameditor.amx'...
+[17:37:44] 
+--------------------------------------
+[17:37:44]  CamEditor by Drebin
+[17:37:44] --------------------------------------
+
+[17:37:44]   Loaded 1 filterscripts.
+
+[17:37:44] Number of vehicle models: 0
+[17:37:50] [connection] incoming connection: 127.0.0.1:55464 id: 0
+[17:37:50] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:38:16] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:40:33] 
+[17:40:33] Server Plugins
+[17:40:33] --------------
+[17:40:33]  Loading plugin: crashdetect
+[17:40:33]   CrashDetect v4.17 is OK.
+[17:40:33]   Loaded.
+[17:40:33]  Loading plugin: pawncmd
+[17:40:33] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:40:33]   Loaded.
+[17:40:33]  Loading plugin: sscanf
+[17:40:33] 
+
+[17:40:33]  ===============================
+
+[17:40:33]       sscanf plugin loaded.     
+
+[17:40:33]          Version:  2.8.1        
+
+[17:40:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:40:33]  ===============================
+
+[17:40:33]   Loaded.
+[17:40:33]  Loading plugin: streamer
+[17:40:33] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:40:33]   Loaded.
+[17:40:33]  Loading plugin: mysql
+[17:40:33]  >> plugin.mysql: R41-3 successfully loaded.
+[17:40:33]   Loaded.
+[17:40:33]  Loading plugin: pawnregex
+[17:40:33] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:40:33]   Loaded.
+[17:40:33]  Loaded 6 plugins.
+
+[17:40:33] 
+[17:40:33] Filterscripts
+[17:40:33] ---------------
+[17:40:33]   Loading filterscript 'cameditor.amx'...
+[17:40:33] 
+--------------------------------------
+[17:40:33]  CamEditor by Drebin
+[17:40:33] --------------------------------------
+
+[17:40:33]   Loaded 1 filterscripts.
+
+[17:40:34] Number of vehicle models: 0
+[17:40:51] [connection] incoming connection: 127.0.0.1:61075 id: 0
+[17:40:51] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:41:02] ыукшо3003
+[17:41:02] 73904F827FC992F52E5AECB76B1CCCD159F89C2CC2AFB7441E20716BBDA779EF
+[17:41:04] serij3003
+[17:41:04] 73904F827FC992F52E5AECB76B1CCCD159F89C2CC2AFB7441E20716BBDA779EF
+[17:41:19] [part] Sergey_Maingard has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:46:48] 
+[17:46:48] Server Plugins
+[17:46:48] --------------
+[17:46:48]  Loading plugin: crashdetect
+[17:46:48]   CrashDetect v4.17 is OK.
+[17:46:48]   Loaded.
+[17:46:48]  Loading plugin: pawncmd
+[17:46:48] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[17:46:48]   Loaded.
+[17:46:48]  Loading plugin: sscanf
+[17:46:48] 
+
+[17:46:48]  ===============================
+
+[17:46:48]       sscanf plugin loaded.     
+
+[17:46:48]          Version:  2.8.1        
+
+[17:46:48]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:46:48]  ===============================
+
+[17:46:48]   Loaded.
+[17:46:48]  Loading plugin: streamer
+[17:46:48] 
+
+*** Streamer Plugin v2.7.4 by Incognito loaded ***
+
+[17:46:48]   Loaded.
+[17:46:48]  Loading plugin: mysql
+[17:46:48]  >> plugin.mysql: R41-3 successfully loaded.
+[17:46:48]   Loaded.
+[17:46:48]  Loading plugin: pawnregex
+[17:46:48] Pawn.Regex plugin v1.1.1 by urShadow loaded
+[17:46:48]   Loaded.
+[17:46:48]  Loaded 6 plugins.
+
+[17:46:48] 
+[17:46:48] Filterscripts
+[17:46:48] ---------------
+[17:46:48]   Loading filterscript 'cameditor.amx'...
+[17:46:48] 
+--------------------------------------
+[17:46:48]  CamEditor by Drebin
+[17:46:48] --------------------------------------
+
+[17:46:48]   Loaded 1 filterscripts.
+
+[17:46:49] Number of vehicle models: 0
+[17:47:06] [connection] incoming connection: 127.0.0.1:55141 id: 0
+[17:47:06] [join] Sergey_Maingard has joined the server (0:127.0.0.1)
+[17:47:22] [part] Sergey_Maingard has left the server (0:1)
+[17:50:05] [connection] incoming connection: 127.0.0.1:59982 id: 0
+[17:50:06] [join] Sergey_Maingard has joined the server (0:127.0.0.1)

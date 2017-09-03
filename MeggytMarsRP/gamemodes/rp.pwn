@@ -1,3 +1,7 @@
+//Entry point, как в C++
+main(){
+}
+
 //пиздец нахуй час сидел была проблема не мог понять в чём дело, в итоге оказывается я написал locahost вместо localhost axuet
 #include <a_samp>
 #include <a_mysql>
@@ -7,8 +11,8 @@
 #include <sscanf2>
 #include <foreach>
 #include <mxdate>
-#include <dc_cmd>
 #include <strlib>
+#include <Pawn.CMD>
 //Defines
 
 #define MySqlHost   "localhost"
@@ -19,36 +23,42 @@
 #define PN(%1) PlayerInfo[%1][pName]
 #define logged(%1) PlayerInfo[%1][pLogged]
 #define kick(%1) SetTimerEx("KickFromServer", 300, false, "i", %1);
+#define SCM SendClientMessage
+#define ownpublic%0(%1) forward%0(%1); public%0(%1)// %0 - это название, %1 - это аргумент(Example: public Hello == public %0, public Hello(playerid) == public %0(%1)). Такая конструкция нужна чтобы свои паблики создавать
+
+
+#define ADMINCMD_FLAG 1
+#define VIPCMD_FLAG 2
+#define USERCMD_FLAG 3
 
 //Colors
 #define COLOR_RED 0xFF0000FF
 #define COLOR_GREEN 0x66FF00FF
 
-//Functions
-#define SCM SendClientMessage
-#define ownpublic%0(%1) forward%0(%1); public%0(%1)// %0 - это название, %1 - это аргумент(Example: public Hello == public %0, public Hello(playerid) == public %0(%1)). Такая конструкция нужна чтобы свои паблики создавать
 
-//Variables
-new MySQL:database;// Переменная типа БД
+
 
 enum pInfo{// Вся инфа о игроке
 	pID,
 	pName[MAX_PLAYER_NAME], //MAX_PLAYER_NAME Количество символов
-	pPass[21],
+	pAdmin[MAX_PLAYERS],
+	pVip,
+	pPass[100],
 	pEmail[51],
 	pSex,
 	pSkin,
+	pSalt,
 	pLevel,
 	pMoney,
 	pLogged,
 }
 
+//Variables
+new MySQL:database;// Переменная типа БД
 new PlayerInfo[MAX_PLAYERS][pInfo];//Max Players - здесь это максимальное значение массива Деня
 
-main(){
-	print("Hello, world!");
-}
 
+//Functions
 GivePlayerCash(playerid, money){
 	PlayerInfo[playerid][pMoney] += money;
     ResetPlayerMoney(playerid);//Забираем все визуальное бабло
@@ -73,6 +83,22 @@ ResetPlayerCash(playerid)// Убираем все деньги у пользователя
    return PlayerInfo[playerid][pMoney];
 }
 
+//Commands
+flags:ban(ADMINCMD_FLAG);
+cmd:ban(playerid, params[]){
+	SCM(playerid, COLOR_RED, "Ban");
+}
+flags:info(USERCMD_FLAG);
+cmd:info(playerid, params[]){
+	SCM(playerid, COLOR_GREEN, "Info");
+}
+flags:vip(VIPCMD_FLAG);
+cmd:vip(playerid, params[]){
+	SCM(playerid, COLOR_GREEN, "Vip");
+}
+
+
+//Publics
 public OnGameModeInit()
 {
 	mysql_log(ALL);
@@ -95,6 +121,8 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnPlayerConnect(playerid)
 {
+    InterpolateCameraPos(playerid, 1047.948364, -843.257263, 199.952774, 964.110656, -1069.756347, 243.369338, 6000);
+	InterpolateCameraLookAt(playerid, 1048.151855, -848.240539, 200.307449, 968.846130, -1071.325805, 243.034133, 5000);
 	GetPlayerName(playerid, PN(playerid), MAX_PLAYER_NAME);// Получаем имя
 	static const checkplayer[] = "SELECT * FROM `players` WHERE `Name` = '%s'";//Это тупо строка запроса, такая форма объявления сохранит больше памяти
 	new query_string[sizeof(checkplayer)+MAX_PLAYER_NAME-2];//Объявляем макс.значение массива. -2 это %s(смотри строку сверху).
@@ -105,9 +133,9 @@ public OnPlayerConnect(playerid)
 
 public OnPlayerDisconnect(playerid, reason)
 {
-	static const saveplayerdata[] = "UPDATE players SET Sex='%i', Skin='%i', Level='%i', Money='%i' WHERE Name = '%s'";
+	static const saveplayerdata[] = "UPDATE players SET Sex='%i', Skin='%i', Level='%i', Money='%i', Admin='%i', Vip='%i' WHERE Name = '%s'";
 	new query_string[sizeof(saveplayerdata)+MAX_PLAYER_NAME+100];
-	format(query_string, sizeof(query_string), saveplayerdata, PlayerInfo[playerid][pSex],PlayerInfo[playerid][pSkin], PlayerInfo[playerid][pLevel],PlayerInfo[playerid][pMoney],PN(playerid));
+	format(query_string, sizeof(query_string), saveplayerdata, PlayerInfo[playerid][pSex],PlayerInfo[playerid][pSkin], PlayerInfo[playerid][pLevel],PlayerInfo[playerid][pMoney],PlayerInfo[playerid][pAdmin],PlayerInfo[playerid][pVip],PN(playerid));
 	mysql_tquery(database, query_string);
     PlayerInfo[playerid][pLogged] = 0;
 	return 1;
@@ -140,11 +168,7 @@ public OnPlayerText(playerid, text[])
 
 public OnPlayerCommandText(playerid, cmdtext[])
 {
-	if (strcmp("/mycommand", cmdtext, true, 10) == 0)
-	{
-		SendClientMessage(playerid, COLOR_RED, "Hello, world!");
-		return 1;
-	}
+	
 	return 0;
 }
 
@@ -327,9 +351,9 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]) // 
 			case 3://Авторизация
 			{
 				if(response){
-                    new query[] = "SELECT * FROM `players` WHERE Name = '%s'";
+                    static const query[] = "SELECT * FROM `players` WHERE Name = '%s'";
 					new query_set[sizeof(query)+MAX_PLAYER_NAME+2];
-					format(query_set, sizeof(query_set), query, PN(playerid), inputtext);
+					format(query_set, sizeof(query_set), query, PN(playerid));
 			    	mysql_tquery(database, query_set, "Login","is",playerid, inputtext);
 				}else{
 				    SCM(playerid, COLOR_RED, "Выйдите через ESC или использую команду /q");
@@ -345,25 +369,49 @@ public OnPlayerClickPlayer(playerid, clickedplayerid, source)
 	return 1;
 }
 
-//Stocks
-stock spawnplayer(playerid){
-    SpawnPlayer(playerid);
-	SetPlayerPos(playerid, 1774.8048,-1950.6984,14.1096);
+public OnPlayerCommandReceived(playerid, cmd[], params[], flags){
+	switch(flags){
+		case ADMINCMD_FLAG:
+		{
+            if(!PlayerInfo[playerid][pAdmin]) return 0;
+		}
+		case VIPCMD_FLAG:
+		{
+			if(!PlayerInfo[playerid][pVip]&&!PlayerInfo[playerid][pAdmin]) return 0;
+		}
+	}
+	return 1;
+}
+public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)
+{
+	if(result == -1)
+    {
+        SendClientMessage(playerid, 0xFFFFFFFF, "Такой команды не существует ;). Для справки по командам введи /info.");
+        return 0;
+    }
+	return 1;
 }
 
+//Stocks
+
 stock saveaccount(playerid){
-	static const query[] = "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES('%s', '%s', '%s', '%i', '0')";
-	new query_string[sizeof(query)+MAX_PLAYER_NAME+71];
-	format(query_string, sizeof(query_string), query, PN(playerid), PlayerInfo[playerid][pPass],PlayerInfo[playerid][pEmail],PlayerInfo[playerid][pSex]);
-	mysql_tquery(database, query_string);
+	new salt[11];
+ 	for(new i; i<10;i++){
+		salt[i] = random(79)+47;
+	}
+	salt[10] = 0;
+	new hashpass[64+1];
+	SHA256_PassHash(PlayerInfo[playerid][pPass],salt, hashpass, sizeof(hashpass));
+	static const query[] = "INSERT INTO `players`(Name, Password, Email, Sex, salt) VALUES('%s', '%s', '%s', '%i', '%s')";
+	new query_string[sizeof(query)+MAX_PLAYER_NAME+71+21];
+	format(query_string, sizeof(query_string), query, PN(playerid), hashpass,PlayerInfo[playerid][pEmail],PlayerInfo[playerid][pSex],salt);
+	mysql_tquery(database, query_string,"spawnplayer","i",playerid);
     SCM(playerid, COLOR_RED, "Регистрация успешно завершена! В путь!");
-	SpawnPlayer(playerid);
-	SetPlayerPos(playerid, 1774.8048,-1950.6984,14.1096);
 }
 
 stock ShowPlayerLoginDialog(playerid, dialogid = 0, login = 0){// stock - объявление функции
 	if(!login){
-        ShowPlayerDialog(playerid, dialogid, DIALOG_STYLE_PASSWORD, "Регистрация", "Для регистрации придумайте и введите пароль.\nВ дальнейшем он будет использоваться для входа на сервер!", "Вперёд", "Выйти");
+        ShowPlayerDialog(playerid, dialogid, DIALOG_STYLE_INPUT, "Регистрация", "Для регистрации придумайте и введите пароль.\nВ дальнейшем он будет использоваться для входа на сервер!", "Вперёд", "Выйти");
 	}
 	else{
 		ShowPlayerDialog(playerid, dialogid, DIALOG_STYLE_PASSWORD, "Вход на сервер", "Для входа введите ваш пароль:", "Начать!", "Выйти");
@@ -382,12 +430,19 @@ ownpublic FindPlayerInTable(playerid){ // Вход
 	return 1;
 }
 
-ownpublic Login(playerid, inputtext[]){
-	new pass[128];
+ownpublic Login(playerid, inputtext[]){//Отвечает за сравнение паролей и выдаёт левел и деньги
+	new pass[65];
+	new hashpass[65];
+	new salt[21];
 	cache_get_value_name(0, "Password", pass);
 	cache_get_value_name_int(0, "Level", PlayerInfo[playerid][pLevel]);
 	cache_get_value_name_int(0,"Money", PlayerInfo[playerid][pMoney]);
-	if(isequal(pass, inputtext)){
+	cache_get_value_name_int(0, "Sex", PlayerInfo[playerid][pSex]);
+	cache_get_value_name_int(0, "Skin", PlayerInfo[playerid][pSkin]);
+	cache_get_value_name_int(0, "Admin", PlayerInfo[playerid][pAdmin]);
+	cache_get_value_name(0, "salt", salt);
+	SHA256_PassHash(inputtext,salt , hashpass, 65);
+	if(isequal(pass, hashpass)){
 	    SetPlayerScore(playerid, PlayerInfo[playerid][pLevel]);
 		SetPlayerCash(playerid, PlayerInfo[playerid][pMoney]);
 		GivePlayerCash(playerid, 500);
@@ -395,8 +450,9 @@ ownpublic Login(playerid, inputtext[]){
         PlayerInfo[playerid][pLogged] = 1;
 		spawnplayer(playerid);
 	}else{
-		ShowPlayerDialog(playerid, 3, DIALOG_STYLE_PASSWORD, "Вход на сервер", "Для входа введите ваш пароль:", "Начать!", "Выйти");
+		ShowPlayerDialog(playerid, 3, DIALOG_STYLE_PASSWORD, "Вход на сервер", "Для входа введите ваш пароль:\n{F81414}Пароль введён неверно! Повторите попытку", "Начать!", "Выйти");
 	}
+	return 1;
 }
 
 ownpublic KickFromServer(playerid){
@@ -404,4 +460,8 @@ ownpublic KickFromServer(playerid){
 	return 1;
 }
 
-
+ownpublic spawnplayer(playerid){
+	SpawnPlayer(playerid);
+    SetPlayerSkin(playerid,PlayerInfo[playerid][pSkin]);
+	SetPlayerPos(playerid, 1774.8048,-1950.6984,14.1096);
+}
