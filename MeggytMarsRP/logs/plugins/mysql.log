@@ -203,3 +203,1696 @@
 [01:30:20] [DEBUG] cache_get_row_count: return value: '1'
 [01:30:20] [DEBUG] AMX callback executed with error '0'
 [01:30:20] [INFO] Callback successfully executed.
+[01:36:38] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[01:36:38] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[01:36:38] [DEBUG] CHandleManager::Create(this=0x674b50, host='localhost', user='root', pass='****', db='players', options=0x66f5b0)
+[01:36:38] [INFO] Creating new connection handle...
+[01:36:38] [WARNING] mysql_connect: no password specified
+[01:36:38] [DEBUG] CConnection::CConnection(this=0x677ca0, host='localhost', user='root', passw='****', db='players', options=0x66f5b0)
+[01:36:38] [DEBUG] CConnection::CConnection - new connection = 0x641ae8
+[01:36:38] [DEBUG] CConnection::CConnection(this=0x407f020, host='localhost', user='root', passw='****', db='players', options=0x66f5b0)
+[01:36:38] [DEBUG] CConnection::CConnection - new connection = 0x690560
+[01:36:38] [DEBUG] CThreadedConnection::WorkerFunc(this=0x407f020, connection=0x407f020)
+[01:36:38] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x407f020, connection=0x407f020)
+[01:36:38] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x677ce0)
+[01:36:38] [DEBUG] CConnection::CConnection(this=0x425d020, host='localhost', user='root', passw='****', db='players', options=0x66f5b0)
+[01:36:38] [DEBUG] CConnection::CConnection - new connection = 0x69cbc8
+[01:36:39] [DEBUG] CThreadedConnection::WorkerFunc(this=0x425d020, connection=0x425d020)
+[01:36:39] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x425d020, connection=0x425d020)
+[01:36:39] [DEBUG] CConnection::CConnection(this=0x4429020, host='localhost', user='root', passw='****', db='players', options=0x66f5b0)
+[01:36:39] [DEBUG] CConnection::CConnection - new connection = 0x6b7380
+[01:36:39] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4429020, connection=0x4429020)
+[01:36:39] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4429020, connection=0x4429020)
+[01:36:39] [INFO] Connection handle with id '1' successfully created.
+[01:36:39] [DEBUG] CHandleManager::Create - new handle = 0x67f578
+[01:36:39] [DEBUG] mysql_connect: return value: '1'
+[01:37:11] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[01:37:11] [DEBUG] CCallback::Create(amx=0x29bab90, name='FindPlayerInTable', format='i', params=0x2bdc578, param_offset=5)
+[01:37:11] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[01:37:11] [DEBUG] processing specifier 'i' with parameter index 0
+[01:37:11] [DEBUG] retrieved and pushed value '0'
+[01:37:11] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[01:37:11] [DEBUG] created delayed callback with 1 parameter
+[01:37:11] [DEBUG] CHandle::Execute(this=0x67f578, type=1, query=0x6803e0)
+[01:37:11] [DEBUG] CConnection::Execute(query=0x6803e0, this=0x407f020, connection=0x690560)
+[01:37:11] [DEBUG] CQuery::Execute(this=0x6803e0, connection=0x690560)
+[01:37:11] [DEBUG] CHandle::Execute - return value: true
+[01:37:11] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 1.227 milliseconds
+[01:37:11] [DEBUG] mysql_tquery: return value: '1'
+[01:37:11] [DEBUG] CResultSet::Create(connection=0x690560, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[01:37:11] [DEBUG] created new resultset '0x683090'
+[01:37:11] [DEBUG] fetched MySQL result '0x680268'
+[01:37:11] [DEBUG] allocated 0 bytes for PAWN result
+[01:37:11] [DEBUG] CCallback::Execute(amx=0x29bab90, index=0, num_params=1)
+[01:37:11] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[01:37:11] [DEBUG] processing internal specifier 'c'
+[01:37:11] [DEBUG] pushed value '0' onto AMX stack
+[01:37:11] [DEBUG] executing AMX callback with index '0'
+[01:37:11] [DEBUG] cache_get_row_count(0x02BDC724)
+[01:37:11] [DEBUG] cache_get_row_count: return value: '1'
+[01:37:11] [DEBUG] AMX callback executed with error '0'
+[01:37:11] [INFO] Callback successfully executed.
+[01:37:25] [DEBUG] mysql_tquery(1, "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, sf, f, 1, 0)", "", "")
+[01:37:25] [DEBUG] CCallback::Create(amx=0x29bab90, name='', format='', params=0x2bdc540, param_offset=5)
+[01:37:25] [DEBUG] CHandle::Execute(this=0x67f578, type=1, query=0x676c50)
+[01:37:25] [DEBUG] CHandle::Execute - return value: true
+[01:37:25] [DEBUG] mysql_tquery: return value: '1'
+[01:37:25] [DEBUG] CConnection::Execute(query=0x676c50, this=0x407f020, connection=0x690560)
+[01:37:25] [DEBUG] CQuery::Execute(this=0x676c50, connection=0x690560)
+[01:37:25] [ERROR] error #1064 while executing query "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, sf, f, 1, 0)": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ', f, 1, 0)' at line 1
+[01:37:25] [DEBUG] CConnection::GetError(this=0x407f020, connection=0x690560)
+[01:37:25] [DEBUG] CCallback::Create(amx=0x29bab90, name='OnQueryError', format='dsssd)
+[01:37:25] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[01:37:25] [DEBUG] processing specifier 'd'
+[01:37:25] [DEBUG] retrieved and pushed value '1064'
+[01:37:25] [DEBUG] processing specifier 's'
+[01:37:25] [DEBUG] retrieved and pushed value 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ', f, 1, 0)' at line 1'
+[01:37:25] [DEBUG] processing specifier 's'
+[01:37:25] [DEBUG] retrieved and pushed value ''
+[01:37:25] [DEBUG] processing specifier 's'
+[01:37:25] [DEBUG] retrieved and pushed value 'INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, sf, f, 1, 0)'
+[01:37:25] [DEBUG] processing specifier 'd'
+[01:37:25] [DEBUG] retrieved and pushed value '1'
+[01:37:25] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[01:37:25] [DEBUG] created delayed callback with 5 parameters
+[01:37:25] [DEBUG] CCallback::Execute(amx=0x29bab90, index=-10, num_params=5)
+[01:39:18] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[01:39:18] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[01:39:18] [DEBUG] CHandleManager::Create(this=0x70f870, host='localhost', user='root', pass='****', db='players', options=0x70cb68)
+[01:39:18] [INFO] Creating new connection handle...
+[01:39:18] [WARNING] mysql_connect: no password specified
+[01:39:18] [DEBUG] CConnection::CConnection(this=0x715dc0, host='localhost', user='root', passw='****', db='players', options=0x70cb68)
+[01:39:18] [DEBUG] CConnection::CConnection - new connection = 0x6e1ae8
+[01:39:18] [DEBUG] CConnection::CConnection(this=0x4030020, host='localhost', user='root', passw='****', db='players', options=0x70cb68)
+[01:39:18] [DEBUG] CConnection::CConnection - new connection = 0x7304c0
+[01:39:18] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4030020, connection=0x4030020)
+[01:39:18] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4030020, connection=0x4030020)
+[01:39:18] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x715e00)
+[01:39:18] [DEBUG] CConnection::CConnection(this=0x4202020, host='localhost', user='root', passw='****', db='players', options=0x70cb68)
+[01:39:18] [DEBUG] CConnection::CConnection - new connection = 0x73ef00
+[01:39:18] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4202020, connection=0x4202020)
+[01:39:18] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4202020, connection=0x4202020)
+[01:39:18] [DEBUG] CConnection::CConnection(this=0x43da020, host='localhost', user='root', passw='****', db='players', options=0x70cb68)
+[01:39:18] [DEBUG] CConnection::CConnection - new connection = 0x749b58
+[01:39:18] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43da020, connection=0x43da020)
+[01:39:18] [INFO] Connection handle with id '1' successfully created.
+[01:39:18] [DEBUG] CHandleManager::Create - new handle = 0x71dfb8
+[01:39:18] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43da020, connection=0x43da020)
+[01:39:18] [DEBUG] mysql_connect: return value: '1'
+[01:39:37] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[01:39:37] [DEBUG] CCallback::Create(amx=0x297ab90, name='FindPlayerInTable', format='i', params=0x2b9c5bc, param_offset=5)
+[01:39:37] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[01:39:37] [DEBUG] processing specifier 'i' with parameter index 0
+[01:39:37] [DEBUG] retrieved and pushed value '0'
+[01:39:37] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[01:39:37] [DEBUG] created delayed callback with 1 parameter
+[01:39:37] [DEBUG] CHandle::Execute(this=0x71dfb8, type=1, query=0x73ee70)
+[01:39:37] [DEBUG] CHandle::Execute - return value: true
+[01:39:37] [DEBUG] mysql_tquery: return value: '1'
+[01:39:37] [DEBUG] CConnection::Execute(query=0x73ee70, this=0x4030020, connection=0x7304c0)
+[01:39:37] [DEBUG] CQuery::Execute(this=0x73ee70, connection=0x7304c0)
+[01:39:37] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.506 milliseconds
+[01:39:37] [DEBUG] CResultSet::Create(connection=0x7304c0, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[01:39:37] [DEBUG] created new resultset '0x722930'
+[01:39:37] [DEBUG] fetched MySQL result '0x74cf30'
+[01:39:37] [DEBUG] allocated 0 bytes for PAWN result
+[01:39:37] [DEBUG] CCallback::Execute(amx=0x297ab90, index=0, num_params=1)
+[01:39:37] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[01:39:37] [DEBUG] processing internal specifier 'c'
+[01:39:37] [DEBUG] pushed value '0' onto AMX stack
+[01:39:37] [DEBUG] executing AMX callback with index '0'
+[01:39:37] [DEBUG] cache_get_row_count(0x02B9C768)
+[01:39:37] [DEBUG] cache_get_row_count: return value: '1'
+[01:39:37] [DEBUG] AMX callback executed with error '0'
+[01:39:37] [INFO] Callback successfully executed.
+[01:39:51] [DEBUG] mysql_tquery(1, "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, sf, f, 1, 0)", "", "")
+[01:39:51] [DEBUG] CCallback::Create(amx=0x297ab90, name='', format='', params=0x2b9c584, param_offset=5)
+[01:39:51] [DEBUG] CHandle::Execute(this=0x71dfb8, type=1, query=0x74d000)
+[01:39:51] [DEBUG] CConnection::Execute(query=0x74d000, this=0x4030020, connection=0x7304c0)
+[01:39:51] [DEBUG] CQuery::Execute(this=0x74d000, connection=0x7304c0)
+[01:39:51] [DEBUG] CHandle::Execute - return value: true
+[01:39:51] [DEBUG] mysql_tquery: return value: '1'
+[01:39:51] [ERROR] error #1064 while executing query "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, sf, f, 1, 0)": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ', f, 1, 0)' at line 1
+[01:39:51] [DEBUG] CConnection::GetError(this=0x4030020, connection=0x7304c0)
+[01:39:51] [DEBUG] CCallback::Create(amx=0x297ab90, name='OnQueryError', format='dsssd)
+[01:39:51] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[01:39:51] [DEBUG] processing specifier 'd'
+[01:39:51] [DEBUG] retrieved and pushed value '1064'
+[01:39:51] [DEBUG] processing specifier 's'
+[01:39:51] [DEBUG] retrieved and pushed value 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ', f, 1, 0)' at line 1'
+[01:39:51] [DEBUG] processing specifier 's'
+[01:39:51] [DEBUG] retrieved and pushed value ''
+[01:39:51] [DEBUG] processing specifier 's'
+[01:39:51] [DEBUG] retrieved and pushed value 'INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, sf, f, 1, 0)'
+[01:39:51] [DEBUG] processing specifier 'd'
+[01:39:51] [DEBUG] retrieved and pushed value '1'
+[01:39:51] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[01:39:51] [DEBUG] created delayed callback with 5 parameters
+[01:39:51] [DEBUG] CCallback::Execute(amx=0x297ab90, index=-10, num_params=5)
+[01:44:18] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[01:44:18] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[01:44:18] [DEBUG] CHandleManager::Create(this=0x643a80, host='localhost', user='root', pass='****', db='players', options=0x63ec48)
+[01:44:18] [INFO] Creating new connection handle...
+[01:44:18] [WARNING] mysql_connect: no password specified
+[01:44:18] [DEBUG] CConnection::CConnection(this=0x6477d0, host='localhost', user='root', passw='****', db='players', options=0x63ec48)
+[01:44:18] [DEBUG] CConnection::CConnection - new connection = 0x658428
+[01:44:18] [DEBUG] CConnection::CConnection(this=0x4027020, host='localhost', user='root', passw='****', db='players', options=0x63ec48)
+[01:44:18] [DEBUG] CConnection::CConnection - new connection = 0x661d48
+[01:44:18] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4027020, connection=0x4027020)
+[01:44:18] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x647210)
+[01:44:18] [DEBUG] CConnection::CConnection(this=0x41fe020, host='localhost', user='root', passw='****', db='players', options=0x63ec48)
+[01:44:18] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4027020, connection=0x4027020)
+[01:44:18] [DEBUG] CConnection::CConnection - new connection = 0x66db20
+[01:44:18] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x41fe020, connection=0x41fe020)
+[01:44:18] [DEBUG] CThreadedConnection::WorkerFunc(this=0x41fe020, connection=0x41fe020)
+[01:44:18] [DEBUG] CConnection::CConnection(this=0x43c2020, host='localhost', user='root', passw='****', db='players', options=0x63ec48)
+[01:44:18] [DEBUG] CConnection::CConnection - new connection = 0x6771b0
+[01:44:18] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43c2020, connection=0x43c2020)
+[01:44:18] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43c2020, connection=0x43c2020)
+[01:44:18] [INFO] Connection handle with id '1' successfully created.
+[01:44:18] [DEBUG] CHandleManager::Create - new handle = 0x6536e8
+[01:44:18] [DEBUG] mysql_connect: return value: '1'
+[01:44:36] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[01:44:36] [DEBUG] CCallback::Create(amx=0x296ab90, name='FindPlayerInTable', format='i', params=0x2b8c620, param_offset=5)
+[01:44:36] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[01:44:36] [DEBUG] processing specifier 'i' with parameter index 0
+[01:44:36] [DEBUG] retrieved and pushed value '0'
+[01:44:36] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[01:44:36] [DEBUG] created delayed callback with 1 parameter
+[01:44:36] [DEBUG] CHandle::Execute(this=0x6536e8, type=1, query=0x635058)
+[01:44:36] [DEBUG] CConnection::Execute(query=0x635058, this=0x4027020, connection=0x661d48)
+[01:44:36] [DEBUG] CQuery::Execute(this=0x635058, connection=0x661d48)
+[01:44:36] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.860 milliseconds
+[01:44:36] [DEBUG] CResultSet::Create(connection=0x661d48, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[01:44:36] [DEBUG] created new resultset '0x64d0d8'
+[01:44:36] [DEBUG] fetched MySQL result '0x63a230'
+[01:44:36] [DEBUG] allocated 0 bytes for PAWN result
+[01:44:36] [DEBUG] CHandle::Execute - return value: true
+[01:44:36] [DEBUG] mysql_tquery: return value: '1'
+[01:44:36] [DEBUG] CCallback::Execute(amx=0x296ab90, index=0, num_params=1)
+[01:44:36] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[01:44:36] [DEBUG] processing internal specifier 'c'
+[01:44:36] [DEBUG] pushed value '0' onto AMX stack
+[01:44:36] [DEBUG] executing AMX callback with index '0'
+[01:44:36] [DEBUG] cache_get_row_count(0x02B8C7CC)
+[01:44:36] [DEBUG] cache_get_row_count: return value: '1'
+[01:44:36] [DEBUG] AMX callback executed with error '0'
+[01:44:36] [INFO] Callback successfully executed.
+[01:44:51] [DEBUG] mysql_tquery(1, "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, sf, f, 0, 0)", "", "")
+[01:44:51] [DEBUG] CCallback::Create(amx=0x296ab90, name='', format='', params=0x2b8c5e8, param_offset=5)
+[01:44:51] [DEBUG] CHandle::Execute(this=0x6536e8, type=1, query=0x635940)
+[01:44:51] [DEBUG] CConnection::Execute(query=0x635940, this=0x4027020, connection=0x661d48)
+[01:44:51] [DEBUG] CQuery::Execute(this=0x635940, connection=0x661d48)
+[01:44:51] [DEBUG] CHandle::Execute - return value: true
+[01:44:51] [DEBUG] mysql_tquery: return value: '1'
+[01:44:51] [ERROR] error #1054 while executing query "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, sf, f, 0, 0)": Unknown column 'Sergey_Maingard' in 'field list'
+[01:44:51] [DEBUG] CConnection::GetError(this=0x4027020, connection=0x661d48)
+[01:44:51] [DEBUG] CCallback::Create(amx=0x296ab90, name='OnQueryError', format='dsssd)
+[01:44:52] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[01:44:52] [DEBUG] processing specifier 'd'
+[01:44:52] [DEBUG] retrieved and pushed value '1054'
+[01:44:52] [DEBUG] processing specifier 's'
+[01:44:52] [DEBUG] retrieved and pushed value 'Unknown column 'Sergey_Maingard' in 'field list''
+[01:44:52] [DEBUG] processing specifier 's'
+[01:44:52] [DEBUG] retrieved and pushed value ''
+[01:44:52] [DEBUG] processing specifier 's'
+[01:44:52] [DEBUG] retrieved and pushed value 'INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, sf, f, 0, 0)'
+[01:44:52] [DEBUG] processing specifier 'd'
+[01:44:52] [DEBUG] retrieved and pushed value '1'
+[01:44:52] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[01:44:52] [DEBUG] created delayed callback with 5 parameters
+[01:44:52] [DEBUG] CCallback::Execute(amx=0x296ab90, index=-10, num_params=5)
+[01:47:24] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[01:47:24] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[01:47:24] [DEBUG] CHandleManager::Create(this=0x561e58, host='localhost', user='root', pass='****', db='players', options=0x55f410)
+[01:47:24] [INFO] Creating new connection handle...
+[01:47:24] [WARNING] mysql_connect: no password specified
+[01:47:24] [DEBUG] CConnection::CConnection(this=0x568b00, host='localhost', user='root', passw='****', db='players', options=0x55f410)
+[01:47:24] [DEBUG] CConnection::CConnection - new connection = 0x578108
+[01:47:24] [DEBUG] CConnection::CConnection(this=0x4022020, host='localhost', user='root', passw='****', db='players', options=0x55f410)
+[01:47:24] [DEBUG] CConnection::CConnection - new connection = 0x581c38
+[01:47:24] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4022020, connection=0x4022020)
+[01:47:24] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4022020, connection=0x4022020)
+[01:47:24] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x568d40)
+[01:47:24] [DEBUG] CConnection::CConnection(this=0x41ff020, host='localhost', user='root', passw='****', db='players', options=0x55f410)
+[01:47:24] [DEBUG] CConnection::CConnection - new connection = 0x591600
+[01:47:24] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x41ff020, connection=0x41ff020)
+[01:47:24] [DEBUG] CThreadedConnection::WorkerFunc(this=0x41ff020, connection=0x41ff020)
+[01:47:24] [DEBUG] CConnection::CConnection(this=0x43d5020, host='localhost', user='root', passw='****', db='players', options=0x55f410)
+[01:47:24] [DEBUG] CConnection::CConnection - new connection = 0x59c940
+[01:47:24] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43d5020, connection=0x43d5020)
+[01:47:24] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43d5020, connection=0x43d5020)
+[01:47:24] [INFO] Connection handle with id '1' successfully created.
+[01:47:24] [DEBUG] CHandleManager::Create - new handle = 0x564c40
+[01:47:24] [DEBUG] mysql_connect: return value: '1'
+[01:47:43] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[01:47:43] [DEBUG] CCallback::Create(amx=0x29eab90, name='FindPlayerInTable', format='i', params=0x2c0c4ac, param_offset=5)
+[01:47:43] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[01:47:43] [DEBUG] processing specifier 'i' with parameter index 0
+[01:47:43] [DEBUG] retrieved and pushed value '0'
+[01:47:43] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[01:47:43] [DEBUG] created delayed callback with 1 parameter
+[01:47:43] [DEBUG] CHandle::Execute(this=0x564c40, type=1, query=0x56d6d0)
+[01:47:43] [DEBUG] CHandle::Execute - return value: true
+[01:47:43] [DEBUG] mysql_tquery: return value: '1'
+[01:47:43] [DEBUG] CConnection::Execute(query=0x56d6d0, this=0x4022020, connection=0x581c38)
+[01:47:43] [DEBUG] CQuery::Execute(this=0x56d6d0, connection=0x581c38)
+[01:47:43] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.617 milliseconds
+[01:47:43] [DEBUG] CResultSet::Create(connection=0x581c38, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[01:47:43] [DEBUG] created new resultset '0x573b98'
+[01:47:43] [DEBUG] fetched MySQL result '0x584fa8'
+[01:47:43] [DEBUG] allocated 0 bytes for PAWN result
+[01:47:43] [DEBUG] CCallback::Execute(amx=0x29eab90, index=0, num_params=1)
+[01:47:43] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[01:47:43] [DEBUG] processing internal specifier 'c'
+[01:47:43] [DEBUG] pushed value '0' onto AMX stack
+[01:47:43] [DEBUG] executing AMX callback with index '0'
+[01:47:43] [DEBUG] cache_get_row_count(0x02C0C658)
+[01:47:43] [DEBUG] cache_get_row_count: return value: '1'
+[01:47:43] [DEBUG] AMX callback executed with error '0'
+[01:47:43] [INFO] Callback successfully executed.
+[01:47:52] [DEBUG] mysql_tquery(1, "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, serij3003, francua2014@ya", "", "")
+[01:47:52] [DEBUG] CCallback::Create(amx=0x29eab90, name='', format='', params=0x2c0c480, param_offset=5)
+[01:47:52] [DEBUG] CHandle::Execute(this=0x564c40, type=1, query=0x5320f0)
+[01:47:52] [DEBUG] CHandle::Execute - return value: true
+[01:47:52] [DEBUG] mysql_tquery: return value: '1'
+[01:47:52] [DEBUG] CConnection::Execute(query=0x5320f0, this=0x4022020, connection=0x581c38)
+[01:47:52] [DEBUG] CQuery::Execute(this=0x5320f0, connection=0x581c38)
+[01:47:52] [ERROR] error #1064 while executing query "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, serij3003, francua2014@ya": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@ya' at line 1
+[01:47:52] [DEBUG] CConnection::GetError(this=0x4022020, connection=0x581c38)
+[01:47:52] [DEBUG] CCallback::Create(amx=0x29eab90, name='OnQueryError', format='dsssd)
+[01:47:52] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[01:47:52] [DEBUG] processing specifier 'd'
+[01:47:52] [DEBUG] retrieved and pushed value '1064'
+[01:47:52] [DEBUG] processing specifier 's'
+[01:47:52] [DEBUG] retrieved and pushed value 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@ya' at line 1'
+[01:47:52] [DEBUG] processing specifier 's'
+[01:47:52] [DEBUG] retrieved and pushed value ''
+[01:47:52] [DEBUG] processing specifier 's'
+[01:47:52] [DEBUG] retrieved and pushed value 'INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, serij3003, francua2014@ya'
+[01:47:52] [DEBUG] processing specifier 'd'
+[01:47:52] [DEBUG] retrieved and pushed value '1'
+[01:47:52] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[01:47:52] [DEBUG] created delayed callback with 5 parameters
+[01:47:52] [DEBUG] CCallback::Execute(amx=0x29eab90, index=-10, num_params=5)
+[01:49:49] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[01:49:49] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[01:49:49] [DEBUG] CHandleManager::Create(this=0x6829d8, host='localhost', user='root', pass='****', db='players', options=0x67d530)
+[01:49:49] [INFO] Creating new connection handle...
+[01:49:49] [WARNING] mysql_connect: no password specified
+[01:49:49] [DEBUG] CConnection::CConnection(this=0x687b50, host='localhost', user='root', passw='****', db='players', options=0x67d530)
+[01:49:49] [DEBUG] CConnection::CConnection - new connection = 0x697240
+[01:49:49] [DEBUG] CConnection::CConnection(this=0x4056020, host='localhost', user='root', passw='****', db='players', options=0x67d530)
+[01:49:49] [DEBUG] CConnection::CConnection - new connection = 0x6a1d78
+[01:49:49] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4056020, connection=0x4056020)
+[01:49:49] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x687bd0)
+[01:49:49] [DEBUG] CConnection::CConnection(this=0x4224020, host='localhost', user='root', passw='****', db='players', options=0x67d530)
+[01:49:49] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4056020, connection=0x4056020)
+[01:49:49] [DEBUG] CConnection::CConnection - new connection = 0x6ac408
+[01:49:49] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4224020, connection=0x4224020)
+[01:49:49] [DEBUG] CConnection::CConnection(this=0x43fb020, host='localhost', user='root', passw='****', db='players', options=0x67d530)
+[01:49:49] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4224020, connection=0x4224020)
+[01:49:49] [DEBUG] CConnection::CConnection - new connection = 0x6ba5c0
+[01:49:49] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43fb020, connection=0x43fb020)
+[01:49:49] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43fb020, connection=0x43fb020)
+[01:49:49] [INFO] Connection handle with id '1' successfully created.
+[01:49:49] [DEBUG] CHandleManager::Create - new handle = 0x68e590
+[01:49:49] [DEBUG] mysql_connect: return value: '1'
+[01:50:08] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[01:50:08] [DEBUG] CCallback::Create(amx=0x298ab90, name='FindPlayerInTable', format='i', params=0x2bac4ac, param_offset=5)
+[01:50:08] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[01:50:08] [DEBUG] processing specifier 'i' with parameter index 0
+[01:50:08] [DEBUG] retrieved and pushed value '0'
+[01:50:08] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[01:50:08] [DEBUG] created delayed callback with 1 parameter
+[01:50:08] [DEBUG] CHandle::Execute(this=0x68e590, type=1, query=0x670940)
+[01:50:08] [DEBUG] CConnection::Execute(query=0x670940, this=0x4056020, connection=0x6a1d78)
+[01:50:08] [DEBUG] CQuery::Execute(this=0x670940, connection=0x6a1d78)
+[01:50:08] [DEBUG] CHandle::Execute - return value: true
+[01:50:08] [DEBUG] mysql_tquery: return value: '1'
+[01:50:08] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.728 milliseconds
+[01:50:08] [DEBUG] CResultSet::Create(connection=0x6a1d78, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[01:50:08] [DEBUG] created new resultset '0x6937d8'
+[01:50:08] [DEBUG] fetched MySQL result '0x68f980'
+[01:50:08] [DEBUG] allocated 0 bytes for PAWN result
+[01:50:08] [DEBUG] CCallback::Execute(amx=0x298ab90, index=0, num_params=1)
+[01:50:08] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[01:50:08] [DEBUG] processing internal specifier 'c'
+[01:50:08] [DEBUG] pushed value '0' onto AMX stack
+[01:50:08] [DEBUG] executing AMX callback with index '0'
+[01:50:08] [DEBUG] cache_get_row_count(0x02BAC658)
+[01:50:08] [DEBUG] cache_get_row_count: return value: '1'
+[01:50:08] [DEBUG] AMX callback executed with error '0'
+[01:50:08] [INFO] Callback successfully executed.
+[01:50:15] [DEBUG] mysql_tquery(1, "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, serij3003, francua2014@yandex.ru, 0, 0)", "", "")
+[01:50:15] [DEBUG] CCallback::Create(amx=0x298ab90, name='', format='', params=0x2bac364, param_offset=5)
+[01:50:15] [DEBUG] CHandle::Execute(this=0x68e590, type=1, query=0x671060)
+[01:50:15] [DEBUG] CHandle::Execute - return value: true
+[01:50:15] [DEBUG] mysql_tquery: return value: '1'
+[01:50:15] [DEBUG] CConnection::Execute(query=0x671060, this=0x4056020, connection=0x6a1d78)
+[01:50:15] [DEBUG] CQuery::Execute(this=0x671060, connection=0x6a1d78)
+[01:50:15] [ERROR] error #1064 while executing query "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, serij3003, francua2014@yandex.ru, 0, 0)": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@yandex.ru, 0, 0)' at line 1
+[01:50:15] [DEBUG] CConnection::GetError(this=0x4056020, connection=0x6a1d78)
+[01:50:15] [DEBUG] CCallback::Create(amx=0x298ab90, name='OnQueryError', format='dsssd)
+[01:50:15] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[01:50:15] [DEBUG] processing specifier 'd'
+[01:50:15] [DEBUG] retrieved and pushed value '1064'
+[01:50:15] [DEBUG] processing specifier 's'
+[01:50:15] [DEBUG] retrieved and pushed value 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@yandex.ru, 0, 0)' at line 1'
+[01:50:15] [DEBUG] processing specifier 's'
+[01:50:15] [DEBUG] retrieved and pushed value ''
+[01:50:15] [DEBUG] processing specifier 's'
+[01:50:15] [DEBUG] retrieved and pushed value 'INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(Sergey_Maingard, serij3003, francua2014@yandex.ru, 0, 0)'
+[01:50:15] [DEBUG] processing specifier 'd'
+[01:50:15] [DEBUG] retrieved and pushed value '1'
+[01:50:15] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[01:50:15] [DEBUG] created delayed callback with 5 parameters
+[01:50:15] [DEBUG] CCallback::Execute(amx=0x298ab90, index=-10, num_params=5)
+[01:52:02] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[01:52:02] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[01:52:02] [DEBUG] CHandleManager::Create(this=0x7925f8, host='localhost', user='root', pass='****', db='players', options=0x78d148)
+[01:52:02] [INFO] Creating new connection handle...
+[01:52:02] [WARNING] mysql_connect: no password specified
+[01:52:02] [DEBUG] CConnection::CConnection(this=0x795470, host='localhost', user='root', passw='****', db='players', options=0x78d148)
+[01:52:02] [DEBUG] CConnection::CConnection - new connection = 0x7a6730
+[01:52:02] [DEBUG] CConnection::CConnection(this=0x4076020, host='localhost', user='root', passw='****', db='players', options=0x78d148)
+[01:52:02] [DEBUG] CConnection::CConnection - new connection = 0x7b1678
+[01:52:02] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4076020, connection=0x4076020)
+[01:52:02] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x795530)
+[01:52:02] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4076020, connection=0x4076020)
+[01:52:02] [DEBUG] CConnection::CConnection(this=0x4244020, host='localhost', user='root', passw='****', db='players', options=0x78d148)
+[01:52:02] [DEBUG] CConnection::CConnection - new connection = 0x7b2618
+[01:52:02] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4244020, connection=0x4244020)
+[01:52:02] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4244020, connection=0x4244020)
+[01:52:02] [DEBUG] CConnection::CConnection(this=0x4414020, host='localhost', user='root', passw='****', db='players', options=0x78d148)
+[01:52:02] [DEBUG] CConnection::CConnection - new connection = 0x7b2a00
+[01:52:02] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4414020, connection=0x4414020)
+[01:52:02] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4414020, connection=0x4414020)
+[01:52:02] [INFO] Connection handle with id '1' successfully created.
+[01:52:02] [DEBUG] CHandleManager::Create - new handle = 0x7a2fb8
+[01:52:02] [DEBUG] mysql_connect: return value: '1'
+[01:52:06] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[01:52:06] [DEBUG] CCallback::Create(amx=0x29fab90, name='FindPlayerInTable', format='i', params=0x2c1c4d4, param_offset=5)
+[01:52:06] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[01:52:06] [DEBUG] processing specifier 'i' with parameter index 0
+[01:52:06] [DEBUG] retrieved and pushed value '0'
+[01:52:06] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[01:52:06] [DEBUG] created delayed callback with 1 parameter
+[01:52:06] [DEBUG] CHandle::Execute(this=0x7a2fb8, type=1, query=0x7a2878)
+[01:52:06] [DEBUG] CHandle::Execute - return value: true
+[01:52:06] [DEBUG] mysql_tquery: return value: '1'
+[01:52:06] [DEBUG] CConnection::Execute(query=0x7a2878, this=0x4076020, connection=0x7b1678)
+[01:52:06] [DEBUG] CQuery::Execute(this=0x7a2878, connection=0x7b1678)
+[01:52:06] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 1.181 milliseconds
+[01:52:06] [DEBUG] CResultSet::Create(connection=0x7b1678, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[01:52:06] [DEBUG] created new resultset '0x7a5b40'
+[01:52:06] [DEBUG] fetched MySQL result '0x7c0840'
+[01:52:06] [DEBUG] allocated 0 bytes for PAWN result
+[01:52:06] [DEBUG] CCallback::Execute(amx=0x29fab90, index=0, num_params=1)
+[01:52:06] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[01:52:06] [DEBUG] processing internal specifier 'c'
+[01:52:06] [DEBUG] pushed value '0' onto AMX stack
+[01:52:06] [DEBUG] executing AMX callback with index '0'
+[01:52:06] [DEBUG] cache_get_row_count(0x02C1C680)
+[01:52:06] [DEBUG] cache_get_row_count: return value: '1'
+[01:52:06] [DEBUG] AMX callback executed with error '0'
+[01:52:06] [INFO] Callback successfully executed.
+[01:52:11] [DEBUG] mysql_tquery(1, "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES('Sergey_Maingard', 'serij3003', 'francua2014@yandex.ru', '0', '0')", "", "")
+[01:52:11] [DEBUG] CCallback::Create(amx=0x29fab90, name='', format='', params=0x2c1c364, param_offset=5)
+[01:52:11] [DEBUG] CHandle::Execute(this=0x7a2fb8, type=1, query=0x7ca840)
+[01:52:11] [DEBUG] CConnection::Execute(query=0x7ca840, this=0x4076020, connection=0x7b1678)
+[01:52:11] [DEBUG] CQuery::Execute(this=0x7ca840, connection=0x7b1678)
+[01:52:11] [DEBUG] CHandle::Execute - return value: true
+[01:52:11] [DEBUG] mysql_tquery: return value: '1'
+[01:52:12] [INFO] query "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES('Sergey_Maingard', 'serij3003', 'francua2014@yandex.ru', '0', '0')" successfully executed within 137.14 milliseconds
+[01:52:12] [DEBUG] CResultSet::Create(connection=0x7b1678, query_str='INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES('Sergey_Maingard', 'serij3003', 'francua2014@yandex.ru', '0', '0')')
+[01:52:12] [DEBUG] created new resultset '0x7a5d00'
+[01:52:12] [DEBUG] fetched MySQL result '0x0'
+[02:06:07] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:06:07] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:06:07] [DEBUG] CHandleManager::Create(this=0x8b1aa0, host='localhost', user='root', pass='****', db='players', options=0x8aea20)
+[02:06:07] [INFO] Creating new connection handle...
+[02:06:07] [WARNING] mysql_connect: no password specified
+[02:06:07] [DEBUG] CConnection::CConnection(this=0x8b7690, host='localhost', user='root', passw='****', db='players', options=0x8aea20)
+[02:06:07] [DEBUG] CConnection::CConnection - new connection = 0x8c74f0
+[02:06:07] [DEBUG] CConnection::CConnection(this=0x4075020, host='localhost', user='root', passw='****', db='players', options=0x8aea20)
+[02:06:07] [DEBUG] CConnection::CConnection - new connection = 0x8d10a8
+[02:06:07] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4075020, connection=0x4075020)
+[02:06:07] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x8b7590)
+[02:06:07] [DEBUG] CConnection::CConnection(this=0x424f020, host='localhost', user='root', passw='****', db='players', options=0x8aea20)
+[02:06:07] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4075020, connection=0x4075020)
+[02:06:07] [DEBUG] CConnection::CConnection - new connection = 0x8e0150
+[02:06:07] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x424f020, connection=0x424f020)
+[02:06:07] [DEBUG] CConnection::CConnection(this=0x4427020, host='localhost', user='root', passw='****', db='players', options=0x8aea20)
+[02:06:07] [DEBUG] CThreadedConnection::WorkerFunc(this=0x424f020, connection=0x424f020)
+[02:06:07] [DEBUG] CConnection::CConnection - new connection = 0x8ea610
+[02:06:07] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4427020, connection=0x4427020)
+[02:06:07] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4427020, connection=0x4427020)
+[02:06:07] [INFO] Connection handle with id '1' successfully created.
+[02:06:07] [DEBUG] CHandleManager::Create - new handle = 0x8be9b0
+[02:06:07] [DEBUG] mysql_connect: return value: '1'
+[02:06:24] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:06:24] [DEBUG] CCallback::Create(amx=0x29fab90, name='FindPlayerInTable', format='i', params=0x2c1c764, param_offset=5)
+[02:06:24] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:06:24] [DEBUG] processing specifier 'i' with parameter index 0
+[02:06:24] [DEBUG] retrieved and pushed value '0'
+[02:06:24] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:06:24] [DEBUG] created delayed callback with 1 parameter
+[02:06:24] [DEBUG] CHandle::Execute(this=0x8be9b0, type=1, query=0x8a1740)
+[02:06:24] [DEBUG] CHandle::Execute - return value: true
+[02:06:24] [DEBUG] mysql_tquery: return value: '1'
+[02:06:24] [DEBUG] CConnection::Execute(query=0x8a1740, this=0x4075020, connection=0x8d10a8)
+[02:06:24] [DEBUG] CQuery::Execute(this=0x8a1740, connection=0x8d10a8)
+[02:06:24] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 1.705 milliseconds
+[02:06:24] [DEBUG] CResultSet::Create(connection=0x8d10a8, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:06:24] [DEBUG] created new resultset '0x8c3cb8'
+[02:06:24] [DEBUG] fetched MySQL result '0x8d1020'
+[02:06:24] [DEBUG] allocated 92 bytes for PAWN result
+[02:06:24] [DEBUG] CCallback::Execute(amx=0x29fab90, index=0, num_params=1)
+[02:06:25] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:06:25] [DEBUG] processing internal specifier 'c'
+[02:06:25] [DEBUG] pushed value '0' onto AMX stack
+[02:06:25] [DEBUG] executing AMX callback with index '0'
+[02:06:25] [DEBUG] cache_get_row_count(0x02C1C910)
+[02:06:25] [DEBUG] cache_get_row_count: return value: '1'
+[02:06:25] [DEBUG] AMX callback executed with error '0'
+[02:06:25] [INFO] Callback successfully executed.
+[02:06:27] [DEBUG] mysql_tquery(1, "", "Login", "is")
+[02:06:27] [DEBUG] CCallback::Create(amx=0x29fab90, name='Login', format='is', params=0x2c1c728, param_offset=5)
+[02:06:27] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:06:27] [DEBUG] processing specifier 'i' with parameter index 0
+[02:06:27] [DEBUG] retrieved and pushed value '0'
+[02:06:27] [DEBUG] processing specifier 's' with parameter index 1
+[02:06:27] [DEBUG] retrieved and pushed value 'serij3003'
+[02:06:27] [INFO] Callback 'Login' set up for delayed execution.
+[02:06:27] [DEBUG] created delayed callback with 2 parameters
+[02:06:27] [DEBUG] CHandle::Execute(this=0x8be9b0, type=1, query=0x8a1e60)
+[02:06:27] [DEBUG] CHandle::Execute - return value: true
+[02:06:27] [DEBUG] mysql_tquery: return value: '1'
+[02:06:27] [DEBUG] CConnection::Execute(query=0x8a1e60, this=0x4075020, connection=0x8d10a8)
+[02:06:27] [DEBUG] CQuery::Execute(this=0x8a1e60, connection=0x8d10a8)
+[02:06:27] [ERROR] error #1065 while executing query "": Query was empty
+[02:06:27] [DEBUG] CConnection::GetError(this=0x4075020, connection=0x8d10a8)
+[02:06:27] [DEBUG] CCallback::Create(amx=0x29fab90, name='OnQueryError', format='dsssd)
+[02:06:27] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[02:06:27] [DEBUG] processing specifier 'd'
+[02:06:27] [DEBUG] retrieved and pushed value '1065'
+[02:06:27] [DEBUG] processing specifier 's'
+[02:06:27] [DEBUG] retrieved and pushed value 'Query was empty'
+[02:06:27] [DEBUG] processing specifier 's'
+[02:06:27] [DEBUG] retrieved and pushed value 'Login'
+[02:06:27] [DEBUG] processing specifier 's'
+[02:06:27] [DEBUG] retrieved and pushed value ''
+[02:06:27] [DEBUG] processing specifier 'd'
+[02:06:27] [DEBUG] retrieved and pushed value '1'
+[02:06:27] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[02:06:27] [DEBUG] created delayed callback with 5 parameters
+[02:06:27] [DEBUG] CCallback::Execute(amx=0x29fab90, index=-10, num_params=5)
+[02:08:52] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:08:52] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:08:52] [DEBUG] CHandleManager::Create(this=0x56f960, host='localhost', user='root', pass='****', db='players', options=0x56c940)
+[02:08:52] [INFO] Creating new connection handle...
+[02:08:52] [WARNING] mysql_connect: no password specified
+[02:08:52] [DEBUG] CConnection::CConnection(this=0x575588, host='localhost', user='root', passw='****', db='players', options=0x56c940)
+[02:08:52] [DEBUG] CConnection::CConnection - new connection = 0x585db0
+[02:08:52] [DEBUG] CConnection::CConnection(this=0x406a020, host='localhost', user='root', passw='****', db='players', options=0x56c940)
+[02:08:52] [DEBUG] CConnection::CConnection - new connection = 0x5908e8
+[02:08:52] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x406a020, connection=0x406a020)
+[02:08:52] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x575608)
+[02:08:52] [DEBUG] CConnection::CConnection(this=0x423b020, host='localhost', user='root', passw='****', db='players', options=0x56c940)
+[02:08:52] [DEBUG] CThreadedConnection::WorkerFunc(this=0x406a020, connection=0x406a020)
+[02:08:52] [DEBUG] CConnection::CConnection - new connection = 0x59aee8
+[02:08:52] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x423b020, connection=0x423b020)
+[02:08:52] [DEBUG] CConnection::CConnection(this=0x4403020, host='localhost', user='root', passw='****', db='players', options=0x56c940)
+[02:08:52] [DEBUG] CThreadedConnection::WorkerFunc(this=0x423b020, connection=0x423b020)
+[02:08:52] [DEBUG] CConnection::CConnection - new connection = 0x5a45f8
+[02:08:52] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4403020, connection=0x4403020)
+[02:08:52] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4403020, connection=0x4403020)
+[02:08:52] [INFO] Connection handle with id '1' successfully created.
+[02:08:52] [DEBUG] CHandleManager::Create - new handle = 0x5843a8
+[02:08:52] [DEBUG] mysql_connect: return value: '1'
+[02:08:55] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:08:55] [DEBUG] CCallback::Create(amx=0x29aab90, name='FindPlayerInTable', format='i', params=0x2bcc7c8, param_offset=5)
+[02:08:55] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:08:55] [DEBUG] processing specifier 'i' with parameter index 0
+[02:08:55] [DEBUG] retrieved and pushed value '0'
+[02:08:55] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:08:55] [DEBUG] created delayed callback with 1 parameter
+[02:08:55] [DEBUG] CHandle::Execute(this=0x5843a8, type=1, query=0x5af878)
+[02:08:55] [DEBUG] CHandle::Execute - return value: true
+[02:08:55] [DEBUG] mysql_tquery: return value: '1'
+[02:08:55] [DEBUG] CConnection::Execute(query=0x5af878, this=0x406a020, connection=0x5908e8)
+[02:08:55] [DEBUG] CQuery::Execute(this=0x5af878, connection=0x5908e8)
+[02:08:55] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 1.99 milliseconds
+[02:08:55] [DEBUG] CResultSet::Create(connection=0x5908e8, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:08:55] [DEBUG] created new resultset '0x5849c0'
+[02:08:55] [DEBUG] fetched MySQL result '0x5a4cf0'
+[02:08:55] [DEBUG] allocated 92 bytes for PAWN result
+[02:08:55] [DEBUG] CCallback::Execute(amx=0x29aab90, index=0, num_params=1)
+[02:08:55] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:08:55] [DEBUG] processing internal specifier 'c'
+[02:08:55] [DEBUG] pushed value '0' onto AMX stack
+[02:08:55] [DEBUG] executing AMX callback with index '0'
+[02:08:55] [DEBUG] cache_get_row_count(0x02BCC974)
+[02:08:55] [DEBUG] cache_get_row_count: return value: '1'
+[02:08:55] [DEBUG] AMX callback executed with error '0'
+[02:08:55] [INFO] Callback successfully executed.
+[02:08:57] [DEBUG] mysql_tquery(1, "", "Login", "is")
+[02:08:57] [DEBUG] CCallback::Create(amx=0x29aab90, name='Login', format='is', params=0x2bcc78c, param_offset=5)
+[02:08:57] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:08:57] [DEBUG] processing specifier 'i' with parameter index 0
+[02:08:57] [DEBUG] retrieved and pushed value '0'
+[02:08:57] [DEBUG] processing specifier 's' with parameter index 1
+[02:08:57] [DEBUG] retrieved and pushed value 'serij3003'
+[02:08:57] [INFO] Callback 'Login' set up for delayed execution.
+[02:08:57] [DEBUG] created delayed callback with 2 parameters
+[02:08:57] [DEBUG] CHandle::Execute(this=0x5843a8, type=1, query=0x5af878)
+[02:08:57] [DEBUG] CHandle::Execute - return value: true
+[02:08:57] [DEBUG] mysql_tquery: return value: '1'
+[02:08:57] [DEBUG] CConnection::Execute(query=0x5af878, this=0x406a020, connection=0x5908e8)
+[02:08:57] [DEBUG] CQuery::Execute(this=0x5af878, connection=0x5908e8)
+[02:08:57] [ERROR] error #1065 while executing query "": Query was empty
+[02:08:57] [DEBUG] CConnection::GetError(this=0x406a020, connection=0x5908e8)
+[02:08:57] [DEBUG] CCallback::Create(amx=0x29aab90, name='OnQueryError', format='dsssd)
+[02:08:57] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[02:08:57] [DEBUG] processing specifier 'd'
+[02:08:57] [DEBUG] retrieved and pushed value '1065'
+[02:08:57] [DEBUG] processing specifier 's'
+[02:08:57] [DEBUG] retrieved and pushed value 'Query was empty'
+[02:08:57] [DEBUG] processing specifier 's'
+[02:08:57] [DEBUG] retrieved and pushed value 'Login'
+[02:08:57] [DEBUG] processing specifier 's'
+[02:08:57] [DEBUG] retrieved and pushed value ''
+[02:08:57] [DEBUG] processing specifier 'd'
+[02:08:57] [DEBUG] retrieved and pushed value '1'
+[02:08:57] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[02:08:57] [DEBUG] created delayed callback with 5 parameters
+[02:08:57] [DEBUG] CCallback::Execute(amx=0x29aab90, index=-10, num_params=5)
+[02:09:34] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:09:34] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:09:34] [DEBUG] CHandleManager::Create(this=0x7454e0, host='localhost', user='root', pass='****', db='players', options=0x7407f0)
+[02:09:34] [INFO] Creating new connection handle...
+[02:09:34] [WARNING] mysql_connect: no password specified
+[02:09:34] [DEBUG] CConnection::CConnection(this=0x747958, host='localhost', user='root', passw='****', db='players', options=0x7407f0)
+[02:09:34] [DEBUG] CConnection::CConnection - new connection = 0x758118
+[02:09:34] [DEBUG] CConnection::CConnection(this=0x29a1020, host='localhost', user='root', passw='****', db='players', options=0x7407f0)
+[02:09:34] [DEBUG] CConnection::CConnection - new connection = 0x7623e8
+[02:09:34] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x29a1020, connection=0x29a1020)
+[02:09:34] [DEBUG] CThreadedConnection::WorkerFunc(this=0x29a1020, connection=0x29a1020)
+[02:09:34] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x747d18)
+[02:09:34] [DEBUG] CConnection::CConnection(this=0x4245020, host='localhost', user='root', passw='****', db='players', options=0x7407f0)
+[02:09:34] [DEBUG] CConnection::CConnection - new connection = 0x76f850
+[02:09:34] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4245020, connection=0x4245020)
+[02:09:34] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4245020, connection=0x4245020)
+[02:09:34] [DEBUG] CConnection::CConnection(this=0x4412020, host='localhost', user='root', passw='****', db='players', options=0x7407f0)
+[02:09:34] [DEBUG] CConnection::CConnection - new connection = 0x7797f8
+[02:09:34] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4412020, connection=0x4412020)
+[02:09:34] [INFO] Connection handle with id '1' successfully created.
+[02:09:34] [DEBUG] CHandleManager::Create - new handle = 0x755190
+[02:09:34] [DEBUG] mysql_connect: return value: '1'
+[02:09:34] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4412020, connection=0x4412020)
+[02:09:37] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:09:37] [DEBUG] CCallback::Create(amx=0x2acab90, name='FindPlayerInTable', format='i', params=0x2cec79c, param_offset=5)
+[02:09:37] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:09:37] [DEBUG] processing specifier 'i' with parameter index 0
+[02:09:37] [DEBUG] retrieved and pushed value '0'
+[02:09:37] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:09:37] [DEBUG] created delayed callback with 1 parameter
+[02:09:37] [DEBUG] CHandle::Execute(this=0x755190, type=1, query=0x739fa0)
+[02:09:37] [DEBUG] CHandle::Execute - return value: true
+[02:09:37] [DEBUG] mysql_tquery: return value: '1'
+[02:09:37] [DEBUG] CConnection::Execute(query=0x739fa0, this=0x29a1020, connection=0x7623e8)
+[02:09:37] [DEBUG] CQuery::Execute(this=0x739fa0, connection=0x7623e8)
+[02:09:37] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.439 milliseconds
+[02:09:37] [DEBUG] CResultSet::Create(connection=0x7623e8, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:09:37] [DEBUG] created new resultset '0x757c18'
+[02:09:37] [DEBUG] fetched MySQL result '0x75b978'
+[02:09:37] [DEBUG] allocated 92 bytes for PAWN result
+[02:09:37] [DEBUG] CCallback::Execute(amx=0x2acab90, index=0, num_params=1)
+[02:09:37] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:09:37] [DEBUG] processing internal specifier 'c'
+[02:09:37] [DEBUG] pushed value '0' onto AMX stack
+[02:09:37] [DEBUG] executing AMX callback with index '0'
+[02:09:37] [DEBUG] cache_get_row_count(0x02CEC948)
+[02:09:37] [DEBUG] cache_get_row_count: return value: '1'
+[02:09:37] [DEBUG] AMX callback executed with error '0'
+[02:09:37] [INFO] Callback successfully executed.
+[02:09:39] [DEBUG] mysql_tquery(1, "", "Login", "is")
+[02:09:39] [DEBUG] CCallback::Create(amx=0x2acab90, name='Login', format='is', params=0x2cec760, param_offset=5)
+[02:09:39] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:09:39] [DEBUG] processing specifier 'i' with parameter index 0
+[02:09:39] [DEBUG] retrieved and pushed value '0'
+[02:09:39] [DEBUG] processing specifier 's' with parameter index 1
+[02:09:39] [DEBUG] retrieved and pushed value 'serij3003'
+[02:09:39] [INFO] Callback 'Login' set up for delayed execution.
+[02:09:39] [DEBUG] created delayed callback with 2 parameters
+[02:09:39] [DEBUG] CHandle::Execute(this=0x755190, type=1, query=0x73a038)
+[02:09:39] [DEBUG] CHandle::Execute - return value: true
+[02:09:39] [DEBUG] mysql_tquery: return value: '1'
+[02:09:39] [DEBUG] CConnection::Execute(query=0x73a038, this=0x29a1020, connection=0x7623e8)
+[02:09:39] [DEBUG] CQuery::Execute(this=0x73a038, connection=0x7623e8)
+[02:09:39] [ERROR] error #1065 while executing query "": Query was empty
+[02:09:39] [DEBUG] CConnection::GetError(this=0x29a1020, connection=0x7623e8)
+[02:09:39] [DEBUG] CCallback::Create(amx=0x2acab90, name='OnQueryError', format='dsssd)
+[02:09:39] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[02:09:39] [DEBUG] processing specifier 'd'
+[02:09:39] [DEBUG] retrieved and pushed value '1065'
+[02:09:39] [DEBUG] processing specifier 's'
+[02:09:39] [DEBUG] retrieved and pushed value 'Query was empty'
+[02:09:39] [DEBUG] processing specifier 's'
+[02:09:39] [DEBUG] retrieved and pushed value 'Login'
+[02:09:39] [DEBUG] processing specifier 's'
+[02:09:39] [DEBUG] retrieved and pushed value ''
+[02:09:39] [DEBUG] processing specifier 'd'
+[02:09:39] [DEBUG] retrieved and pushed value '1'
+[02:09:39] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[02:09:39] [DEBUG] created delayed callback with 5 parameters
+[02:09:39] [DEBUG] CCallback::Execute(amx=0x2acab90, index=-10, num_params=5)
+[02:11:16] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:11:16] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:11:16] [DEBUG] CHandleManager::Create(this=0x6f4cd8, host='localhost', user='root', pass='****', db='players', options=0x6efcb8)
+[02:11:16] [INFO] Creating new connection handle...
+[02:11:16] [WARNING] mysql_connect: no password specified
+[02:11:16] [DEBUG] CConnection::CConnection(this=0x6f82f8, host='localhost', user='root', passw='****', db='players', options=0x6efcb8)
+[02:11:16] [DEBUG] CConnection::CConnection - new connection = 0x706a40
+[02:11:16] [DEBUG] CConnection::CConnection(this=0x40b5020, host='localhost', user='root', passw='****', db='players', options=0x6efcb8)
+[02:11:16] [DEBUG] CConnection::CConnection - new connection = 0x712d40
+[02:11:16] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x40b5020, connection=0x40b5020)
+[02:11:16] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x6f83f8)
+[02:11:16] [DEBUG] CThreadedConnection::WorkerFunc(this=0x40b5020, connection=0x40b5020)
+[02:11:16] [DEBUG] CConnection::CConnection(this=0x4244020, host='localhost', user='root', passw='****', db='players', options=0x6efcb8)
+[02:11:16] [DEBUG] CConnection::CConnection - new connection = 0x722320
+[02:11:16] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4244020, connection=0x4244020)
+[02:11:16] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4244020, connection=0x4244020)
+[02:11:16] [DEBUG] CConnection::CConnection(this=0x441c020, host='localhost', user='root', passw='****', db='players', options=0x6efcb8)
+[02:11:16] [DEBUG] CConnection::CConnection - new connection = 0x72bf68
+[02:11:16] [DEBUG] CThreadedConnection::WorkerFunc(this=0x441c020, connection=0x441c020)
+[02:11:16] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x441c020, connection=0x441c020)
+[02:11:16] [INFO] Connection handle with id '1' successfully created.
+[02:11:16] [DEBUG] CHandleManager::Create - new handle = 0x7066c8
+[02:11:16] [DEBUG] mysql_connect: return value: '1'
+[02:11:20] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:11:20] [DEBUG] CCallback::Create(amx=0x2a6ab90, name='FindPlayerInTable', format='i', params=0x2c8c79c, param_offset=5)
+[02:11:20] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:11:20] [DEBUG] processing specifier 'i' with parameter index 0
+[02:11:20] [DEBUG] retrieved and pushed value '0'
+[02:11:20] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:11:20] [DEBUG] created delayed callback with 1 parameter
+[02:11:20] [DEBUG] CHandle::Execute(this=0x7066c8, type=1, query=0x6e1580)
+[02:11:20] [DEBUG] CHandle::Execute - return value: true
+[02:11:20] [DEBUG] mysql_tquery: return value: '1'
+[02:11:20] [DEBUG] CConnection::Execute(query=0x6e1580, this=0x40b5020, connection=0x712d40)
+[02:11:20] [DEBUG] CQuery::Execute(this=0x6e1580, connection=0x712d40)
+[02:11:20] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.784 milliseconds
+[02:11:20] [DEBUG] CResultSet::Create(connection=0x712d40, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:11:20] [DEBUG] created new resultset '0x706ed0'
+[02:11:20] [DEBUG] fetched MySQL result '0x6feae0'
+[02:11:20] [DEBUG] allocated 92 bytes for PAWN result
+[02:11:20] [DEBUG] CCallback::Execute(amx=0x2a6ab90, index=0, num_params=1)
+[02:11:20] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:11:20] [DEBUG] processing internal specifier 'c'
+[02:11:20] [DEBUG] pushed value '0' onto AMX stack
+[02:11:20] [DEBUG] executing AMX callback with index '0'
+[02:11:20] [DEBUG] cache_get_row_count(0x02C8C948)
+[02:11:20] [DEBUG] cache_get_row_count: return value: '1'
+[02:11:20] [DEBUG] AMX callback executed with error '0'
+[02:11:20] [INFO] Callback successfully executed.
+[02:11:21] [DEBUG] mysql_tquery(1, "SELECT Pass FROM `players` WHERE Name = 'Sergey_Maingard'", "Login", "is")
+[02:11:21] [DEBUG] CCallback::Create(amx=0x2a6ab90, name='Login', format='is', params=0x2c8c750, param_offset=5)
+[02:11:21] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:11:21] [DEBUG] processing specifier 'i' with parameter index 0
+[02:11:21] [DEBUG] retrieved and pushed value '0'
+[02:11:21] [DEBUG] processing specifier 's' with parameter index 1
+[02:11:21] [DEBUG] retrieved and pushed value 'serij3003'
+[02:11:21] [INFO] Callback 'Login' set up for delayed execution.
+[02:11:21] [DEBUG] created delayed callback with 2 parameters
+[02:11:21] [DEBUG] CHandle::Execute(this=0x7066c8, type=1, query=0x6e1d38)
+[02:11:21] [DEBUG] CHandle::Execute - return value: true
+[02:11:21] [DEBUG] mysql_tquery: return value: '1'
+[02:11:21] [DEBUG] CConnection::Execute(query=0x6e1d38, this=0x40b5020, connection=0x712d40)
+[02:11:21] [DEBUG] CQuery::Execute(this=0x6e1d38, connection=0x712d40)
+[02:11:21] [ERROR] error #1054 while executing query "SELECT Pass FROM `players` WHERE Name = 'Sergey_Maingard'": Unknown column 'Pass' in 'field list'
+[02:11:21] [DEBUG] CConnection::GetError(this=0x40b5020, connection=0x712d40)
+[02:11:21] [DEBUG] CCallback::Create(amx=0x2a6ab90, name='OnQueryError', format='dsssd)
+[02:11:21] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[02:11:21] [DEBUG] processing specifier 'd'
+[02:11:21] [DEBUG] retrieved and pushed value '1054'
+[02:11:21] [DEBUG] processing specifier 's'
+[02:11:21] [DEBUG] retrieved and pushed value 'Unknown column 'Pass' in 'field list''
+[02:11:21] [DEBUG] processing specifier 's'
+[02:11:21] [DEBUG] retrieved and pushed value 'Login'
+[02:11:21] [DEBUG] processing specifier 's'
+[02:11:21] [DEBUG] retrieved and pushed value 'SELECT Pass FROM `players` WHERE Name = 'Sergey_Maingard''
+[02:11:21] [DEBUG] processing specifier 'd'
+[02:11:21] [DEBUG] retrieved and pushed value '1'
+[02:11:21] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[02:11:21] [DEBUG] created delayed callback with 5 parameters
+[02:11:21] [DEBUG] CCallback::Execute(amx=0x2a6ab90, index=-10, num_params=5)
+[02:11:54] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:11:54] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:11:54] [DEBUG] CHandleManager::Create(this=0x7d0b30, host='localhost', user='root', pass='****', db='players', options=0x7cdd80)
+[02:11:54] [INFO] Creating new connection handle...
+[02:11:54] [WARNING] mysql_connect: no password specified
+[02:11:54] [DEBUG] CConnection::CConnection(this=0x7d6188, host='localhost', user='root', passw='****', db='players', options=0x7cdd80)
+[02:11:54] [DEBUG] CConnection::CConnection - new connection = 0x7e98d8
+[02:11:54] [DEBUG] CConnection::CConnection(this=0x4142020, host='localhost', user='root', passw='****', db='players', options=0x7cdd80)
+[02:11:54] [DEBUG] CConnection::CConnection - new connection = 0x7f31f8
+[02:11:54] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4142020, connection=0x4142020)
+[02:11:54] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4142020, connection=0x4142020)
+[02:11:54] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x7d6288)
+[02:11:54] [DEBUG] CConnection::CConnection(this=0x431b020, host='localhost', user='root', passw='****', db='players', options=0x7cdd80)
+[02:11:54] [DEBUG] CConnection::CConnection - new connection = 0x802e60
+[02:11:54] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x431b020, connection=0x431b020)
+[02:11:54] [DEBUG] CConnection::CConnection(this=0x44e6020, host='localhost', user='root', passw='****', db='players', options=0x7cdd80)
+[02:11:54] [DEBUG] CThreadedConnection::WorkerFunc(this=0x431b020, connection=0x431b020)
+[02:11:54] [DEBUG] CConnection::CConnection - new connection = 0x80db68
+[02:11:54] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x44e6020, connection=0x44e6020)
+[02:11:54] [INFO] Connection handle with id '1' successfully created.
+[02:11:54] [DEBUG] CHandleManager::Create - new handle = 0x7e50d8
+[02:11:54] [DEBUG] CThreadedConnection::WorkerFunc(this=0x44e6020, connection=0x44e6020)
+[02:11:54] [DEBUG] mysql_connect: return value: '1'
+[02:11:57] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:11:57] [DEBUG] CCallback::Create(amx=0x2a7ab90, name='FindPlayerInTable', format='i', params=0x2c9c7ac, param_offset=5)
+[02:11:57] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:11:57] [DEBUG] processing specifier 'i' with parameter index 0
+[02:11:57] [DEBUG] retrieved and pushed value '0'
+[02:11:57] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:11:57] [DEBUG] created delayed callback with 1 parameter
+[02:11:57] [DEBUG] CHandle::Execute(this=0x7e50d8, type=1, query=0x7c0d38)
+[02:11:57] [DEBUG] CHandle::Execute - return value: true
+[02:11:57] [DEBUG] mysql_tquery: return value: '1'
+[02:11:57] [DEBUG] CConnection::Execute(query=0x7c0d38, this=0x4142020, connection=0x7f31f8)
+[02:11:57] [DEBUG] CQuery::Execute(this=0x7c0d38, connection=0x7f31f8)
+[02:11:57] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 1.450 milliseconds
+[02:11:57] [DEBUG] CResultSet::Create(connection=0x7f31f8, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:11:57] [DEBUG] created new resultset '0x7e8280'
+[02:11:57] [DEBUG] fetched MySQL result '0x7de440'
+[02:11:57] [DEBUG] allocated 92 bytes for PAWN result
+[02:11:57] [DEBUG] CCallback::Execute(amx=0x2a7ab90, index=0, num_params=1)
+[02:11:57] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:11:57] [DEBUG] processing internal specifier 'c'
+[02:11:57] [DEBUG] pushed value '0' onto AMX stack
+[02:11:57] [DEBUG] executing AMX callback with index '0'
+[02:11:57] [DEBUG] cache_get_row_count(0x02C9C958)
+[02:11:57] [DEBUG] cache_get_row_count: return value: '1'
+[02:11:57] [DEBUG] AMX callback executed with error '0'
+[02:11:57] [INFO] Callback successfully executed.
+[02:11:59] [DEBUG] mysql_tquery(1, "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'", "Login", "is")
+[02:11:59] [DEBUG] CCallback::Create(amx=0x2a7ab90, name='Login', format='is', params=0x2c9c740, param_offset=5)
+[02:11:59] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:11:59] [DEBUG] processing specifier 'i' with parameter index 0
+[02:11:59] [DEBUG] retrieved and pushed value '0'
+[02:11:59] [DEBUG] processing specifier 's' with parameter index 1
+[02:11:59] [DEBUG] retrieved and pushed value 'serij3003'
+[02:11:59] [INFO] Callback 'Login' set up for delayed execution.
+[02:11:59] [DEBUG] created delayed callback with 2 parameters
+[02:11:59] [DEBUG] CHandle::Execute(this=0x7e50d8, type=1, query=0x7c1750)
+[02:11:59] [DEBUG] CHandle::Execute - return value: true
+[02:11:59] [DEBUG] mysql_tquery: return value: '1'
+[02:11:59] [DEBUG] CConnection::Execute(query=0x7c1750, this=0x4142020, connection=0x7f31f8)
+[02:11:59] [DEBUG] CQuery::Execute(this=0x7c1750, connection=0x7f31f8)
+[02:11:59] [INFO] query "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'" successfully executed within 0.704 milliseconds
+[02:11:59] [DEBUG] CResultSet::Create(connection=0x7f31f8, query_str='SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'')
+[02:11:59] [DEBUG] created new resultset '0x7e82f0'
+[02:11:59] [DEBUG] fetched MySQL result '0x7d0fa0'
+[02:11:59] [DEBUG] allocated 28 bytes for PAWN result
+[02:11:59] [DEBUG] CCallback::Execute(amx=0x2a7ab90, index=5, num_params=2)
+[02:11:59] [INFO] Executing callback 'Login' with 2 parameters...
+[02:11:59] [DEBUG] processing internal specifier 's'
+[02:11:59] [DEBUG] pushed value 'serij3003' onto AMX stack
+[02:11:59] [DEBUG] processing internal specifier 'c'
+[02:11:59] [DEBUG] pushed value '0' onto AMX stack
+[02:11:59] [DEBUG] executing AMX callback with index '5'
+[02:11:59] [DEBUG] cache_get_value_name(0, "Pass", 0x02C9C758, 128)
+[02:11:59] [ERROR] cache_get_value_name: field 'Pass' not found
+[02:11:59] [DEBUG] AMX callback executed with error '0'
+[02:11:59] [INFO] Callback successfully executed.
+[02:12:38] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:12:38] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:12:38] [DEBUG] CHandleManager::Create(this=0x6b07b0, host='localhost', user='root', pass='****', db='players', options=0x6ade20)
+[02:12:38] [INFO] Creating new connection handle...
+[02:12:38] [WARNING] mysql_connect: no password specified
+[02:12:38] [DEBUG] CConnection::CConnection(this=0x6b6c40, host='localhost', user='root', passw='****', db='players', options=0x6ade20)
+[02:12:38] [DEBUG] CConnection::CConnection - new connection = 0x681af0
+[02:12:38] [DEBUG] CConnection::CConnection(this=0x4060020, host='localhost', user='root', passw='****', db='players', options=0x6ade20)
+[02:12:38] [DEBUG] CConnection::CConnection - new connection = 0x6d14d0
+[02:12:38] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4060020, connection=0x4060020)
+[02:12:38] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4060020, connection=0x4060020)
+[02:12:38] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x6b6bc0)
+[02:12:38] [DEBUG] CConnection::CConnection(this=0x4234020, host='localhost', user='root', passw='****', db='players', options=0x6ade20)
+[02:12:38] [DEBUG] CConnection::CConnection - new connection = 0x6dbdf8
+[02:12:38] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4234020, connection=0x4234020)
+[02:12:38] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4234020, connection=0x4234020)
+[02:12:38] [DEBUG] CConnection::CConnection(this=0x4409020, host='localhost', user='root', passw='****', db='players', options=0x6ade20)
+[02:12:38] [DEBUG] CConnection::CConnection - new connection = 0x6e4ab8
+[02:12:38] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4409020, connection=0x4409020)
+[02:12:38] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4409020, connection=0x4409020)
+[02:12:38] [INFO] Connection handle with id '1' successfully created.
+[02:12:38] [DEBUG] CHandleManager::Create - new handle = 0x680e10
+[02:12:38] [DEBUG] mysql_connect: return value: '1'
+[02:12:55] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:12:55] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:12:55] [DEBUG] CHandleManager::Create(this=0x6b5828, host='localhost', user='root', pass='****', db='players', options=0x6b0cc0)
+[02:12:55] [INFO] Creating new connection handle...
+[02:12:55] [WARNING] mysql_connect: no password specified
+[02:12:55] [DEBUG] CConnection::CConnection(this=0x6b9248, host='localhost', user='root', passw='****', db='players', options=0x6b0cc0)
+[02:12:55] [DEBUG] CConnection::CConnection - new connection = 0x6cb050
+[02:12:55] [DEBUG] CConnection::CConnection(this=0x286d020, host='localhost', user='root', passw='****', db='players', options=0x6b0cc0)
+[02:12:55] [DEBUG] CConnection::CConnection - new connection = 0x6d8b88
+[02:12:55] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x286d020, connection=0x286d020)
+[02:12:55] [DEBUG] CThreadedConnection::WorkerFunc(this=0x286d020, connection=0x286d020)
+[02:12:56] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x6b92c8)
+[02:12:56] [DEBUG] CConnection::CConnection(this=0x4226020, host='localhost', user='root', passw='****', db='players', options=0x6b0cc0)
+[02:12:56] [DEBUG] CConnection::CConnection - new connection = 0x6e36c0
+[02:12:56] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4226020, connection=0x4226020)
+[02:12:56] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4226020, connection=0x4226020)
+[02:12:56] [DEBUG] CConnection::CConnection(this=0x43f8020, host='localhost', user='root', passw='****', db='players', options=0x6b0cc0)
+[02:12:56] [DEBUG] CConnection::CConnection - new connection = 0x6ee590
+[02:12:56] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43f8020, connection=0x43f8020)
+[02:12:56] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43f8020, connection=0x43f8020)
+[02:12:56] [INFO] Connection handle with id '1' successfully created.
+[02:12:56] [DEBUG] CHandleManager::Create - new handle = 0x6c9ed0
+[02:12:56] [DEBUG] mysql_connect: return value: '1'
+[02:13:00] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:13:00] [DEBUG] CCallback::Create(amx=0x2aeab90, name='FindPlayerInTable', format='i', params=0x2d0c7bc, param_offset=5)
+[02:13:00] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:13:00] [DEBUG] processing specifier 'i' with parameter index 0
+[02:13:00] [DEBUG] retrieved and pushed value '0'
+[02:13:00] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:13:00] [DEBUG] created delayed callback with 1 parameter
+[02:13:00] [DEBUG] CHandle::Execute(this=0x6c9ed0, type=1, query=0x6a2120)
+[02:13:00] [DEBUG] CHandle::Execute - return value: true
+[02:13:00] [DEBUG] mysql_tquery: return value: '1'
+[02:13:00] [DEBUG] CConnection::Execute(query=0x6a2120, this=0x286d020, connection=0x6d8b88)
+[02:13:00] [DEBUG] CQuery::Execute(this=0x6a2120, connection=0x6d8b88)
+[02:13:00] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.529 milliseconds
+[02:13:00] [DEBUG] CResultSet::Create(connection=0x6d8b88, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:13:00] [DEBUG] created new resultset '0x6c6cc8'
+[02:13:00] [DEBUG] fetched MySQL result '0x6f77e8'
+[02:13:00] [DEBUG] allocated 92 bytes for PAWN result
+[02:13:00] [DEBUG] CCallback::Execute(amx=0x2aeab90, index=0, num_params=1)
+[02:13:00] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:13:00] [DEBUG] processing internal specifier 'c'
+[02:13:00] [DEBUG] pushed value '0' onto AMX stack
+[02:13:00] [DEBUG] executing AMX callback with index '0'
+[02:13:00] [DEBUG] cache_get_row_count(0x02D0C968)
+[02:13:00] [DEBUG] cache_get_row_count: return value: '1'
+[02:13:00] [DEBUG] AMX callback executed with error '0'
+[02:13:00] [INFO] Callback successfully executed.
+[02:13:02] [DEBUG] mysql_tquery(1, "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'", "Login", "is")
+[02:13:02] [DEBUG] CCallback::Create(amx=0x2aeab90, name='Login', format='is', params=0x2d0c750, param_offset=5)
+[02:13:02] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:13:02] [DEBUG] processing specifier 'i' with parameter index 0
+[02:13:02] [DEBUG] retrieved and pushed value '0'
+[02:13:02] [DEBUG] processing specifier 's' with parameter index 1
+[02:13:02] [DEBUG] retrieved and pushed value 'serij3003'
+[02:13:02] [INFO] Callback 'Login' set up for delayed execution.
+[02:13:02] [DEBUG] created delayed callback with 2 parameters
+[02:13:02] [DEBUG] CHandle::Execute(this=0x6c9ed0, type=1, query=0x6a22e8)
+[02:13:02] [DEBUG] CConnection::Execute(query=0x6a22e8, this=0x286d020, connection=0x6d8b88)
+[02:13:02] [DEBUG] CQuery::Execute(this=0x6a22e8, connection=0x6d8b88)
+[02:13:02] [DEBUG] CHandle::Execute - return value: true
+[02:13:02] [DEBUG] mysql_tquery: return value: '1'
+[02:13:02] [INFO] query "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'" successfully executed within 0.644 milliseconds
+[02:13:02] [DEBUG] CResultSet::Create(connection=0x6d8b88, query_str='SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'')
+[02:13:02] [DEBUG] created new resultset '0x6f89d8'
+[02:13:02] [DEBUG] fetched MySQL result '0x6b3938'
+[02:13:02] [DEBUG] allocated 28 bytes for PAWN result
+[02:13:02] [DEBUG] CCallback::Execute(amx=0x2aeab90, index=5, num_params=2)
+[02:13:02] [INFO] Executing callback 'Login' with 2 parameters...
+[02:13:02] [DEBUG] processing internal specifier 's'
+[02:13:02] [DEBUG] pushed value 'serij3003' onto AMX stack
+[02:13:02] [DEBUG] processing internal specifier 'c'
+[02:13:02] [DEBUG] pushed value '0' onto AMX stack
+[02:13:02] [DEBUG] executing AMX callback with index '5'
+[02:13:02] [DEBUG] cache_get_value_name(0, "Password", 0x02D0C768, 128)
+[02:13:02] [DEBUG] cache_get_value_name: assigned value: 'serij3003'
+[02:13:02] [DEBUG] cache_get_value_name: return value: '1'
+[02:13:02] [DEBUG] AMX callback executed with error '0'
+[02:13:02] [INFO] Callback successfully executed.
+[02:13:23] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:13:23] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:13:23] [DEBUG] CHandleManager::Create(this=0x550b68, host='localhost', user='root', pass='****', db='players', options=0x54d9f8)
+[02:13:23] [INFO] Creating new connection handle...
+[02:13:23] [WARNING] mysql_connect: no password specified
+[02:13:23] [DEBUG] CConnection::CConnection(this=0x556900, host='localhost', user='root', passw='****', db='players', options=0x54d9f8)
+[02:13:23] [DEBUG] CConnection::CConnection - new connection = 0x561e20
+[02:13:23] [DEBUG] CConnection::CConnection(this=0x4065020, host='localhost', user='root', passw='****', db='players', options=0x54d9f8)
+[02:13:23] [DEBUG] CConnection::CConnection - new connection = 0x5700c8
+[02:13:23] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4065020, connection=0x4065020)
+[02:13:23] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x556800)
+[02:13:23] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4065020, connection=0x4065020)
+[02:13:23] [DEBUG] CConnection::CConnection(this=0x4232020, host='localhost', user='root', passw='****', db='players', options=0x54d9f8)
+[02:13:23] [DEBUG] CConnection::CConnection - new connection = 0x57cf38
+[02:13:23] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4232020, connection=0x4232020)
+[02:13:23] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4232020, connection=0x4232020)
+[02:13:23] [DEBUG] CConnection::CConnection(this=0x4408020, host='localhost', user='root', passw='****', db='players', options=0x54d9f8)
+[02:13:23] [DEBUG] CConnection::CConnection - new connection = 0x597dd8
+[02:13:23] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4408020, connection=0x4408020)
+[02:13:23] [INFO] Connection handle with id '1' successfully created.
+[02:13:23] [DEBUG] CHandleManager::Create - new handle = 0x564d30
+[02:13:23] [DEBUG] mysql_connect: return value: '1'
+[02:13:23] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4408020, connection=0x4408020)
+[02:13:34] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:13:34] [DEBUG] CCallback::Create(amx=0x29aab90, name='FindPlayerInTable', format='i', params=0x2bcc7bc, param_offset=5)
+[02:13:34] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:13:34] [DEBUG] processing specifier 'i' with parameter index 0
+[02:13:34] [DEBUG] retrieved and pushed value '0'
+[02:13:34] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:13:34] [DEBUG] created delayed callback with 1 parameter
+[02:13:34] [DEBUG] CHandle::Execute(this=0x564d30, type=1, query=0x54a350)
+[02:13:34] [DEBUG] CConnection::Execute(query=0x54a350, this=0x4065020, connection=0x5700c8)
+[02:13:34] [DEBUG] CQuery::Execute(this=0x54a350, connection=0x5700c8)
+[02:13:34] [DEBUG] CHandle::Execute - return value: true
+[02:13:34] [DEBUG] mysql_tquery: return value: '1'
+[02:13:34] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.914 milliseconds
+[02:13:34] [DEBUG] CResultSet::Create(connection=0x5700c8, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:13:34] [DEBUG] created new resultset '0x5654e8'
+[02:13:34] [DEBUG] fetched MySQL result '0x572498'
+[02:13:34] [DEBUG] allocated 92 bytes for PAWN result
+[02:13:34] [DEBUG] CCallback::Execute(amx=0x29aab90, index=0, num_params=1)
+[02:13:34] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:13:34] [DEBUG] processing internal specifier 'c'
+[02:13:34] [DEBUG] pushed value '0' onto AMX stack
+[02:13:34] [DEBUG] executing AMX callback with index '0'
+[02:13:34] [DEBUG] cache_get_row_count(0x02BCC968)
+[02:13:34] [DEBUG] cache_get_row_count: return value: '1'
+[02:13:34] [DEBUG] AMX callback executed with error '0'
+[02:13:34] [INFO] Callback successfully executed.
+[02:13:36] [DEBUG] mysql_tquery(1, "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'", "Login", "is")
+[02:13:36] [DEBUG] CCallback::Create(amx=0x29aab90, name='Login', format='is', params=0x2bcc750, param_offset=5)
+[02:13:36] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:13:36] [DEBUG] processing specifier 'i' with parameter index 0
+[02:13:36] [DEBUG] retrieved and pushed value '0'
+[02:13:36] [DEBUG] processing specifier 's' with parameter index 1
+[02:13:36] [DEBUG] retrieved and pushed value 'serij3003'
+[02:13:36] [INFO] Callback 'Login' set up for delayed execution.
+[02:13:36] [DEBUG] created delayed callback with 2 parameters
+[02:13:36] [DEBUG] CHandle::Execute(this=0x564d30, type=1, query=0x5a2420)
+[02:13:36] [DEBUG] CHandle::Execute - return value: true
+[02:13:36] [DEBUG] mysql_tquery: return value: '1'
+[02:13:36] [DEBUG] CConnection::Execute(query=0x5a2420, this=0x4065020, connection=0x5700c8)
+[02:13:36] [DEBUG] CQuery::Execute(this=0x5a2420, connection=0x5700c8)
+[02:13:36] [INFO] query "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'" successfully executed within 0.872 milliseconds
+[02:13:36] [DEBUG] CResultSet::Create(connection=0x5700c8, query_str='SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'')
+[02:13:36] [DEBUG] created new resultset '0x565948'
+[02:13:36] [DEBUG] fetched MySQL result '0x5514e8'
+[02:13:36] [DEBUG] allocated 28 bytes for PAWN result
+[02:13:36] [DEBUG] CCallback::Execute(amx=0x29aab90, index=5, num_params=2)
+[02:13:36] [INFO] Executing callback 'Login' with 2 parameters...
+[02:13:36] [DEBUG] processing internal specifier 's'
+[02:13:36] [DEBUG] pushed value 'serij3003' onto AMX stack
+[02:13:36] [DEBUG] processing internal specifier 'c'
+[02:13:36] [DEBUG] pushed value '0' onto AMX stack
+[02:13:36] [DEBUG] executing AMX callback with index '5'
+[02:13:36] [DEBUG] cache_get_value_name(0, "Password", 0x02BCC768, 128)
+[02:13:36] [DEBUG] cache_get_value_name: assigned value: 'serij3003'
+[02:13:36] [DEBUG] cache_get_value_name: return value: '1'
+[02:13:36] [DEBUG] AMX callback executed with error '0'
+[02:13:36] [INFO] Callback successfully executed.
+[02:14:14] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:14:14] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:14:14] [DEBUG] CHandleManager::Create(this=0x702870, host='localhost', user='root', pass='****', db='players', options=0x6fd820)
+[02:14:14] [INFO] Creating new connection handle...
+[02:14:14] [WARNING] mysql_connect: no password specified
+[02:14:14] [DEBUG] CConnection::CConnection(this=0x706888, host='localhost', user='root', passw='****', db='players', options=0x6fd820)
+[02:14:14] [DEBUG] CConnection::CConnection - new connection = 0x717360
+[02:14:14] [DEBUG] CConnection::CConnection(this=0x40af020, host='localhost', user='root', passw='****', db='players', options=0x6fd820)
+[02:14:14] [DEBUG] CConnection::CConnection - new connection = 0x721c88
+[02:14:14] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x40af020, connection=0x40af020)
+[02:14:14] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x7069c8)
+[02:14:14] [DEBUG] CConnection::CConnection(this=0x428d020, host='localhost', user='root', passw='****', db='players', options=0x6fd820)
+[02:14:14] [DEBUG] CThreadedConnection::WorkerFunc(this=0x40af020, connection=0x40af020)
+[02:14:14] [DEBUG] CConnection::CConnection - new connection = 0x72b0d8
+[02:14:14] [DEBUG] CThreadedConnection::WorkerFunc(this=0x428d020, connection=0x428d020)
+[02:14:14] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x428d020, connection=0x428d020)
+[02:14:14] [DEBUG] CConnection::CConnection(this=0x445c020, host='localhost', user='root', passw='****', db='players', options=0x6fd820)
+[02:14:14] [DEBUG] CConnection::CConnection - new connection = 0x738c08
+[02:14:14] [DEBUG] CThreadedConnection::WorkerFunc(this=0x445c020, connection=0x445c020)
+[02:14:14] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x445c020, connection=0x445c020)
+[02:14:14] [INFO] Connection handle with id '1' successfully created.
+[02:14:14] [DEBUG] CHandleManager::Create - new handle = 0x716018
+[02:14:14] [DEBUG] mysql_connect: return value: '1'
+[02:14:22] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:14:22] [DEBUG] CCallback::Create(amx=0x29eab90, name='FindPlayerInTable', format='i', params=0x2c0c7b0, param_offset=5)
+[02:14:22] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:14:22] [DEBUG] processing specifier 'i' with parameter index 0
+[02:14:22] [DEBUG] retrieved and pushed value '0'
+[02:14:22] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:14:22] [DEBUG] created delayed callback with 1 parameter
+[02:14:22] [DEBUG] CHandle::Execute(this=0x716018, type=1, query=0x7373e8)
+[02:14:22] [DEBUG] CHandle::Execute - return value: true
+[02:14:22] [DEBUG] mysql_tquery: return value: '1'
+[02:14:22] [DEBUG] CConnection::Execute(query=0x7373e8, this=0x40af020, connection=0x721c88)
+[02:14:22] [DEBUG] CQuery::Execute(this=0x7373e8, connection=0x721c88)
+[02:14:22] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.383 milliseconds
+[02:14:22] [DEBUG] CResultSet::Create(connection=0x721c88, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:14:22] [DEBUG] created new resultset '0x717090'
+[02:14:22] [DEBUG] fetched MySQL result '0x747248'
+[02:14:22] [DEBUG] allocated 92 bytes for PAWN result
+[02:14:22] [DEBUG] CCallback::Execute(amx=0x29eab90, index=0, num_params=1)
+[02:14:22] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:14:22] [DEBUG] processing internal specifier 'c'
+[02:14:22] [DEBUG] pushed value '0' onto AMX stack
+[02:14:22] [DEBUG] executing AMX callback with index '0'
+[02:14:22] [DEBUG] cache_get_row_count(0x02C0C95C)
+[02:14:22] [DEBUG] cache_get_row_count: return value: '1'
+[02:14:22] [DEBUG] AMX callback executed with error '0'
+[02:14:22] [INFO] Callback successfully executed.
+[02:14:24] [DEBUG] mysql_tquery(1, "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'", "Login", "s")
+[02:14:24] [DEBUG] CCallback::Create(amx=0x29eab90, name='Login', format='s', params=0x2c0c748, param_offset=5)
+[02:14:24] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:14:24] [DEBUG] processing specifier 's' with parameter index 0
+[02:14:24] [DEBUG] retrieved and pushed value 'serij3003'
+[02:14:24] [INFO] Callback 'Login' set up for delayed execution.
+[02:14:24] [DEBUG] created delayed callback with 1 parameter
+[02:14:24] [DEBUG] CHandle::Execute(this=0x716018, type=1, query=0x747808)
+[02:14:24] [DEBUG] CHandle::Execute - return value: true
+[02:14:24] [DEBUG] mysql_tquery: return value: '1'
+[02:14:24] [DEBUG] CConnection::Execute(query=0x747808, this=0x40af020, connection=0x721c88)
+[02:14:24] [DEBUG] CQuery::Execute(this=0x747808, connection=0x721c88)
+[02:14:24] [INFO] query "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'" successfully executed within 0.405 milliseconds
+[02:14:24] [DEBUG] CResultSet::Create(connection=0x721c88, query_str='SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'')
+[02:14:24] [DEBUG] created new resultset '0x717100'
+[02:14:24] [DEBUG] fetched MySQL result '0x700270'
+[02:14:24] [DEBUG] allocated 28 bytes for PAWN result
+[02:14:24] [DEBUG] CCallback::Execute(amx=0x29eab90, index=5, num_params=1)
+[02:14:24] [INFO] Executing callback 'Login' with 1 parameter...
+[02:14:24] [DEBUG] processing internal specifier 's'
+[02:14:24] [DEBUG] pushed value 'serij3003' onto AMX stack
+[02:14:24] [DEBUG] executing AMX callback with index '5'
+[02:14:24] [DEBUG] cache_get_value_name(0, "Password", 0x02C0C760, 128)
+[02:14:24] [DEBUG] cache_get_value_name: assigned value: 'serij3003'
+[02:14:24] [DEBUG] cache_get_value_name: return value: '1'
+[02:14:24] [DEBUG] AMX callback executed with error '0'
+[02:14:24] [INFO] Callback successfully executed.
+[02:16:09] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:16:09] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:16:09] [DEBUG] CHandleManager::Create(this=0x741830, host='localhost', user='root', pass='****', db='players', options=0x73b6e8)
+[02:16:09] [INFO] Creating new connection handle...
+[02:16:09] [WARNING] mysql_connect: no password specified
+[02:16:09] [DEBUG] CConnection::CConnection(this=0x747920, host='localhost', user='root', passw='****', db='players', options=0x73b6e8)
+[02:16:09] [DEBUG] CConnection::CConnection - new connection = 0x756460
+[02:16:09] [DEBUG] CConnection::CConnection(this=0x251c020, host='localhost', user='root', passw='****', db='players', options=0x73b6e8)
+[02:16:09] [DEBUG] CConnection::CConnection - new connection = 0x760018
+[02:16:09] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x251c020, connection=0x251c020)
+[02:16:09] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x7472e0)
+[02:16:09] [DEBUG] CConnection::CConnection(this=0x421c020, host='localhost', user='root', passw='****', db='players', options=0x73b6e8)
+[02:16:09] [DEBUG] CThreadedConnection::WorkerFunc(this=0x251c020, connection=0x251c020)
+[02:16:09] [DEBUG] CConnection::CConnection - new connection = 0x770740
+[02:16:10] [DEBUG] CThreadedConnection::WorkerFunc(this=0x421c020, connection=0x421c020)
+[02:16:10] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x421c020, connection=0x421c020)
+[02:16:10] [DEBUG] CConnection::CConnection(this=0x43e4020, host='localhost', user='root', passw='****', db='players', options=0x73b6e8)
+[02:16:10] [DEBUG] CConnection::CConnection - new connection = 0x77b320
+[02:16:10] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43e4020, connection=0x43e4020)
+[02:16:10] [INFO] Connection handle with id '1' successfully created.
+[02:16:10] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43e4020, connection=0x43e4020)
+[02:16:10] [DEBUG] CHandleManager::Create - new handle = 0x7546f8
+[02:16:10] [DEBUG] mysql_connect: return value: '1'
+[02:16:24] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:16:24] [DEBUG] CCallback::Create(amx=0x2a9ab90, name='FindPlayerInTable', format='i', params=0x2cbc7e8, param_offset=5)
+[02:16:24] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:16:24] [DEBUG] processing specifier 'i' with parameter index 0
+[02:16:24] [DEBUG] retrieved and pushed value '0'
+[02:16:24] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:16:24] [DEBUG] created delayed callback with 1 parameter
+[02:16:24] [DEBUG] CHandle::Execute(this=0x7546f8, type=1, query=0x77e670)
+[02:16:24] [DEBUG] CHandle::Execute - return value: true
+[02:16:24] [DEBUG] mysql_tquery: return value: '1'
+[02:16:24] [DEBUG] CConnection::Execute(query=0x77e670, this=0x251c020, connection=0x760018)
+[02:16:24] [DEBUG] CQuery::Execute(this=0x77e670, connection=0x760018)
+[02:16:24] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.907 milliseconds
+[02:16:24] [DEBUG] CResultSet::Create(connection=0x760018, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:16:24] [DEBUG] created new resultset '0x754d28'
+[02:16:24] [DEBUG] fetched MySQL result '0x75ff90'
+[02:16:24] [DEBUG] allocated 92 bytes for PAWN result
+[02:16:24] [DEBUG] CCallback::Execute(amx=0x2a9ab90, index=0, num_params=1)
+[02:16:24] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:16:24] [DEBUG] processing internal specifier 'c'
+[02:16:24] [DEBUG] pushed value '0' onto AMX stack
+[02:16:24] [DEBUG] executing AMX callback with index '0'
+[02:16:24] [DEBUG] cache_get_row_count(0x02CBC994)
+[02:16:24] [DEBUG] cache_get_row_count: return value: '1'
+[02:16:24] [DEBUG] AMX callback executed with error '0'
+[02:16:24] [INFO] Callback successfully executed.
+[02:16:26] [DEBUG] mysql_tquery(1, "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'", "Login", "s")
+[02:16:26] [DEBUG] CCallback::Create(amx=0x2a9ab90, name='Login', format='s', params=0x2cbc780, param_offset=5)
+[02:16:26] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:16:26] [DEBUG] processing specifier 's' with parameter index 0
+[02:16:26] [DEBUG] retrieved and pushed value 'serij3003'
+[02:16:26] [INFO] Callback 'Login' set up for delayed execution.
+[02:16:26] [DEBUG] created delayed callback with 1 parameter
+[02:16:26] [DEBUG] CHandle::Execute(this=0x7546f8, type=1, query=0x77e670)
+[02:16:26] [DEBUG] CHandle::Execute - return value: true
+[02:16:26] [DEBUG] mysql_tquery: return value: '1'
+[02:16:26] [DEBUG] CConnection::Execute(query=0x77e670, this=0x251c020, connection=0x760018)
+[02:16:26] [DEBUG] CQuery::Execute(this=0x77e670, connection=0x760018)
+[02:16:26] [INFO] query "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'" successfully executed within 0.337 milliseconds
+[02:16:26] [DEBUG] CResultSet::Create(connection=0x760018, query_str='SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'')
+[02:16:26] [DEBUG] created new resultset '0x7552d8'
+[02:16:26] [DEBUG] fetched MySQL result '0x73fa68'
+[02:16:26] [DEBUG] allocated 28 bytes for PAWN result
+[02:16:26] [DEBUG] CCallback::Execute(amx=0x2a9ab90, index=5, num_params=1)
+[02:16:27] [INFO] Executing callback 'Login' with 1 parameter...
+[02:16:27] [DEBUG] processing internal specifier 's'
+[02:16:27] [DEBUG] pushed value 'serij3003' onto AMX stack
+[02:16:27] [DEBUG] executing AMX callback with index '5'
+[02:16:27] [DEBUG] cache_get_value_name(0, "Password", 0x02CBC798, 128)
+[02:16:27] [DEBUG] cache_get_value_name: assigned value: 'serij3003'
+[02:16:27] [DEBUG] cache_get_value_name: return value: '1'
+[02:16:27] [DEBUG] AMX callback executed with error '0'
+[02:16:27] [INFO] Callback successfully executed.
+[02:21:47] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:21:47] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:21:47] [DEBUG] CHandleManager::Create(this=0x7009f0, host='localhost', user='root', pass='****', db='players', options=0x6fdc10)
+[02:21:47] [INFO] Creating new connection handle...
+[02:21:47] [WARNING] mysql_connect: no password specified
+[02:21:47] [DEBUG] CConnection::CConnection(this=0x7066c0, host='localhost', user='root', passw='****', db='players', options=0x6fdc10)
+[02:21:47] [DEBUG] CConnection::CConnection - new connection = 0x6d1af0
+[02:21:47] [DEBUG] CConnection::CConnection(this=0x4069020, host='localhost', user='root', passw='****', db='players', options=0x6fdc10)
+[02:21:47] [DEBUG] CConnection::CConnection - new connection = 0x722710
+[02:21:47] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4069020, connection=0x4069020)
+[02:21:47] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4069020, connection=0x4069020)
+[02:21:47] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x706580)
+[02:21:47] [DEBUG] CConnection::CConnection(this=0x4233020, host='localhost', user='root', passw='****', db='players', options=0x6fdc10)
+[02:21:47] [DEBUG] CConnection::CConnection - new connection = 0x733640
+[02:21:48] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4233020, connection=0x4233020)
+[02:21:48] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4233020, connection=0x4233020)
+[02:21:48] [DEBUG] CConnection::CConnection(this=0x4406020, host='localhost', user='root', passw='****', db='players', options=0x6fdc10)
+[02:21:48] [DEBUG] CConnection::CConnection - new connection = 0x73d5e8
+[02:21:48] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4406020, connection=0x4406020)
+[02:21:48] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4406020, connection=0x4406020)
+[02:21:48] [INFO] Connection handle with id '1' successfully created.
+[02:21:48] [DEBUG] CHandleManager::Create - new handle = 0x6d1250
+[02:21:48] [DEBUG] mysql_connect: return value: '1'
+[02:21:58] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:21:58] [DEBUG] CCallback::Create(amx=0x299ab90, name='FindPlayerInTable', format='i', params=0x2bbc7b0, param_offset=5)
+[02:21:58] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:21:58] [DEBUG] processing specifier 'i' with parameter index 0
+[02:21:58] [DEBUG] retrieved and pushed value '0'
+[02:21:58] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:21:58] [DEBUG] created delayed callback with 1 parameter
+[02:21:58] [DEBUG] CHandle::Execute(this=0x6d1250, type=1, query=0x6f19a8)
+[02:21:58] [DEBUG] CConnection::Execute(query=0x6f19a8, this=0x4069020, connection=0x722710)
+[02:21:58] [DEBUG] CQuery::Execute(this=0x6f19a8, connection=0x722710)
+[02:21:58] [DEBUG] CHandle::Execute - return value: true
+[02:21:58] [DEBUG] mysql_tquery: return value: '1'
+[02:21:58] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.538 milliseconds
+[02:21:58] [DEBUG] CResultSet::Create(connection=0x722710, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:21:58] [DEBUG] created new resultset '0x6d1900'
+[02:21:58] [DEBUG] fetched MySQL result '0x724b98'
+[02:21:58] [DEBUG] allocated 184 bytes for PAWN result
+[02:21:58] [DEBUG] CCallback::Execute(amx=0x299ab90, index=0, num_params=1)
+[02:21:58] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:21:58] [DEBUG] processing internal specifier 'c'
+[02:21:58] [DEBUG] pushed value '0' onto AMX stack
+[02:21:58] [DEBUG] executing AMX callback with index '0'
+[02:21:58] [DEBUG] cache_get_row_count(0x02BBC95C)
+[02:21:58] [DEBUG] cache_get_row_count: return value: '1'
+[02:21:58] [DEBUG] AMX callback executed with error '0'
+[02:21:58] [INFO] Callback successfully executed.
+[02:22:00] [DEBUG] mysql_tquery(1, "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'", "Login", "s")
+[02:22:00] [DEBUG] CCallback::Create(amx=0x299ab90, name='Login', format='s', params=0x2bbc748, param_offset=5)
+[02:22:00] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:22:00] [DEBUG] processing specifier 's' with parameter index 0
+[02:22:00] [DEBUG] retrieved and pushed value 'serij3003'
+[02:22:00] [INFO] Callback 'Login' set up for delayed execution.
+[02:22:00] [DEBUG] created delayed callback with 1 parameter
+[02:22:00] [DEBUG] CHandle::Execute(this=0x6d1250, type=1, query=0x6f11f0)
+[02:22:00] [DEBUG] CHandle::Execute - return value: true
+[02:22:00] [DEBUG] mysql_tquery: return value: '1'
+[02:22:00] [DEBUG] CConnection::Execute(query=0x6f11f0, this=0x4069020, connection=0x722710)
+[02:22:00] [DEBUG] CQuery::Execute(this=0x6f11f0, connection=0x722710)
+[02:22:00] [INFO] query "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'" successfully executed within 0.633 milliseconds
+[02:22:00] [DEBUG] CResultSet::Create(connection=0x722710, query_str='SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'')
+[02:22:00] [DEBUG] created new resultset '0x6d1430'
+[02:22:00] [DEBUG] fetched MySQL result '0x700fb0'
+[02:22:00] [DEBUG] allocated 56 bytes for PAWN result
+[02:22:00] [DEBUG] CCallback::Execute(amx=0x299ab90, index=5, num_params=1)
+[02:22:00] [INFO] Executing callback 'Login' with 1 parameter...
+[02:22:00] [DEBUG] processing internal specifier 's'
+[02:22:00] [DEBUG] pushed value 'serij3003' onto AMX stack
+[02:22:00] [DEBUG] executing AMX callback with index '5'
+[02:22:00] [DEBUG] cache_get_value_name(0, "Password", 0x02BBC760, 128)
+[02:22:00] [DEBUG] cache_get_value_name: assigned value: 'serij3003'
+[02:22:00] [DEBUG] cache_get_value_name: return value: '1'
+[02:22:00] [DEBUG] AMX callback executed with error '0'
+[02:22:00] [INFO] Callback successfully executed.
+[02:55:08] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:55:08] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:55:08] [DEBUG] CHandleManager::Create(this=0x7f39c0, host='localhost', user='root', pass='****', db='players', options=0x7eed00)
+[02:55:08] [INFO] Creating new connection handle...
+[02:55:08] [WARNING] mysql_connect: no password specified
+[02:55:08] [DEBUG] CConnection::CConnection(this=0x7f7678, host='localhost', user='root', passw='****', db='players', options=0x7eed00)
+[02:55:08] [DEBUG] CConnection::CConnection - new connection = 0x8083a0
+[02:55:08] [DEBUG] CConnection::CConnection(this=0x405a020, host='localhost', user='root', passw='****', db='players', options=0x7eed00)
+[02:55:08] [DEBUG] CConnection::CConnection - new connection = 0x811fe0
+[02:55:08] [DEBUG] CThreadedConnection::WorkerFunc(this=0x405a020, connection=0x405a020)
+[02:55:08] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x405a020, connection=0x405a020)
+[02:55:08] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x7f73b8)
+[02:55:08] [DEBUG] CConnection::CConnection(this=0x4223020, host='localhost', user='root', passw='****', db='players', options=0x7eed00)
+[02:55:08] [DEBUG] CConnection::CConnection - new connection = 0x8215f0
+[02:55:08] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4223020, connection=0x4223020)
+[02:55:08] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4223020, connection=0x4223020)
+[02:55:08] [DEBUG] CConnection::CConnection(this=0x43f0020, host='localhost', user='root', passw='****', db='players', options=0x7eed00)
+[02:55:08] [DEBUG] CConnection::CConnection - new connection = 0x82b888
+[02:55:08] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43f0020, connection=0x43f0020)
+[02:55:08] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43f0020, connection=0x43f0020)
+[02:55:08] [INFO] Connection handle with id '1' successfully created.
+[02:55:08] [DEBUG] CHandleManager::Create - new handle = 0x7ea1a8
+[02:55:08] [DEBUG] mysql_connect: return value: '1'
+[02:55:12] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:55:12] [DEBUG] CCallback::Create(amx=0x29dab90, name='FindPlayerInTable', format='i', params=0x2bfdc3c, param_offset=5)
+[02:55:12] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:55:12] [DEBUG] processing specifier 'i' with parameter index 0
+[02:55:12] [DEBUG] retrieved and pushed value '0'
+[02:55:12] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:55:12] [DEBUG] created delayed callback with 1 parameter
+[02:55:12] [DEBUG] CHandle::Execute(this=0x7ea1a8, type=1, query=0x7e11a0)
+[02:55:12] [DEBUG] CHandle::Execute - return value: true
+[02:55:12] [DEBUG] mysql_tquery: return value: '1'
+[02:55:12] [DEBUG] CConnection::Execute(query=0x7e11a0, this=0x405a020, connection=0x811fe0)
+[02:55:12] [DEBUG] CQuery::Execute(this=0x7e11a0, connection=0x811fe0)
+[02:55:12] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.447 milliseconds
+[02:55:12] [DEBUG] CResultSet::Create(connection=0x811fe0, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:55:12] [DEBUG] created new resultset '0x8069a0'
+[02:55:12] [DEBUG] fetched MySQL result '0x824958'
+[02:55:12] [DEBUG] allocated 184 bytes for PAWN result
+[02:55:12] [DEBUG] CCallback::Execute(amx=0x29dab90, index=0, num_params=1)
+[02:55:12] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:55:12] [DEBUG] processing internal specifier 'c'
+[02:55:12] [DEBUG] pushed value '0' onto AMX stack
+[02:55:12] [DEBUG] executing AMX callback with index '0'
+[02:55:12] [DEBUG] cache_get_row_count(0x02BFDDE8)
+[02:55:12] [DEBUG] cache_get_row_count: return value: '1'
+[02:55:12] [DEBUG] AMX callback executed with error '0'
+[02:55:12] [INFO] Callback successfully executed.
+[02:55:14] [DEBUG] mysql_tquery(1, "SELECT * Password `players` WHERE Name = 'Sergey_Maingard", "Login", "ia")
+[02:55:14] [DEBUG] CCallback::Create(amx=0x29dab90, name='Login', format='ia', params=0x2bfdbf0, param_offset=5)
+[02:55:14] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:55:14] [DEBUG] processing specifier 'i' with parameter index 0
+[02:55:14] [DEBUG] retrieved and pushed value '0'
+[02:55:14] [DEBUG] processing specifier 'a' with parameter index 1
+[02:55:14] [DEBUG] retrieved array '0x2bf9e00'
+[02:55:14] [ERROR] mysql_tquery: callback error: no array size specified after 'a' specifier
+[02:55:14] [DEBUG] mysql_tquery: return value: '0'
+[02:56:19] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[02:56:19] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[02:56:19] [DEBUG] CHandleManager::Create(this=0x64fd80, host='localhost', user='root', pass='****', db='players', options=0x64cd90)
+[02:56:19] [INFO] Creating new connection handle...
+[02:56:19] [WARNING] mysql_connect: no password specified
+[02:56:19] [DEBUG] CConnection::CConnection(this=0x655f30, host='localhost', user='root', passw='****', db='players', options=0x64cd90)
+[02:56:19] [DEBUG] CConnection::CConnection - new connection = 0x666d78
+[02:56:19] [DEBUG] CConnection::CConnection(this=0x4122020, host='localhost', user='root', passw='****', db='players', options=0x64cd90)
+[02:56:19] [DEBUG] CConnection::CConnection - new connection = 0x670c08
+[02:56:19] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4122020, connection=0x4122020)
+[02:56:19] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4122020, connection=0x4122020)
+[02:56:19] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x656070)
+[02:56:19] [DEBUG] CConnection::CConnection(this=0x42f6020, host='localhost', user='root', passw='****', db='players', options=0x64cd90)
+[02:56:19] [DEBUG] CConnection::CConnection - new connection = 0x67bcc0
+[02:56:19] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x42f6020, connection=0x42f6020)
+[02:56:19] [DEBUG] CThreadedConnection::WorkerFunc(this=0x42f6020, connection=0x42f6020)
+[02:56:20] [DEBUG] CConnection::CConnection(this=0x44cb020, host='localhost', user='root', passw='****', db='players', options=0x64cd90)
+[02:56:20] [DEBUG] CConnection::CConnection - new connection = 0x688348
+[02:56:20] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x44cb020, connection=0x44cb020)
+[02:56:20] [DEBUG] CThreadedConnection::WorkerFunc(this=0x44cb020, connection=0x44cb020)
+[02:56:20] [INFO] Connection handle with id '1' successfully created.
+[02:56:20] [DEBUG] CHandleManager::Create - new handle = 0x664e10
+[02:56:20] [DEBUG] mysql_connect: return value: '1'
+[02:56:33] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[02:56:33] [DEBUG] CCallback::Create(amx=0x2a5ab90, name='FindPlayerInTable', format='i', params=0x2c7dc3c, param_offset=5)
+[02:56:33] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[02:56:33] [DEBUG] processing specifier 'i' with parameter index 0
+[02:56:33] [DEBUG] retrieved and pushed value '0'
+[02:56:33] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[02:56:33] [DEBUG] created delayed callback with 1 parameter
+[02:56:33] [DEBUG] CHandle::Execute(this=0x664e10, type=1, query=0x67bc30)
+[02:56:33] [DEBUG] CConnection::Execute(query=0x67bc30, this=0x4122020, connection=0x670c08)
+[02:56:33] [DEBUG] CQuery::Execute(this=0x67bc30, connection=0x670c08)
+[02:56:33] [DEBUG] CHandle::Execute - return value: true
+[02:56:33] [DEBUG] mysql_tquery: return value: '1'
+[02:56:33] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.782 milliseconds
+[02:56:33] [DEBUG] CResultSet::Create(connection=0x670c08, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[02:56:33] [DEBUG] created new resultset '0x665c28'
+[02:56:33] [DEBUG] fetched MySQL result '0x65f198'
+[02:56:33] [DEBUG] allocated 184 bytes for PAWN result
+[02:56:33] [DEBUG] CCallback::Execute(amx=0x2a5ab90, index=0, num_params=1)
+[02:56:33] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[02:56:33] [DEBUG] processing internal specifier 'c'
+[02:56:33] [DEBUG] pushed value '0' onto AMX stack
+[02:56:33] [DEBUG] executing AMX callback with index '0'
+[02:56:33] [DEBUG] cache_get_row_count(0x02C7DDE8)
+[02:56:33] [DEBUG] cache_get_row_count: return value: '1'
+[02:56:33] [DEBUG] AMX callback executed with error '0'
+[02:56:33] [INFO] Callback successfully executed.
+[02:56:35] [DEBUG] mysql_tquery(1, "SELECT * Password `players` WHERE Name = 'Sergey_Maingard", "Login", "is")
+[02:56:35] [DEBUG] CCallback::Create(amx=0x2a5ab90, name='Login', format='is', params=0x2c7dbf0, param_offset=5)
+[02:56:35] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[02:56:35] [DEBUG] processing specifier 'i' with parameter index 0
+[02:56:35] [DEBUG] retrieved and pushed value '0'
+[02:56:35] [DEBUG] processing specifier 's' with parameter index 1
+[02:56:35] [DEBUG] retrieved and pushed value 'serij3003'
+[02:56:35] [INFO] Callback 'Login' set up for delayed execution.
+[02:56:35] [DEBUG] created delayed callback with 2 parameters
+[02:56:35] [DEBUG] CHandle::Execute(this=0x664e10, type=1, query=0x67bc30)
+[02:56:35] [DEBUG] CHandle::Execute - return value: true
+[02:56:35] [DEBUG] mysql_tquery: return value: '1'
+[02:56:35] [DEBUG] CConnection::Execute(query=0x67bc30, this=0x4122020, connection=0x670c08)
+[02:56:35] [DEBUG] CQuery::Execute(this=0x67bc30, connection=0x670c08)
+[02:56:35] [ERROR] error #1064 while executing query "SELECT * Password `players` WHERE Name = 'Sergey_Maingard": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Password `players` WHERE Name = 'Sergey_Maingard' at line 1
+[02:56:35] [DEBUG] CConnection::GetError(this=0x4122020, connection=0x670c08)
+[02:56:35] [DEBUG] CCallback::Create(amx=0x2a5ab90, name='OnQueryError', format='dsssd)
+[02:56:35] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[02:56:35] [DEBUG] processing specifier 'd'
+[02:56:35] [DEBUG] retrieved and pushed value '1064'
+[02:56:35] [DEBUG] processing specifier 's'
+[02:56:35] [DEBUG] retrieved and pushed value 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Password `players` WHERE Name = 'Sergey_Maingard' at line 1'
+[02:56:35] [DEBUG] processing specifier 's'
+[02:56:35] [DEBUG] retrieved and pushed value 'Login'
+[02:56:35] [DEBUG] processing specifier 's'
+[02:56:35] [DEBUG] retrieved and pushed value 'SELECT * Password `players` WHERE Name = 'Sergey_Maingard'
+[02:56:35] [DEBUG] processing specifier 'd'
+[02:56:35] [DEBUG] retrieved and pushed value '1'
+[02:56:35] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[02:56:35] [DEBUG] created delayed callback with 5 parameters
+[02:56:35] [DEBUG] CCallback::Execute(amx=0x2a5ab90, index=-10, num_params=5)
+[03:03:31] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[03:03:31] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[03:03:31] [DEBUG] CHandleManager::Create(this=0x6e21f8, host='localhost', user='root', pass='****', db='players', options=0x6df2c0)
+[03:03:31] [INFO] Creating new connection handle...
+[03:03:31] [WARNING] mysql_connect: no password specified
+[03:03:31] [DEBUG] CConnection::CConnection(this=0x6e8c18, host='localhost', user='root', passw='****', db='players', options=0x6df2c0)
+[03:03:31] [DEBUG] CConnection::CConnection - new connection = 0x6b1af0
+[03:03:31] [DEBUG] CConnection::CConnection(this=0x4033020, host='localhost', user='root', passw='****', db='players', options=0x6df2c0)
+[03:03:31] [DEBUG] CConnection::CConnection - new connection = 0x702e18
+[03:03:31] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4033020, connection=0x4033020)
+[03:03:31] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4033020, connection=0x4033020)
+[03:03:31] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x6e8bd8)
+[03:03:31] [DEBUG] CConnection::CConnection(this=0x4200020, host='localhost', user='root', passw='****', db='players', options=0x6df2c0)
+[03:03:31] [DEBUG] CConnection::CConnection - new connection = 0x710b28
+[03:03:31] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4200020, connection=0x4200020)
+[03:03:31] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4200020, connection=0x4200020)
+[03:03:31] [DEBUG] CConnection::CConnection(this=0x43d8020, host='localhost', user='root', passw='****', db='players', options=0x6df2c0)
+[03:03:31] [DEBUG] CConnection::CConnection - new connection = 0x71c5f0
+[03:03:31] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43d8020, connection=0x43d8020)
+[03:03:31] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43d8020, connection=0x43d8020)
+[03:03:31] [INFO] Connection handle with id '1' successfully created.
+[03:03:31] [DEBUG] CHandleManager::Create - new handle = 0x6b0d90
+[03:03:31] [DEBUG] mysql_connect: return value: '1'
+[03:03:35] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[03:03:35] [DEBUG] CCallback::Create(amx=0x296ab90, name='FindPlayerInTable', format='i', params=0x2b8dbf8, param_offset=5)
+[03:03:35] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[03:03:35] [DEBUG] processing specifier 'i' with parameter index 0
+[03:03:35] [DEBUG] retrieved and pushed value '0'
+[03:03:35] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[03:03:35] [DEBUG] created delayed callback with 1 parameter
+[03:03:35] [DEBUG] CHandle::Execute(this=0x6b0d90, type=1, query=0x6d56f0)
+[03:03:35] [DEBUG] CHandle::Execute - return value: true
+[03:03:35] [DEBUG] mysql_tquery: return value: '1'
+[03:03:35] [DEBUG] CConnection::Execute(query=0x6d56f0, this=0x4033020, connection=0x702e18)
+[03:03:35] [DEBUG] CQuery::Execute(this=0x6d56f0, connection=0x702e18)
+[03:03:35] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.528 milliseconds
+[03:03:35] [DEBUG] CResultSet::Create(connection=0x702e18, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[03:03:35] [DEBUG] created new resultset '0x6b1708'
+[03:03:35] [DEBUG] fetched MySQL result '0x6ef000'
+[03:03:35] [DEBUG] allocated 184 bytes for PAWN result
+[03:03:35] [DEBUG] CCallback::Execute(amx=0x296ab90, index=0, num_params=1)
+[03:03:35] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[03:03:35] [DEBUG] processing internal specifier 'c'
+[03:03:35] [DEBUG] pushed value '0' onto AMX stack
+[03:03:35] [DEBUG] executing AMX callback with index '0'
+[03:03:35] [DEBUG] cache_get_row_count(0x02B8DDA4)
+[03:03:35] [DEBUG] cache_get_row_count: return value: '1'
+[03:03:35] [DEBUG] AMX callback executed with error '0'
+[03:03:35] [INFO] Callback successfully executed.
+[03:03:37] [DEBUG] mysql_tquery(1, "SELECT * Password `players` WHERE Name = 'Sergey_Maingard", "Login", "is")
+[03:03:37] [DEBUG] CCallback::Create(amx=0x296ab90, name='Login', format='is', params=0x2b8dbac, param_offset=5)
+[03:03:37] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[03:03:37] [DEBUG] processing specifier 'i' with parameter index 0
+[03:03:37] [DEBUG] retrieved and pushed value '0'
+[03:03:37] [DEBUG] processing specifier 's' with parameter index 1
+[03:03:37] [DEBUG] retrieved and pushed value 'serij3003'
+[03:03:37] [INFO] Callback 'Login' set up for delayed execution.
+[03:03:37] [DEBUG] created delayed callback with 2 parameters
+[03:03:37] [DEBUG] CHandle::Execute(this=0x6b0d90, type=1, query=0x6d4fd0)
+[03:03:37] [DEBUG] CHandle::Execute - return value: true
+[03:03:37] [DEBUG] mysql_tquery: return value: '1'
+[03:03:37] [DEBUG] CConnection::Execute(query=0x6d4fd0, this=0x4033020, connection=0x702e18)
+[03:03:37] [DEBUG] CQuery::Execute(this=0x6d4fd0, connection=0x702e18)
+[03:03:37] [ERROR] error #1064 while executing query "SELECT * Password `players` WHERE Name = 'Sergey_Maingard": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Password `players` WHERE Name = 'Sergey_Maingard' at line 1
+[03:03:37] [DEBUG] CConnection::GetError(this=0x4033020, connection=0x702e18)
+[03:03:37] [DEBUG] CCallback::Create(amx=0x296ab90, name='OnQueryError', format='dsssd)
+[03:03:37] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[03:03:37] [DEBUG] processing specifier 'd'
+[03:03:37] [DEBUG] retrieved and pushed value '1064'
+[03:03:37] [DEBUG] processing specifier 's'
+[03:03:37] [DEBUG] retrieved and pushed value 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Password `players` WHERE Name = 'Sergey_Maingard' at line 1'
+[03:03:37] [DEBUG] processing specifier 's'
+[03:03:37] [DEBUG] retrieved and pushed value 'Login'
+[03:03:37] [DEBUG] processing specifier 's'
+[03:03:37] [DEBUG] retrieved and pushed value 'SELECT * Password `players` WHERE Name = 'Sergey_Maingard'
+[03:03:37] [DEBUG] processing specifier 'd'
+[03:03:37] [DEBUG] retrieved and pushed value '1'
+[03:03:37] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[03:03:37] [DEBUG] created delayed callback with 5 parameters
+[03:03:37] [DEBUG] CCallback::Execute(amx=0x296ab90, index=-10, num_params=5)
+[03:04:25] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[03:04:25] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[03:04:25] [DEBUG] CHandleManager::Create(this=0x5af830, host='localhost', user='root', pass='****', db='players', options=0x5aca70)
+[03:04:25] [INFO] Creating new connection handle...
+[03:04:25] [WARNING] mysql_connect: no password specified
+[03:04:25] [DEBUG] CConnection::CConnection(this=0x5b6328, host='localhost', user='root', passw='****', db='players', options=0x5aca70)
+[03:04:25] [DEBUG] CConnection::CConnection - new connection = 0x5c6618
+[03:04:25] [DEBUG] CConnection::CConnection(this=0x4090020, host='localhost', user='root', passw='****', db='players', options=0x5aca70)
+[03:04:25] [DEBUG] CConnection::CConnection - new connection = 0x5d1d48
+[03:04:25] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4090020, connection=0x4090020)
+[03:04:25] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x5b63a8)
+[03:04:25] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4090020, connection=0x4090020)
+[03:04:25] [DEBUG] CConnection::CConnection(this=0x4225020, host='localhost', user='root', passw='****', db='players', options=0x5aca70)
+[03:04:25] [DEBUG] CConnection::CConnection - new connection = 0x5dfc98
+[03:04:25] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4225020, connection=0x4225020)
+[03:04:25] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4225020, connection=0x4225020)
+[03:04:25] [DEBUG] CConnection::CConnection(this=0x43f8020, host='localhost', user='root', passw='****', db='players', options=0x5aca70)
+[03:04:25] [DEBUG] CConnection::CConnection - new connection = 0x5eaef0
+[03:04:25] [DEBUG] CThreadedConnection::WorkerFunc(this=0x43f8020, connection=0x43f8020)
+[03:04:25] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x43f8020, connection=0x43f8020)
+[03:04:25] [INFO] Connection handle with id '1' successfully created.
+[03:04:25] [DEBUG] CHandleManager::Create - new handle = 0x5c4d50
+[03:04:25] [DEBUG] mysql_connect: return value: '1'
+[03:04:28] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[03:04:28] [DEBUG] CCallback::Create(amx=0x2a4ab90, name='FindPlayerInTable', format='i', params=0x2c6dc04, param_offset=5)
+[03:04:28] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[03:04:28] [DEBUG] processing specifier 'i' with parameter index 0
+[03:04:28] [DEBUG] retrieved and pushed value '0'
+[03:04:28] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[03:04:28] [DEBUG] created delayed callback with 1 parameter
+[03:04:28] [DEBUG] CHandle::Execute(this=0x5c4d50, type=1, query=0x5d1cb8)
+[03:04:28] [DEBUG] CHandle::Execute - return value: true
+[03:04:28] [DEBUG] mysql_tquery: return value: '1'
+[03:04:28] [DEBUG] CConnection::Execute(query=0x5d1cb8, this=0x4090020, connection=0x5d1d48)
+[03:04:28] [DEBUG] CQuery::Execute(this=0x5d1cb8, connection=0x5d1d48)
+[03:04:28] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.500 milliseconds
+[03:04:28] [DEBUG] CResultSet::Create(connection=0x5d1d48, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[03:04:28] [DEBUG] created new resultset '0x5c50a0'
+[03:04:28] [DEBUG] fetched MySQL result '0x5e0720'
+[03:04:28] [DEBUG] allocated 184 bytes for PAWN result
+[03:04:28] [DEBUG] CCallback::Execute(amx=0x2a4ab90, index=0, num_params=1)
+[03:04:28] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[03:04:28] [DEBUG] processing internal specifier 'c'
+[03:04:28] [DEBUG] pushed value '0' onto AMX stack
+[03:04:28] [DEBUG] executing AMX callback with index '0'
+[03:04:28] [DEBUG] cache_get_row_count(0x02C6DDB0)
+[03:04:28] [DEBUG] cache_get_row_count: return value: '1'
+[03:04:28] [DEBUG] AMX callback executed with error '0'
+[03:04:28] [INFO] Callback successfully executed.
+[03:04:30] [DEBUG] mysql_tquery(1, "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard", "Login", "is")
+[03:04:30] [DEBUG] CCallback::Create(amx=0x2a4ab90, name='Login', format='is', params=0x2c6dba0, param_offset=5)
+[03:04:30] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[03:04:30] [DEBUG] processing specifier 'i' with parameter index 0
+[03:04:30] [DEBUG] retrieved and pushed value '0'
+[03:04:30] [DEBUG] processing specifier 's' with parameter index 1
+[03:04:30] [DEBUG] retrieved and pushed value 'serij3003'
+[03:04:30] [INFO] Callback 'Login' set up for delayed execution.
+[03:04:30] [DEBUG] created delayed callback with 2 parameters
+[03:04:30] [DEBUG] CHandle::Execute(this=0x5c4d50, type=1, query=0x5d1cb8)
+[03:04:30] [DEBUG] CHandle::Execute - return value: true
+[03:04:30] [DEBUG] mysql_tquery: return value: '1'
+[03:04:30] [DEBUG] CConnection::Execute(query=0x5d1cb8, this=0x4090020, connection=0x5d1d48)
+[03:04:30] [DEBUG] CQuery::Execute(this=0x5d1cb8, connection=0x5d1d48)
+[03:04:30] [ERROR] error #1064 while executing query "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Sergey_Maingard' at line 1
+[03:04:30] [DEBUG] CConnection::GetError(this=0x4090020, connection=0x5d1d48)
+[03:04:30] [DEBUG] CCallback::Create(amx=0x2a4ab90, name='OnQueryError', format='dsssd)
+[03:04:30] [DEBUG] CCallback::Create - callback index for 'OnQueryError': -10
+[03:04:30] [DEBUG] processing specifier 'd'
+[03:04:30] [DEBUG] retrieved and pushed value '1064'
+[03:04:30] [DEBUG] processing specifier 's'
+[03:04:30] [DEBUG] retrieved and pushed value 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Sergey_Maingard' at line 1'
+[03:04:30] [DEBUG] processing specifier 's'
+[03:04:30] [DEBUG] retrieved and pushed value 'Login'
+[03:04:30] [DEBUG] processing specifier 's'
+[03:04:30] [DEBUG] retrieved and pushed value 'SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'
+[03:04:30] [DEBUG] processing specifier 'd'
+[03:04:30] [DEBUG] retrieved and pushed value '1'
+[03:04:30] [INFO] Callback 'OnQueryError' set up for delayed execution.
+[03:04:30] [DEBUG] created delayed callback with 5 parameters
+[03:04:30] [DEBUG] CCallback::Execute(amx=0x2a4ab90, index=-10, num_params=5)
+[03:05:08] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[03:05:08] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[03:05:08] [DEBUG] CHandleManager::Create(this=0x6b3278, host='localhost', user='root', pass='****', db='players', options=0x6b0818)
+[03:05:08] [INFO] Creating new connection handle...
+[03:05:08] [WARNING] mysql_connect: no password specified
+[03:05:08] [DEBUG] CConnection::CConnection(this=0x6ba050, host='localhost', user='root', passw='****', db='players', options=0x6b0818)
+[03:05:08] [DEBUG] CConnection::CConnection - new connection = 0x6cb5c8
+[03:05:08] [DEBUG] CConnection::CConnection(this=0x406c020, host='localhost', user='root', passw='****', db='players', options=0x6b0818)
+[03:05:08] [DEBUG] CConnection::CConnection - new connection = 0x6d50f8
+[03:05:08] [DEBUG] CThreadedConnection::WorkerFunc(this=0x406c020, connection=0x406c020)
+[03:05:08] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x406c020, connection=0x406c020)
+[03:05:08] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x6ba090)
+[03:05:08] [DEBUG] CConnection::CConnection(this=0x423a020, host='localhost', user='root', passw='****', db='players', options=0x6b0818)
+[03:05:08] [DEBUG] CConnection::CConnection - new connection = 0x6e17d0
+[03:05:08] [DEBUG] CThreadedConnection::WorkerFunc(this=0x423a020, connection=0x423a020)
+[03:05:08] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x423a020, connection=0x423a020)
+[03:05:08] [DEBUG] CConnection::CConnection(this=0x4408020, host='localhost', user='root', passw='****', db='players', options=0x6b0818)
+[03:05:08] [DEBUG] CConnection::CConnection - new connection = 0x6eb828
+[03:05:08] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4408020, connection=0x4408020)
+[03:05:08] [INFO] Connection handle with id '1' successfully created.
+[03:05:08] [DEBUG] CHandleManager::Create - new handle = 0x6c25e0
+[03:05:08] [DEBUG] mysql_connect: return value: '1'
+[03:05:08] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4408020, connection=0x4408020)
+[03:05:12] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[03:05:12] [DEBUG] CCallback::Create(amx=0x2a3ab90, name='FindPlayerInTable', format='i', params=0x2c5dc08, param_offset=5)
+[03:05:12] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[03:05:12] [DEBUG] processing specifier 'i' with parameter index 0
+[03:05:12] [DEBUG] retrieved and pushed value '0'
+[03:05:12] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[03:05:12] [DEBUG] created delayed callback with 1 parameter
+[03:05:12] [DEBUG] CHandle::Execute(this=0x6c25e0, type=1, query=0x6a5f50)
+[03:05:12] [DEBUG] CHandle::Execute - return value: true
+[03:05:12] [DEBUG] mysql_tquery: return value: '1'
+[03:05:12] [DEBUG] CConnection::Execute(query=0x6a5f50, this=0x406c020, connection=0x6d50f8)
+[03:05:12] [DEBUG] CQuery::Execute(this=0x6a5f50, connection=0x6d50f8)
+[03:05:12] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.781 milliseconds
+[03:05:12] [DEBUG] CResultSet::Create(connection=0x6d50f8, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[03:05:12] [DEBUG] created new resultset '0x6c78f8'
+[03:05:12] [DEBUG] fetched MySQL result '0x6eb640'
+[03:05:12] [DEBUG] allocated 184 bytes for PAWN result
+[03:05:12] [DEBUG] CCallback::Execute(amx=0x2a3ab90, index=0, num_params=1)
+[03:05:12] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[03:05:12] [DEBUG] processing internal specifier 'c'
+[03:05:12] [DEBUG] pushed value '0' onto AMX stack
+[03:05:12] [DEBUG] executing AMX callback with index '0'
+[03:05:12] [DEBUG] cache_get_row_count(0x02C5DDB4)
+[03:05:12] [DEBUG] cache_get_row_count: return value: '1'
+[03:05:12] [DEBUG] AMX callback executed with error '0'
+[03:05:12] [INFO] Callback successfully executed.
+[03:05:13] [DEBUG] mysql_tquery(1, "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'", "Login", "is")
+[03:05:13] [DEBUG] CCallback::Create(amx=0x2a3ab90, name='Login', format='is', params=0x2c5db9c, param_offset=5)
+[03:05:13] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[03:05:13] [DEBUG] processing specifier 'i' with parameter index 0
+[03:05:13] [DEBUG] retrieved and pushed value '0'
+[03:05:13] [DEBUG] processing specifier 's' with parameter index 1
+[03:05:13] [DEBUG] retrieved and pushed value 'serij3003'
+[03:05:13] [INFO] Callback 'Login' set up for delayed execution.
+[03:05:13] [DEBUG] created delayed callback with 2 parameters
+[03:05:13] [DEBUG] CHandle::Execute(this=0x6c25e0, type=1, query=0x6a5700)
+[03:05:13] [DEBUG] CHandle::Execute - return value: true
+[03:05:13] [DEBUG] mysql_tquery: return value: '1'
+[03:05:13] [DEBUG] CConnection::Execute(query=0x6a5700, this=0x406c020, connection=0x6d50f8)
+[03:05:13] [DEBUG] CQuery::Execute(this=0x6a5700, connection=0x6d50f8)
+[03:05:13] [INFO] query "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'" successfully executed within 3.296 milliseconds
+[03:05:14] [DEBUG] CResultSet::Create(connection=0x6d50f8, query_str='SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'')
+[03:05:14] [DEBUG] created new resultset '0x6c7ab8'
+[03:05:14] [DEBUG] fetched MySQL result '0x6b4328'
+[03:05:14] [DEBUG] allocated 56 bytes for PAWN result
+[03:05:14] [DEBUG] CCallback::Execute(amx=0x2a3ab90, index=5, num_params=2)
+[03:05:14] [INFO] Executing callback 'Login' with 2 parameters...
+[03:05:14] [DEBUG] processing internal specifier 's'
+[03:05:14] [DEBUG] pushed value 'serij3003' onto AMX stack
+[03:05:14] [DEBUG] processing internal specifier 'c'
+[03:05:14] [DEBUG] pushed value '0' onto AMX stack
+[03:05:14] [DEBUG] executing AMX callback with index '5'
+[03:05:14] [DEBUG] cache_get_value_name(0, "Password", 0x02C5DBB4, 128)
+[03:05:14] [DEBUG] cache_get_value_name: assigned value: 'serij3003'
+[03:05:14] [DEBUG] cache_get_value_name: return value: '1'
+[03:05:14] [DEBUG] AMX callback executed with error '0'
+[03:05:14] [INFO] Callback successfully executed.
+[03:06:23] [INFO] changed log level from 'warning, error' to 'debug, info, warning, error'
+[03:06:23] [DEBUG] mysql_connect("localhost", "root", "*****", "players", 0)
+[03:06:23] [DEBUG] CHandleManager::Create(this=0x8a38a8, host='localhost', user='root', pass='****', db='players', options=0x89eb68)
+[03:06:23] [INFO] Creating new connection handle...
+[03:06:23] [WARNING] mysql_connect: no password specified
+[03:06:23] [DEBUG] CConnection::CConnection(this=0x8a8ed8, host='localhost', user='root', passw='****', db='players', options=0x89eb68)
+[03:06:23] [DEBUG] CConnection::CConnection - new connection = 0x8b9148
+[03:06:23] [DEBUG] CConnection::CConnection(this=0x248e020, host='localhost', user='root', passw='****', db='players', options=0x89eb68)
+[03:06:23] [DEBUG] CConnection::CConnection - new connection = 0x8c2c78
+[03:06:23] [DEBUG] CThreadedConnection::WorkerFunc(this=0x248e020, connection=0x248e020)
+[03:06:23] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x248e020, connection=0x248e020)
+[03:06:23] [DEBUG] CConnectionPool::CConnectionPool(size=2, this=0x8a8d18)
+[03:06:23] [DEBUG] CConnection::CConnection(this=0x4283020, host='localhost', user='root', passw='****', db='players', options=0x89eb68)
+[03:06:23] [DEBUG] CConnection::CConnection - new connection = 0x8ce7b8
+[03:06:23] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4283020, connection=0x4283020)
+[03:06:23] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4283020, connection=0x4283020)
+[03:06:23] [DEBUG] CConnection::CConnection(this=0x4411020, host='localhost', user='root', passw='****', db='players', options=0x89eb68)
+[03:06:23] [DEBUG] CConnection::CConnection - new connection = 0x8d7488
+[03:06:24] [DEBUG] CThreadedConnection::WorkerFunc(this=0x4411020, connection=0x4411020)
+[03:06:24] [DEBUG] CThreadedConnection::CThreadedConnection(this=0x4411020, connection=0x4411020)
+[03:06:24] [INFO] Connection handle with id '1' successfully created.
+[03:06:24] [DEBUG] CHandleManager::Create - new handle = 0x8b72e0
+[03:06:24] [DEBUG] mysql_connect: return value: '1'
+[03:06:56] [DEBUG] mysql_tquery(1, "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'", "FindPlayerInTable", "i")
+[03:06:56] [DEBUG] CCallback::Create(amx=0x2b3ab90, name='FindPlayerInTable', format='i', params=0x2d5dc54, param_offset=5)
+[03:06:56] [DEBUG] CCallback::Create - callback index for 'FindPlayerInTable': 0
+[03:06:56] [DEBUG] processing specifier 'i' with parameter index 0
+[03:06:56] [DEBUG] retrieved and pushed value '0'
+[03:06:56] [INFO] Callback 'FindPlayerInTable' set up for delayed execution.
+[03:06:56] [DEBUG] created delayed callback with 1 parameter
+[03:06:56] [DEBUG] CHandle::Execute(this=0x8b72e0, type=1, query=0x8e0d08)
+[03:06:56] [DEBUG] CConnection::Execute(query=0x8e0d08, this=0x248e020, connection=0x8c2c78)
+[03:06:56] [DEBUG] CQuery::Execute(this=0x8e0d08, connection=0x8c2c78)
+[03:06:56] [DEBUG] CHandle::Execute - return value: true
+[03:06:56] [DEBUG] mysql_tquery: return value: '1'
+[03:06:56] [INFO] query "SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'" successfully executed within 0.824 milliseconds
+[03:06:56] [DEBUG] CResultSet::Create(connection=0x8c2c78, query_str='SELECT * FROM `players` WHERE `Name` = 'Sergey_Maingard'')
+[03:06:56] [DEBUG] created new resultset '0x8b7c08'
+[03:06:56] [DEBUG] fetched MySQL result '0x8a6818'
+[03:06:56] [DEBUG] allocated 184 bytes for PAWN result
+[03:06:56] [DEBUG] CCallback::Execute(amx=0x2b3ab90, index=0, num_params=1)
+[03:06:56] [INFO] Executing callback 'FindPlayerInTable' with 1 parameter...
+[03:06:56] [DEBUG] processing internal specifier 'c'
+[03:06:56] [DEBUG] pushed value '0' onto AMX stack
+[03:06:56] [DEBUG] executing AMX callback with index '0'
+[03:06:56] [DEBUG] cache_get_row_count(0x02D5DE00)
+[03:06:56] [DEBUG] cache_get_row_count: return value: '1'
+[03:06:56] [DEBUG] AMX callback executed with error '0'
+[03:06:56] [INFO] Callback successfully executed.
+[03:06:58] [DEBUG] mysql_tquery(1, "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'", "Login", "is")
+[03:06:58] [DEBUG] CCallback::Create(amx=0x2b3ab90, name='Login', format='is', params=0x2d5dbe8, param_offset=5)
+[03:06:58] [DEBUG] CCallback::Create - callback index for 'Login': 5
+[03:06:58] [DEBUG] processing specifier 'i' with parameter index 0
+[03:06:58] [DEBUG] retrieved and pushed value '0'
+[03:06:58] [DEBUG] processing specifier 's' with parameter index 1
+[03:06:58] [DEBUG] retrieved and pushed value 'serij3003'
+[03:06:58] [INFO] Callback 'Login' set up for delayed execution.
+[03:06:58] [DEBUG] created delayed callback with 2 parameters
+[03:06:58] [DEBUG] CHandle::Execute(this=0x8b72e0, type=1, query=0x8a68f8)
+[03:06:58] [DEBUG] CHandle::Execute - return value: true
+[03:06:58] [DEBUG] mysql_tquery: return value: '1'
+[03:06:58] [DEBUG] CConnection::Execute(query=0x8a68f8, this=0x248e020, connection=0x8c2c78)
+[03:06:58] [DEBUG] CQuery::Execute(this=0x8a68f8, connection=0x8c2c78)
+[03:06:58] [INFO] query "SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'" successfully executed within 0.819 milliseconds
+[03:06:58] [DEBUG] CResultSet::Create(connection=0x8c2c78, query_str='SELECT Password FROM `players` WHERE Name = 'Sergey_Maingard'')
+[03:06:58] [DEBUG] created new resultset '0x8b79d8'
+[03:06:58] [DEBUG] fetched MySQL result '0x8a1fb8'
+[03:06:58] [DEBUG] allocated 56 bytes for PAWN result
+[03:06:58] [DEBUG] CCallback::Execute(amx=0x2b3ab90, index=5, num_params=2)
+[03:06:58] [INFO] Executing callback 'Login' with 2 parameters...
+[03:06:58] [DEBUG] processing internal specifier 's'
+[03:06:58] [DEBUG] pushed value 'serij3003' onto AMX stack
+[03:06:58] [DEBUG] processing internal specifier 'c'
+[03:06:58] [DEBUG] pushed value '0' onto AMX stack
+[03:06:58] [DEBUG] executing AMX callback with index '5'
+[03:06:58] [DEBUG] cache_get_value_name(0, "Password", 0x02D5DC00, 128)
+[03:06:58] [DEBUG] cache_get_value_name: assigned value: 'serij3003'
+[03:06:58] [DEBUG] cache_get_value_name: return value: '1'
+[03:06:58] [DEBUG] AMX callback executed with error '0'
+[03:06:58] [INFO] Callback successfully executed.

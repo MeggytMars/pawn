@@ -8,6 +8,7 @@
 #include <foreach>
 #include <mxdate>
 #include <dc_cmd>
+#include <strlib>
 //Defines
 
 #define MySqlHost   "localhost"
@@ -16,6 +17,7 @@
 #define MySqlDB     "players"
 
 #define PN(%1) PlayerInfo[%1][pName]
+#define logged(%1) PlayerInfo[%1][pLogged]
 
 //Colors
 #define COLOR_RED 0xFF0000FF
@@ -23,7 +25,7 @@
 
 //Functions
 #define SCM SendClientMessage
-#define void%0(%1) forward%0(%1); public%0(%1)// %0 - это название, %1 - это аргумент(Example: public Hello == public %0, public Hello(playerid) == public %0(%1)). Такая конструкция нужна чтобы свои паблики создавать
+#define ownpublic%0(%1) forward%0(%1); public%0(%1)// %0 - это название, %1 - это аргумент(Example: public Hello == public %0, public Hello(playerid) == public %0(%1)). Такая конструкция нужна чтобы свои паблики создавать
 
 //Variables
 new MySQL:database;// Переменная типа БД
@@ -34,7 +36,8 @@ enum pInfo{// Вся инфа о игроке
 	pPass[21],
 	pEmail[51],
 	pSex,
-	pSkin
+	pSkin,
+	pLogged,
 }
 
 new PlayerInfo[MAX_PLAYERS][pInfo];//Max Players - здесь это максимальное значение массива Деня
@@ -75,6 +78,7 @@ public OnPlayerConnect(playerid)
 
 public OnPlayerDisconnect(playerid, reason)
 {
+    PlayerInfo[playerid][pLogged] = 0;
 	return 1;
 }
 
@@ -271,18 +275,21 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]) // 
 					case 0:
 					{
 				 		PlayerInfo[playerid][pSex] = 0;
-						saveaccount(playerid, PlayerInfo[playerid][pPass],PlayerInfo[playerid][pEmail], PlayerInfo[playerid][pSex]);
+						saveaccount(playerid);
 					}
 					case 1:
 					{
 					    PlayerInfo[playerid][pSex] = 1;
-						saveaccount(playerid, PlayerInfo[playerid][pPass],PlayerInfo[playerid][pEmail], PlayerInfo[playerid][pSex]);
+						saveaccount(playerid);
 					}
 				}
 	   		}
    			case 3://Авторизация
-   			{
-   			    SCM(playerid, COLOR_RED, "BLEAT");
+	  		{
+				new query[] = "SELECT Password FROM `players` WHERE Name = '%s'";
+				new query_set[sizeof(query)+MAX_PLAYER_NAME+2];
+				format(query_set, sizeof(query_set), query, PN(playerid), inputtext);
+                mysql_tquery(database, query_set, "Login","is",playerid, inputtext);
 	   		}
 		}
 	}
@@ -293,10 +300,18 @@ public OnPlayerClickPlayer(playerid, clickedplayerid, source)
 {
 	return 1;
 }
-stock saveaccount(playerid, pass, email, sex){
-	static const query[] = "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES(%s, %s, %s, %i, 0)";
-	new query_string[sizeof(query)+MAX_PLAYER_NAME];
-	format(query_string, sizeof(query_string), query, PN(playerid), pass, email, sex);
+
+//Stocks
+stock spawnplayer(playerid){
+    SpawnPlayer(playerid);
+	SetPlayerPos(playerid, 1774.8048,-1950.6984,14.1096);
+}
+
+stock saveaccount(playerid){
+	static const query[] = "INSERT INTO `players`(Name, Password, Email, Sex, Skin) VALUES('%s', '%s', '%s', '%i', '0')";
+	new query_string[sizeof(query)+MAX_PLAYER_NAME+71];
+	format(query_string, sizeof(query_string), query, PN(playerid), PlayerInfo[playerid][pPass],PlayerInfo[playerid][pEmail],PlayerInfo[playerid][pSex]);
+	mysql_tquery(database, query_string);
     SCM(playerid, COLOR_RED, "Регистрация успешно завершена! В путь!");
 	SpawnPlayer(playerid);
 	SetPlayerPos(playerid, 1774.8048,-1950.6984,14.1096);
@@ -311,9 +326,8 @@ stock ShowPlayerLoginDialog(playerid, dialogid = 0, login = 0){// stock - объявл
 	}
 }
 
-
-void FindPlayerInTable(playerid){ // Вход
-	SCM(playerid, COLOR_RED, "HELLO");
+//Own publics
+ownpublic FindPlayerInTable(playerid){ // Вход
 	new rows;
 	cache_get_row_count(rows);
 	if(rows){
@@ -322,6 +336,18 @@ void FindPlayerInTable(playerid){ // Вход
 		ShowPlayerLoginDialog(playerid, 0, 0);//Регистрация
 	}
 	return 1;
+}
+
+ownpublic Login(playerid, inputtext[]){
+	new pass[128];
+	cache_get_value_name(0, "Password", pass);
+	if(isequal(pass, inputtext)){
+	    SCM(playerid, COLOR_RED, "Вы успешно авторизировались!");
+        PlayerInfo[playerid][pLogged] = 1;
+		spawnplayer(playerid);
+	}else{
+		ShowPlayerDialog(playerid, 3, DIALOG_STYLE_PASSWORD, "Вход на сервер", "Для входа введите ваш пароль:", "Начать!", "Выйти");
+	}
 }
 
 
